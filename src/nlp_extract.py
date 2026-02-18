@@ -155,30 +155,50 @@ def token_to_entity_span(token, doc):
 def extract_relations(doc, url):
     rels = []
     for tok in doc:
-        if tok.pos_ == "VERB":
-            lemma = tok.lemma_.lower()
-            if lemma not in RELATION_VERBS:
-                continue
+        if tok.pos_ != "VERB":
+            continue
 
-            subj_tok, obj_tok = find_subject_object(tok)
-            if not subj_tok or not obj_tok:
-                continue
+        lemma = tok.lemma_.lower()
+        if lemma not in RELATION_VERBS:
+            continue
 
-            subj_ent = token_to_entity_span(subj_tok, doc)
-            obj_ent = token_to_entity_span(obj_tok, doc)
-            if not subj_ent or not obj_ent:
-                continue
+        subj_tok, obj_tok = find_subject_object(tok)
+        if not subj_tok or not obj_tok:
+            continue
 
-            rels.append({
-                "subject": subj_ent.text,
-                "subject_type": subj_ent.label_,
-                "relation": RELATION_VERBS[lemma],
-                "object": obj_ent.text,
-                "object_type": obj_ent.label_,
-                "evidence": doc[max(0, tok.sent.start):min(len(doc), tok.sent.end)].text,
-                "url": url
-            })
+        subj_ent = token_to_entity_span(subj_tok, doc)
+        obj_ent = token_to_entity_span(obj_tok, doc)
+        if not subj_ent or not obj_ent:
+            continue
+
+        subj_text = normalize_entity_text(subj_ent.text)
+        obj_text = normalize_entity_text(obj_ent.text)
+
+        # éviter les relations avec chapitres
+        if is_chapter_like(subj_text) or is_chapter_like(obj_text):
+            continue
+
+        # evidence courte
+        evidence = normalize_entity_text(tok.sent.text)
+        MAX_EVIDENCE_CHARS = 250
+        if len(evidence) > MAX_EVIDENCE_CHARS:
+            evidence = evidence[:MAX_EVIDENCE_CHARS].rsplit(" ", 1)[0] + "…"
+
+        # types cohérents pour régions connues
+        subj_type = force_label_if_region(subj_text, subj_ent.label_)
+        obj_type = force_label_if_region(obj_text, obj_ent.label_)
+
+        rels.append({
+            "subject": subj_text,
+            "subject_type": subj_type,
+            "relation": RELATION_VERBS[lemma],
+            "object": obj_text,
+            "object_type": obj_type,
+            "evidence": evidence,
+            "url": url
+        })
     return rels
+
 
 def main(in_jsonl="data/raw_jsonl/pages.jsonl"):
     nlp = spacy.load(NLP_MODEL)
