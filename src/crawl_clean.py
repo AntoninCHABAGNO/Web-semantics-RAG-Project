@@ -53,10 +53,28 @@ def is_useful(text: str, min_words: int) -> bool:
     words = text.split()
     return len(words) >= min_words
 
-def extract_wikipedia_links(html: str, base_url: str):
-    # prend les liens /wiki/... (sans fichiers, ni ancres)
-    links = set(re.findall(r'href="(/wiki/[^"#:]*)"', html))
-    return [urljoin(base_url, link) for link in links]
+def extract_awoiaf_links(html: str, base_url: str):
+    # Capture les liens internes de type /index.php/...
+    raw = set(re.findall(r'href="(/index\.php/[^"#]*)"', html))
+
+    cleaned = []
+    for link in raw:
+        # exclusions utiles (fichiers, catégories, pages spéciales mediawiki, etc.)
+        if any(prefix in link for prefix in [
+            "/index.php/Special:",
+            "/index.php/Category:",
+            "/index.php/File:",
+            "/index.php/Template:",
+            "/index.php/Talk:",
+            "/index.php/User:",
+            "/index.php/Help:",
+        ]):
+            continue
+
+        cleaned.append(urljoin(base_url, link))
+
+    return cleaned
+
 
 def crawl_seeds(seeds, out_jsonl_path: str, cfg: CrawlConfig):
     seen = set()
@@ -78,9 +96,10 @@ def crawl_seeds(seeds, out_jsonl_path: str, cfg: CrawlConfig):
                     continue
 
                 
-                if "wikipedia.org" in get_domain(url):
-                    new_links = extract_wikipedia_links(resp.text, url)
+                if "awoiaf.westeros.org" in get_domain(url):
+                    new_links = extract_awoiaf_links(resp.text, url)
                     to_visit.extend(new_links)
+
 
                 extracted = extract_main_text(resp.text)
                 if not extracted:
@@ -107,9 +126,9 @@ def crawl_seeds(seeds, out_jsonl_path: str, cfg: CrawlConfig):
 if __name__ == "__main__":
     seeds = [
         # Remplacer par tes seeds Olympics
-        "https://en.wikipedia.org/wiki/Olympic_Games",
-        "https://en.wikipedia.org/wiki/2024_Summer_Olympics",
-        "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities",
+        "https://awoiaf.westeros.org/index.php/Westeros",
+        "https://awoiaf.westeros.org/index.php/A_Song_of_Ice_and_Fire",
+        "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen",
     ]
     cfg = CrawlConfig(min_words=300, max_pages=30, delay_s=1.0)
     crawl_seeds(seeds, "data/raw_jsonl/pages.jsonl", cfg)
