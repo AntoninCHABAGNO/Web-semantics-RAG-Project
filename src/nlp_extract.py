@@ -2,25 +2,93 @@
 import json
 import pandas as pd
 import spacy
-from collections import defaultdict
+import re
+from collections import defaultdict, Counter
 
 NLP_MODEL = "en_core_web_trf"
 
-TARGET_ENTITY_LABELS = {"PERSON", "ORG", "GPE", "LOC", "EVENT"}
+TARGET_ENTITY_LABELS = {"PERSON", "ORG", "GPE", "LOC", "FAC", "NORP", "EVENT"}
+
 
 # verb lemmas -> relation label (simple baseline)
 RELATION_VERBS = {
-    "host": "HOSTED",
-    "hold": "HOSTED",
-    "organize": "ORGANIZED",
-    "win": "WON",
-    "earn": "WON",
-    "participate": "PARTICIPATED_IN",
-    "compete": "PARTICIPATED_IN",
-    "be": "IS",   # attention: trop général, à filtrer avec patterns
-    "locate": "LOCATED_IN",
+    "rule": "RULES",
+    "reign": "RULES",
+    "lead": "LEADS",
+    "command": "COMMANDS",
+    "serve": "SERVED",
+    "ally": "ALLIED_WITH",
+    "betray": "BETRAYED",
+    "attack": "ATTACKED",
+    "defeat": "DEFEATED",
+    "capture": "CAPTURED",
+    "kill": "KILLED",
+    "murder": "KILLED",
+    "marry": "MARRIED",
+    "wed": "MARRIED",
+    "love": "LOVED",
+    "hate": "HATED",
+    "protect": "PROTECTED",
+    "follow": "FOLLOWED",
     "born": "BORN_IN",
+    "die": "DIED_IN",
+    "locate": "LOCATED_IN",
 }
+
+KNOWN_REGIONS = {
+    "dorne", "westeros", "essos", "valyria",
+    "the reach", "the vale", "the riverlands", "the stormlands",
+    "the westerlands", "the north", "the crownlands", "iron islands",
+    "beyond the wall",
+}
+
+LABEL_PRIORITY = {
+    "GPE": 5,
+    "LOC": 4,
+    "FAC": 4,
+    "ORG": 3,
+    "NORP": 2,
+    "PERSON": 1,
+    "EVENT": 1,
+}
+
+ROMAN_SUFFIX_RE = re.compile(r"\b[IVX]+\b\.?$")  # "I.", "VIII", etc.
+
+def normalize_entity_text(s: str) -> str:
+    return " ".join(s.split()).strip()
+
+def is_chapter_like(ent_text: str) -> bool:
+    # Ex: "Bran I.", "Catelyn VIII" -> souvent des chapitres, pas des entités utiles
+    toks = ent_text.split()
+    return len(toks) >= 2 and ROMAN_SUFFIX_RE.search(toks[-1]) is not None
+
+def force_label_if_region(ent_text: str, current_label: str) -> str:
+    # Règle demandée : si entité correspond à une région connue -> GPE
+    # On compare en minuscules, et on gère les apostrophes/points
+    key = ent_text.lower().strip(" .,'\"")
+    if key in KNOWN_REGIONS:
+        return "GPE"
+    return current_label
+
+def choose_majority_label(labels: list[str], ent_text: str) -> str:
+    """
+    - Prend le label le plus fréquent sur la page (majorité).
+    - En cas d'égalité, choisit selon une priorité (GPE/LOC > ORG > PERSON).
+    - Applique la règle région connue -> GPE.
+    """
+    labels = [force_label_if_region(ent_text, lb) for lb in labels]
+    counts = Counter(labels)
+    max_count = max(counts.values())
+    tied = [lb for lb, c in counts.items() if c == max_count]
+
+    if len(tied) == 1:
+        return tied[0]
+
+    # tie-break par priorité
+    tied.sort(key=lambda lb: LABEL_PRIORITY.get(lb, 0), reverse=True)
+    return tied[0]
+
+
 
 def load_jsonl(path: str):
     with open(path, "r", encoding="utf-8") as f:
@@ -28,16 +96,33 @@ def load_jsonl(path: str):
             yield json.loads(line)
 
 def extract_entities(doc, url):
-    rows = []
+    """
+    Retourne 1 seule ligne par entité_text et par url,
+    avec un label choisi par majorité + règles de priorité.
+    """
+    occurrences = defaultdict(list)  # ent_text -> [labels...]
+
     for ent in doc.ents:
-        if ent.label_ in TARGET_ENTITY_LABELS:
-            rows.append({
-                "entity_text": ent.text,
-                "entity_label": ent.label_,
-                "url": url,
-                "start_char": ent.start_char,
-                "end_char": ent.end_char
-            })
+        if ent.label_ not in TARGET_ENTITY_LABELS:
+            continue
+
+        ent_text = normalize_entity_text(ent.text)
+
+        # optionnel mais conseillé : ignorer les entités "chapitre"
+        if is_chapter_like(ent_text):
+            continue
+
+        occurrences[ent_text].append(ent.label_)
+
+    rows = []
+    for ent_text, labels in occurrences.items():
+        final_label = choose_majority_label(labels, ent_text)
+        rows.append({
+            "entity_text": ent_text,
+            "entity_label": final_label,
+            "url": url,
+        })
+
     return rows
 
 def find_subject_object(verb_token):
@@ -47,7 +132,8 @@ def find_subject_object(verb_token):
     for child in verb_token.children:
         if child.dep_ in ("nsubj", "nsubjpass"):
             subj = child
-        if child.dep_ in ("dobj", "attr", "oprd"):
+        if child.dep_ in ("dobj", "attr", "oprd", "dative"):
+
             obj = child
     # cas prépositionnel : "hosted in Paris" => pobj de "in"
     if obj is None:

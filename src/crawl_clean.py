@@ -60,6 +60,8 @@ def extract_awoiaf_links(html: str, base_url: str):
     cleaned = []
     for link in raw:
         # exclusions utiles (fichiers, catégories, pages spéciales mediawiki, etc.)
+        if any(x in link for x in ["action=", "oldid=", "diff=", "printable="]):
+            continue
         if any(prefix in link for prefix in [
             "/index.php/Special:",
             "/index.php/Category:",
@@ -68,8 +70,9 @@ def extract_awoiaf_links(html: str, base_url: str):
             "/index.php/Talk:",
             "/index.php/User:",
             "/index.php/Help:",
-        ]):
+            ]):
             continue
+
 
         cleaned.append(urljoin(base_url, link))
 
@@ -79,10 +82,13 @@ def extract_awoiaf_links(html: str, base_url: str):
 def crawl_seeds(seeds, out_jsonl_path: str, cfg: CrawlConfig):
     seen = set()
     to_visit = list(seeds)
+    seed_domains = {get_domain(s) for s in seeds}
 
     with httpx.Client(timeout=cfg.timeout, follow_redirects=True) as client, open(out_jsonl_path, "w", encoding="utf-8") as f:
         while to_visit and len(seen) < cfg.max_pages:
             url = to_visit.pop(0)
+            if cfg.same_domain_only and get_domain(url) not in seed_domains:
+                continue
             if url in seen:
                 continue
             seen.add(url)
@@ -98,8 +104,9 @@ def crawl_seeds(seeds, out_jsonl_path: str, cfg: CrawlConfig):
                 
                 if "awoiaf.westeros.org" in get_domain(url):
                     new_links = extract_awoiaf_links(resp.text, url)
-                    to_visit.extend(new_links)
-
+                    for u in new_links:
+                        if u not in seen:
+                            to_visit.append(u)
 
                 extracted = extract_main_text(resp.text)
                 if not extracted:
@@ -125,7 +132,7 @@ def crawl_seeds(seeds, out_jsonl_path: str, cfg: CrawlConfig):
 
 if __name__ == "__main__":
     seeds = [
-        # Remplacer par tes seeds Olympics
+        
         "https://awoiaf.westeros.org/index.php/Westeros",
         "https://awoiaf.westeros.org/index.php/A_Song_of_Ice_and_Fire",
         "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen",
