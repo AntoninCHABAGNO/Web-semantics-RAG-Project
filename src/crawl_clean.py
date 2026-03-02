@@ -136,6 +136,7 @@ if __name__ == "__main__":
         "https://awoiaf.westeros.org/index.php/Westeros",
         "https://awoiaf.westeros.org/index.php/A_Song_of_Ice_and_Fire",
         "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen",
+        "https://awoiaf.westeros.org/index.php/Arya_Stark"
     ]
-    cfg = CrawlConfig(min_words=300, max_pages=30, delay_s=1.0)
+    cfg = CrawlConfig(min_words=300, max_pages=15, delay_s=1.0)
     crawl_seeds(seeds, "data/raw_jsonl/pages.jsonl", cfg)
