@@ -54,67 +54,6 @@ def is_useful(text: str, min_words: int) -> bool:
 
 
 
-def extract_awoiaf_links_important(html: str, base_url: str, limit: int | None = None):
-    soup = BeautifulSoup(html, "html.parser")
-
-    # Zone principale du contenu
-    content = soup.select_one("#mw-content-text .mw-parser-output") or soup.select_one("#mw-content-text")
-    if not content:
-        return []
-
-    # Supprime des blocs très "bruit" DANS le contenu
-    for sel in [
-        "#toc",                    # table des matières
-        ".infobox",                # infobox à droite
-        ".navbox",                 # navbox
-        ".vertical-navbox",
-        ".mw-references-wrap",     # références
-        "ol.references",
-        ".reflist",
-        ".catlinks",               # catégories en bas
-        ".printfooter",
-        ".metadata",
-    ]:
-        for tag in content.select(sel):
-            tag.decompose()
-
-    links = []
-    seen = set()
-
-    # Parcours des <a> dans l’ordre du document (important!)
-    for a in content.select("a[href]"):
-        href = a.get("href", "")
-        if not href.startswith("/index.php/"):
-            continue
-
-        # Filtrage MediaWiki
-        if any(x in href for x in ["action=", "oldid=", "diff=", "printable="]):
-            continue
-        if any(href.startswith(prefix) for prefix in [
-            "/index.php/Special:",
-            "/index.php/Category:",
-            "/index.php/File:",
-            "/index.php/Template:",
-            "/index.php/Talk:",
-            "/index.php/User:",
-            "/index.php/Help:",
-        ]):
-            continue
-
-        # Évite ancres et fragments
-        href = href.split("#", 1)[0]
-        full = urljoin(base_url, href)
-
-        # Dédup en conservant l’ordre
-        if full not in seen:
-            seen.add(full)
-            links.append(full)
-
-        if limit is not None and len(links) >= limit:
-            break
-
-    return links
-
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 

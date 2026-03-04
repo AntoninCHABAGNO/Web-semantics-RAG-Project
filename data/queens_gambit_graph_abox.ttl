@@ -1,0 +1,753 @@
+@prefix qg: <http://example.org/qg#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+qg:character_beth_249771 rdf:type qg:Character .
+qg:character_beth_249771 rdfs:label "Beth"@fr .
+qg:character_beth_249771 owl:sameAs <https://www.wikidata.org/entity/Q102378740> .
+qg:character_alma_f59b48 rdf:type qg:Character .
+qg:character_alma_f59b48 rdfs:label "Alma"@fr .
+qg:character_shaibel_25488d rdf:type qg:Character .
+qg:character_shaibel_25488d rdfs:label "Shaibel"@fr .
+qg:character_benny_c852c3 rdf:type qg:Character .
+qg:character_benny_c852c3 rdfs:label "Benny"@fr .
+qg:character_borgov_1769f1 rdf:type qg:Character .
+qg:character_borgov_1769f1 rdfs:label "Borgov"@fr .
+qg:character_jolene_cf83fc rdf:type qg:Character .
+qg:character_jolene_cf83fc rdfs:label "Jolene"@fr .
+qg:character_townes_0aa587 rdf:type qg:Character .
+qg:character_townes_0aa587 rdfs:label "Townes"@fr .
+qg:character_beltik_11889c rdf:type qg:Character .
+qg:character_beltik_11889c rdfs:label "Beltik"@fr .
+qg:character_alice_2e1f17 rdf:type qg:Character .
+qg:character_alice_2e1f17 rdfs:label "Alice"@fr .
+qg:character_paul_fb4141 rdf:type qg:Character .
+qg:character_paul_fb4141 rdfs:label "Paul"@fr .
+qg:character_ganz_f84605 rdf:type qg:Character .
+qg:character_ganz_f84605 rdfs:label "Ganz"@fr .
+qg:character_harmon_50bda7 rdf:type qg:Character .
+qg:character_harmon_50bda7 rdfs:label "Harmon"@fr .
+qg:character_alice_harmon_5d125e rdf:type qg:Character .
+qg:character_alice_harmon_5d125e rdfs:label "Alice Harmon"@fr .
+qg:character_beth_harmon_ed307a rdf:type qg:Character .
+qg:character_beth_harmon_ed307a rdfs:label "Beth Harmon"@fr .
+qg:character_deardorff_bf9589 rdf:type qg:Character .
+qg:character_deardorff_bf9589 rdfs:label "Deardorff"@fr .
+qg:character_benny_watts_5a7374 rdf:type qg:Character .
+qg:character_benny_watts_5a7374 rdfs:label "Benny Watts"@fr .
+qg:character_cleo_56b750 rdf:type qg:Character .
+qg:character_cleo_56b750 rdfs:label "Cleo"@fr .
+qg:character_harry_beltik_e4c3db rdf:type qg:Character .
+qg:character_harry_beltik_e4c3db rdfs:label "Harry Beltik"@fr .
+qg:character_allston_wheatley_c010b8 rdf:type qg:Character .
+qg:character_allston_wheatley_c010b8 rdfs:label "Allston Wheatley"@fr .
+qg:character_elizabeth_harmon_314b5f rdf:type qg:Character .
+qg:character_elizabeth_harmon_314b5f rdfs:label "Elizabeth Harmon"@fr .
+qg:character_luchenko_aad5d1 rdf:type qg:Character .
+qg:character_luchenko_aad5d1 rdfs:label "Luchenko"@fr .
+qg:character_manuel_d50c91 rdf:type qg:Character .
+qg:character_manuel_d50c91 rdfs:label "Manuel"@fr .
+qg:character_vasily_borgov_b82697 rdf:type qg:Character .
+qg:character_vasily_borgov_b82697 rdfs:label "Vasily Borgov"@fr .
+qg:character_alma_wheatley_5ca547 rdf:type qg:Character .
+qg:character_alma_wheatley_5ca547 rdfs:label "Alma Wheatley"@fr .
+qg:character_margaret_ce1958 rdf:type qg:Character .
+qg:character_margaret_ce1958 rdfs:label "Margaret"@fr .
+qg:character_margaret_neil_abb2cb rdf:type qg:Character .
+qg:character_margaret_neil_abb2cb rdfs:label "Margaret Neil"@fr .
+qg:character_matt_d07775 rdf:type qg:Character .
+qg:character_matt_d07775 rdfs:label "Matt"@fr .
+qg:character_mike_2ef3f7 rdf:type qg:Character .
+qg:character_mike_2ef3f7 rdfs:label "Mike"@fr .
+qg:character_allston_3e52a1 rdf:type qg:Character .
+qg:character_allston_3e52a1 rdfs:label "Allston"@fr .
+qg:character_annette_packer_6789c0 rdf:type qg:Character .
+qg:character_annette_packer_6789c0 rdfs:label "Annette Packer"@fr .
+qg:character_cullen_6a8994 rdf:type qg:Character .
+qg:character_cullen_6a8994 rdfs:label "Cullen"@fr .
+qg:character_elizabeth_e40884 rdf:type qg:Character .
+qg:character_elizabeth_e40884 rdfs:label "Elizabeth"@fr .
+qg:character_michaelangelo_a364a9 rdf:type qg:Character .
+qg:character_michaelangelo_a364a9 rdfs:label "Michaelangelo"@fr .
+qg:character_morphy_7f8ddf rdf:type qg:Character .
+qg:character_morphy_7f8ddf rdfs:label "Morphy"@fr .
+qg:character_packer_75e6f0 rdf:type qg:Character .
+qg:character_packer_75e6f0 rdfs:label "Packer"@fr .
+qg:character_white_f57dea rdf:type qg:Character .
+qg:character_white_f57dea rdfs:label "White"@fr .
+qg:character_alekhine_bf6684 rdf:type qg:Character .
+qg:character_alekhine_bf6684 rdfs:label "Alekhine"@fr .
+qg:character_annette_dc37f6 rdf:type qg:Character .
+qg:character_annette_dc37f6 rdfs:label "Annette"@fr .
+qg:character_arthur_levertov_2b1381 rdf:type qg:Character .
+qg:character_arthur_levertov_2b1381 rdfs:label "Arthur Levertov"@fr .
+qg:character_bill_camp_e94e52 rdf:type qg:Character .
+qg:character_bill_camp_e94e52 rdfs:label "Bill Camp"@fr .
+qg:character_bradley_38119b rdf:type qg:Character .
+qg:character_bradley_38119b rdfs:label "Bradley"@fr .
+qg:character_bulova_453276 rdf:type qg:Character .
+qg:character_bulova_453276 rdfs:label "Bulova"@fr .
+qg:character_charles_levy_c895d0 rdf:type qg:Character .
+qg:character_charles_levy_c895d0 rdfs:label "Charles Levy"@fr .
+qg:character_chloe_pirrie_27a06c rdf:type qg:Character .
+qg:character_chloe_pirrie_27a06c rdfs:label "Chloe Pirrie"@fr .
+qg:character_christopher_be8e34 rdf:type qg:Character .
+qg:character_christopher_be8e34 rdfs:label "Christopher"@fr .
+qg:character_crawford_walker_446e1d rdf:type qg:Character .
+qg:character_crawford_walker_446e1d rdfs:label "Crawford Walker"@fr .
+qg:character_d_l_townes_fb4fc2 rdf:type qg:Character .
+qg:character_d_l_townes_fb4fc2 rdfs:label "D.L. Townes"@fr .
+qg:character_fergussen_27be7a rdf:type qg:Character .
+qg:character_fergussen_27be7a rdfs:label "Fergussen"@fr .
+qg:character_flento_a41815 rdf:type qg:Character .
+qg:character_flento_a41815 rdfs:label "Flento"@fr .
+qg:character_helen_deardorff_86c8f0 rdf:type qg:Character .
+qg:character_helen_deardorff_86c8f0 rdfs:label "Helen Deardorff"@fr .
+qg:character_hellstrom_c8b424 rdf:type qg:Character .
+qg:character_hellstrom_c8b424 rdfs:label "Hellstrom"@fr .
+qg:character_hilton_wexler_35e297 rdf:type qg:Character .
+qg:character_hilton_wexler_35e297 rdfs:label "Hilton Wexler"@fr .
+qg:character_jacob_fortune_lloyd_abe222 rdf:type qg:Character .
+qg:character_jacob_fortune_lloyd_abe222 rdfs:label "Jacob Fortune-Lloyd"@fr .
+qg:character_jesus_fa2ec9 rdf:type qg:Character .
+qg:character_jesus_fa2ec9 rdfs:label "Jesus"@fr .
+qg:character_jolene_dewitt_7030b6 rdf:type qg:Character .
+qg:character_jolene_dewitt_7030b6 rdfs:label "Jolene Dewitt"@fr .
+qg:character_levertov_f8d4ca rdf:type qg:Character .
+qg:character_levertov_f8d4ca rdfs:label "Levertov"@fr .
+qg:character_margaret_johnson_aeffd9 rdf:type qg:Character .
+qg:character_margaret_johnson_aeffd9 rdfs:label "Margaret Johnson"@fr .
+qg:character_mary_sue_fe9563 rdf:type qg:Character .
+qg:character_mary_sue_fe9563 rdfs:label "Mary-Sue"@fr .
+qg:character_najdorf_3505e7 rdf:type qg:Character .
+qg:character_najdorf_3505e7 rdfs:label "Najdorf"@fr .
+qg:character_nona_gaprindashvili_6aaab2 rdf:type qg:Character .
+qg:character_nona_gaprindashvili_6aaab2 rdfs:label "Nona Gaprindashvili"@fr .
+qg:character_roger_2cbc0e rdf:type qg:Character .
+qg:character_roger_2cbc0e rdfs:label "Roger"@fr .
+qg:character_shapkin_6dcb24 rdf:type qg:Character .
+qg:character_shapkin_6dcb24 rdfs:label "Shapkin"@fr .
+qg:character_shirley_munson_9ecc60 rdf:type qg:Character .
+qg:character_shirley_munson_9ecc60 rdfs:label "Shirley Munson"@fr .
+qg:character_sizemore_e93777 rdf:type qg:Character .
+qg:character_sizemore_e93777 rdfs:label "Sizemore"@fr .
+qg:character_wexler_bdcc20 rdf:type qg:Character .
+qg:character_wexler_bdcc20 rdfs:label "Wexler"@fr .
+qg:character_william_shaibel_1906e3 rdf:type qg:Character .
+qg:character_william_shaibel_1906e3 rdfs:label "William Shaibel"@fr .
+qg:event_the_moscow_invitational_ce8c95 rdf:type qg:Event .
+qg:event_the_moscow_invitational_ce8c95 rdfs:label "the Moscow Invitational"@fr .
+qg:event_the_u_s_championship_86e517 rdf:type qg:Event .
+qg:event_the_u_s_championship_86e517 rdfs:label "the U.S. Championship"@fr .
+qg:event_the_kentucky_state_championship_588585 rdf:type qg:Event .
+qg:event_the_kentucky_state_championship_588585 rdfs:label "the Kentucky State Championship"@fr .
+qg:event_paris_remy_vallon_invitational_c38967 rdf:type qg:Event .
+qg:event_paris_remy_vallon_invitational_c38967 rdfs:label "Paris Remy-Vallon Invitational"@fr .
+qg:event_the_u_s_open_8dd5eb rdf:type qg:Event .
+qg:event_the_u_s_open_8dd5eb rdfs:label "the U.S. Open"@fr .
+qg:event_chess_olympiad_94a615 rdf:type qg:Event .
+qg:event_chess_olympiad_94a615 rdfs:label "Chess Olympiad"@fr .
+qg:event_exchanges_e11069 rdf:type qg:Event .
+qg:event_exchanges_e11069 rdfs:label "Exchanges"@fr .
+qg:event_kentucky_state_championship_5df4e7 rdf:type qg:Event .
+qg:event_kentucky_state_championship_5df4e7 rdfs:label "Kentucky State Championship"@fr .
+qg:event_mexico_city_invitational_tournament_332b52 rdf:type qg:Event .
+qg:event_mexico_city_invitational_tournament_332b52 rdfs:label "Mexico City Invitational Tournament"@fr .
+qg:event_moscow_invitational_95c9aa rdf:type qg:Event .
+qg:event_moscow_invitational_95c9aa rdfs:label "Moscow Invitational"@fr .
+qg:event_open_f79fe9 rdf:type qg:Event .
+qg:event_open_f79fe9 rdfs:label "Open"@fr .
+qg:event_u_s_championship_6e77a3 rdf:type qg:Event .
+qg:event_u_s_championship_6e77a3 rdfs:label "U.S. Championship"@fr .
+qg:event_u_s_open_chess_championship_dc6cd6 rdf:type qg:Event .
+qg:event_u_s_open_chess_championship_dc6cd6 rdfs:label "U.S. Open Chess Championship"@fr .
+qg:event_us_championship_059e00 rdf:type qg:Event .
+qg:event_us_championship_059e00 rdfs:label "US Championship"@fr .
+qg:event_another_u_s_open_31632e rdf:type qg:Event .
+qg:event_another_u_s_open_31632e rdfs:label "another U.S. Open"@fr .
+qg:event_the_candidates_tournament_f6a3cb rdf:type qg:Event .
+qg:event_the_candidates_tournament_f6a3cb rdfs:label "the Candidates Tournament"@fr .
+qg:event_the_cincinnati_tournament_2cab8e rdf:type qg:Event .
+qg:event_the_cincinnati_tournament_2cab8e rdfs:label "the Cincinnati Tournament"@fr .
+qg:event_the_las_vegas_u_s_open_chess_championship_2e0143 rdf:type qg:Event .
+qg:event_the_las_vegas_u_s_open_chess_championship_2e0143 rdfs:label "the Las Vegas U.S. Open Chess Championship"@fr .
+qg:event_the_las_vegas_us_open_acd076 rdf:type qg:Event .
+qg:event_the_las_vegas_us_open_acd076 rdfs:label "the Las Vegas US Open"@fr .
+qg:event_the_pittsburgh_tournament_8b074f rdf:type qg:Event .
+qg:event_the_pittsburgh_tournament_8b074f rdfs:label "the Pittsburgh Tournament"@fr .
+qg:event_the_women_world_chess_championship_eb8805 rdf:type qg:Event .
+qg:event_the_women_world_chess_championship_eb8805 rdfs:label "the Women World Chess Championship"@fr .
+qg:group_russian_a27314 rdf:type qg:Thing .
+qg:group_russian_a27314 rdfs:label "Russian"@fr .
+qg:group_american_81cd95 rdf:type qg:Thing .
+qg:group_american_81cd95 rdfs:label "American"@fr .
+qg:group_christian_c0d3c8 rdf:type qg:Thing .
+qg:group_christian_c0d3c8 rdfs:label "Christian"@fr .
+qg:group_sicilian_958e2a rdf:type qg:Thing .
+qg:group_sicilian_958e2a rdfs:label "Sicilian"@fr .
+qg:group_german_734821 rdf:type qg:Thing .
+qg:group_german_734821 rdfs:label "German"@fr .
+qg:group_russians_62a71b rdf:type qg:Thing .
+qg:group_russians_62a71b rdfs:label "Russians"@fr .
+qg:group_soviet_62a689 rdf:type qg:Thing .
+qg:group_soviet_62a689 rdfs:label "Soviet"@fr .
+qg:group_soviets_7f4217 rdf:type qg:Thing .
+qg:group_soviets_7f4217 rdfs:label "Soviets"@fr .
+qg:group_chinese_ade7ee rdf:type qg:Thing .
+qg:group_chinese_ade7ee rdfs:label "Chinese"@fr .
+qg:group_communists_7b5f61 rdf:type qg:Thing .
+qg:group_communists_7b5f61 rdfs:label "Communists"@fr .
+qg:group_dutch_76e126 rdf:type qg:Thing .
+qg:group_dutch_76e126 rdfs:label "Dutch"@fr .
+qg:group_french_35b672 rdf:type qg:Thing .
+qg:group_french_35b672 rdfs:label "French"@fr .
+qg:group_hungarian_092e14 rdf:type qg:Thing .
+qg:group_hungarian_092e14 rdfs:label "Hungarian"@fr .
+qg:location_kentucky_190bff rdf:type qg:Location .
+qg:location_kentucky_190bff rdfs:label "Kentucky"@fr .
+qg:location_moscow_58824a rdf:type qg:Location .
+qg:location_moscow_58824a rdfs:label "Moscow"@fr .
+qg:location_paris_4e15b1 rdf:type qg:Location .
+qg:location_paris_4e15b1 rdfs:label "Paris"@fr .
+qg:location_ussr_bdd2d8 rdf:type qg:Location .
+qg:location_ussr_bdd2d8 rdfs:label "USSR"@fr .
+qg:location_cincinnati_a0d99f rdf:type qg:Location .
+qg:location_cincinnati_a0d99f rdfs:label "Cincinnati"@fr .
+qg:location_new_york_a8c649 rdf:type qg:Location .
+qg:location_new_york_a8c649 rdfs:label "New York"@fr .
+qg:location_methuen_ac58a5 rdf:type qg:Location .
+qg:location_methuen_ac58a5 rdfs:label "Methuen"@fr .
+qg:location_russia_0419b7 rdf:type qg:Location .
+qg:location_russia_0419b7 rdfs:label "Russia"@fr .
+qg:location_u_s_d925a5 rdf:type qg:Location .
+qg:location_u_s_d925a5 rdfs:label "U.S"@fr .
+qg:location_mexico_city_c4dd39 rdf:type qg:Location .
+qg:location_mexico_city_c4dd39 rdfs:label "Mexico City"@fr .
+qg:location_france_6ffce1 rdf:type qg:Location .
+qg:location_france_6ffce1 rdfs:label "France"@fr .
+qg:location_las_vegas_946932 rdf:type qg:Location .
+qg:location_las_vegas_946932 rdfs:label "Las Vegas"@fr .
+qg:location_lexington_693361 rdf:type qg:Location .
+qg:location_lexington_693361 rdfs:label "Lexington"@fr .
+qg:location_ohio_778d5a rdf:type qg:Location .
+qg:location_ohio_778d5a rdfs:label "Ohio"@fr .
+qg:location_the_united_states_0ad7d0 rdf:type qg:Location .
+qg:location_the_united_states_0ad7d0 rdfs:label "the United States"@fr .
+qg:location_italy_7dc766 rdf:type qg:Location .
+qg:location_italy_7dc766 rdfs:label "Italy"@fr .
+qg:location_pittsburg_4d2c8e rdf:type qg:Location .
+qg:location_pittsburg_4d2c8e rdfs:label "Pittsburg"@fr .
+qg:location_san_francisco_804927 rdf:type qg:Location .
+qg:location_san_francisco_804927 rdfs:label "San Francisco"@fr .
+qg:location_austria_082585 rdf:type qg:Location .
+qg:location_austria_082585 rdfs:label "Austria"@fr .
+qg:location_george_town_39f077 rdf:type qg:Location .
+qg:location_george_town_39f077 rdfs:label "George Town"@fr .
+qg:location_hotel_de_ville_b67219 rdf:type qg:Location .
+qg:location_hotel_de_ville_b67219 rdfs:label "Hotel de Ville"@fr .
+qg:location_hungary_8aba9c rdf:type qg:Location .
+qg:location_hungary_8aba9c rdfs:label "Hungary"@fr .
+qg:location_lucerne_49a600 rdf:type qg:Location .
+qg:location_lucerne_49a600 rdfs:label "Lucerne"@fr .
+qg:location_mexico_cd8780 rdf:type qg:Location .
+qg:location_mexico_cd8780 rdfs:label "Mexico"@fr .
+qg:location_nevada_aacef4 rdf:type qg:Location .
+qg:location_nevada_aacef4 rdfs:label "Nevada"@fr .
+qg:location_norway_60e542 rdf:type qg:Location .
+qg:location_norway_60e542 rdfs:label "Norway"@fr .
+qg:location_southwest_22569f rdf:type qg:Location .
+qg:location_southwest_22569f rdfs:label "Southwest"@fr .
+qg:location_sweden_a37856 rdf:type qg:Location .
+qg:location_sweden_a37856 rdfs:label "Sweden"@fr .
+qg:location_united_states_136a3c rdf:type qg:Location .
+qg:location_united_states_136a3c rdfs:label "United States"@fr .
+qg:location_wakefield_288d8b rdf:type qg:Location .
+qg:location_wakefield_288d8b rdfs:label "Wakefield"@fr .
+qg:location_yugoslavia_b6c013 rdf:type qg:Location .
+qg:location_yugoslavia_b6c013 rdfs:label "Yugoslavia"@fr .
+qg:location_a_chess_club_69da79 rdf:type qg:Location .
+qg:location_a_chess_club_69da79 rdfs:label "a Chess Club"@fr .
+qg:location_the_aztec_palace_78f31d rdf:type qg:Location .
+qg:location_the_aztec_palace_78f31d rdfs:label "the Aztec Palace"@fr .
+qg:location_the_mariposa_hotel_d3276f rdf:type qg:Location .
+qg:location_the_mariposa_hotel_d3276f rdfs:label "the Mariposa Hotel"@fr .
+qg:organization_netflix_bee0a7 rdf:type qg:Organization .
+qg:organization_netflix_bee0a7 rdfs:label "Netflix"@fr .
+qg:organization_unknown_75d7fa rdf:type qg:Organization .
+qg:organization_unknown_75d7fa rdfs:label "Unknown"@fr .
+qg:organization_chess_review_b0f184 rdf:type qg:Organization .
+qg:organization_chess_review_b0f184 rdfs:label "Chess Review"@fr .
+qg:organization_christian_crusade_243686 rdf:type qg:Organization .
+qg:organization_christian_crusade_243686 rdfs:label "Christian Crusade"@fr .
+qg:organization_fide_b251db rdf:type qg:Organization .
+qg:organization_fide_b251db rdfs:label "FIDE"@fr .
+qg:organization_uscf_0c46e4 rdf:type qg:Organization .
+qg:organization_uscf_0c46e4 rdfs:label "USCF"@fr .
+qg:organization_kentucky_state_8b0edd rdf:type qg:Organization .
+qg:organization_kentucky_state_8b0edd rdfs:label "Kentucky State"@fr .
+qg:organization_life_6146a3 rdf:type qg:Organization .
+qg:organization_life_6146a3 rdfs:label "Life"@fr .
+qg:organization_methuen_home_0e82f3 rdf:type qg:Organization .
+qg:organization_methuen_home_0e82f3 rdfs:label "Methuen Home"@fr .
+qg:organization_the_lexington_herald_leader_0b9aa4 rdf:type qg:Organization .
+qg:organization_the_lexington_herald_leader_0b9aa4 rdfs:label "the Lexington Herald-Leader"@fr .
+qg:organization_cornell_university_07f6ca rdf:type qg:Organization .
+qg:organization_cornell_university_07f6ca rdfs:label "Cornell University"@fr .
+qg:organization_apple_pi_3923b8 rdf:type qg:Organization .
+qg:organization_apple_pi_3923b8 rdfs:label "Apple Pi"@fr .
+qg:organization_duncan_high_school_cbdc81 rdf:type qg:Organization .
+qg:organization_duncan_high_school_cbdc81 rdfs:label "Duncan High School"@fr .
+qg:organization_fairfield_high_school_2794aa rdf:type qg:Organization .
+qg:organization_fairfield_high_school_2794aa rdfs:label "Fairfield High School"@fr .
+qg:organization_henry_clay_high_school_83073e rdf:type qg:Organization .
+qg:organization_henry_clay_high_school_83073e rdfs:label "Henry Clay High School"@fr .
+qg:organization_state_department_c7fc39 rdf:type qg:Organization .
+qg:organization_state_department_c7fc39 rdfs:label "State Department"@fr .
+qg:organization_the_state_department_231c1d rdf:type qg:Organization .
+qg:organization_the_state_department_231c1d rdfs:label "The State Department"@fr .
+qg:organization_time_magazine_6e0886 rdf:type qg:Organization .
+qg:organization_time_magazine_6e0886 rdfs:label "Time Magazine"@fr .
+qg:organization_the_sicilian_defence_2489e5 rdf:type qg:Organization .
+qg:organization_the_sicilian_defence_2489e5 rdfs:label "the Sicilian Defence"@fr .
+qg:organization_beautiful_142eed rdf:type qg:Organization .
+qg:organization_beautiful_142eed rdfs:label "Beautiful"@fr .
+qg:organization_chess_federation_3e38b5 rdf:type qg:Organization .
+qg:organization_chess_federation_3e38b5 rdfs:label "Chess Federation"@fr .
+qg:organization_chess_life_cdddff rdf:type qg:Organization .
+qg:organization_chess_life_cdddff rdfs:label "Chess Life"@fr .
+qg:organization_corvair_89bd76 rdf:type qg:Organization .
+qg:organization_corvair_89bd76 rdfs:label "Corvair"@fr .
+qg:organization_e_townes_5644c1 rdf:type qg:Organization .
+qg:organization_e_townes_5644c1 rdfs:label "E. Townes"@fr .
+qg:organization_fairfield_high_d6f9ec rdf:type qg:Organization .
+qg:organization_fairfield_high_d6f9ec rdfs:label "Fairfield High"@fr .
+qg:organization_gm_marenco_97ebb5 rdf:type qg:Organization .
+qg:organization_gm_marenco_97ebb5 rdfs:label "GM Marenco"@fr .
+qg:organization_gibson_hotel_da4635 rdf:type qg:Organization .
+qg:organization_gibson_hotel_da4635 rdfs:label "Gibson Hotel"@fr .
+qg:organization_harmon_e_39a8f6 rdf:type qg:Organization .
+qg:organization_harmon_e_39a8f6 rdfs:label "Harmon, E"@fr .
+qg:organization_international_master_fide_513680 rdf:type qg:Organization .
+qg:organization_international_master_fide_513680 rdfs:label "International Master FIDE"@fr .
+qg:organization_lexington_herald_leader_17fa19 rdf:type qg:Organization .
+qg:organization_lexington_herald_leader_17fa19 rdfs:label "Lexington Herald-Leader"@fr .
+qg:organization_librium_31c8ff rdf:type qg:Organization .
+qg:organization_librium_31c8ff rdfs:label "Librium"@fr .
+qg:organization_marie_claire_0e3172 rdf:type qg:Organization .
+qg:organization_marie_claire_0e3172 rdfs:label "Marie Claire"@fr .
+qg:organization_npr_b21d7a rdf:type qg:Organization .
+qg:organization_npr_b21d7a rdfs:label "NPR"@fr .
+qg:organization_reuters_f89ab9 rdf:type qg:Organization .
+qg:organization_reuters_f89ab9 rdfs:label "Reuters"@fr .
+qg:organization_the_observer_7ecb35 rdf:type qg:Organization .
+qg:organization_the_observer_7ecb35 rdfs:label "The Observer"@fr .
+qg:organization_upi_946266 rdf:type qg:Organization .
+qg:organization_upi_946266 rdfs:label "UPI"@fr .
+qg:organization_the_state_normal_school_for_colored_persons_06cad7 rdf:type qg:Organization .
+qg:organization_the_state_normal_school_for_colored_persons_06cad7 rdfs:label "the \"State Normal School for Colored Persons"@fr .
+qg:organization_the_chess_federation_ee96a0 rdf:type qg:Organization .
+qg:organization_the_chess_federation_ee96a0 rdfs:label "the Chess Federation"@fr .
+qg:organization_the_christian_crusade_c20d9f rdf:type qg:Organization .
+qg:organization_the_christian_crusade_c20d9f rdfs:label "the Christian Crusade"@fr .
+qg:organization_the_class_of_1966_e0afe1 rdf:type qg:Organization .
+qg:organization_the_class_of_1966_e0afe1 rdfs:label "the Class of 1966"@fr .
+qg:organization_the_king_pawn_e94294 rdf:type qg:Organization .
+qg:organization_the_king_pawn_e94294 rdfs:label "the King Pawn"@fr .
+qg:organization_the_methuen_home_e89837 rdf:type qg:Organization .
+qg:organization_the_methuen_home_e89837 rdfs:label "the Methuen Home"@fr .
+qg:organization_the_u_s_government_018688 rdf:type qg:Organization .
+qg:organization_the_u_s_government_018688 rdfs:label "the U.S. Government"@fr .
+qg:organization_the_white_house_6f3ef9 rdf:type qg:Organization .
+qg:organization_the_white_house_6f3ef9 rdfs:label "the White House"@fr .
+qg:realperson_harmon_8c7d92 rdf:type qg:Thing .
+qg:realperson_harmon_8c7d92 rdfs:label "Harmon"@fr .
+qg:realperson_beth_396d7b rdf:type qg:Thing .
+qg:realperson_beth_396d7b rdfs:label "Beth"@fr .
+qg:realperson_shaibel_340fdd rdf:type qg:Thing .
+qg:realperson_shaibel_340fdd rdfs:label "Shaibel"@fr .
+qg:realperson_borgov_ca901a rdf:type qg:Thing .
+qg:realperson_borgov_ca901a rdfs:label "Borgov"@fr .
+qg:realperson_jolene_ae67ae rdf:type qg:Thing .
+qg:realperson_jolene_ae67ae rdfs:label "Jolene"@fr .
+qg:realperson_benny_270f2f rdf:type qg:Thing .
+qg:realperson_benny_270f2f rdfs:label "Benny"@fr .
+qg:realperson_beltik_ebecb7 rdf:type qg:Thing .
+qg:realperson_beltik_ebecb7 rdfs:label "Beltik"@fr .
+qg:realperson_wheatley_3f5031 rdf:type qg:Thing .
+qg:realperson_wheatley_3f5031 rdfs:label "Wheatley"@fr .
+qg:realperson_townes_ceeffb rdf:type qg:Thing .
+qg:realperson_townes_ceeffb rdfs:label "Townes"@fr .
+qg:realperson_harry_98fe7f rdf:type qg:Thing .
+qg:realperson_harry_98fe7f rdfs:label "Harry"@fr .
+qg:realperson_elizabeth_harmon_0a1f94 rdf:type qg:Thing .
+qg:realperson_elizabeth_harmon_0a1f94 rdfs:label "Elizabeth Harmon"@fr .
+qg:realperson_ganz_2471c7 rdf:type qg:Thing .
+qg:realperson_ganz_2471c7 rdfs:label "Ganz"@fr .
+qg:realperson_vasily_borgov_bb0b07 rdf:type qg:Thing .
+qg:realperson_vasily_borgov_bb0b07 rdfs:label "Vasily Borgov"@fr .
+qg:realperson_alma_072166 rdf:type qg:Thing .
+qg:realperson_alma_072166 rdfs:label "Alma"@fr .
+qg:realperson_benny_watts_31c593 rdf:type qg:Thing .
+qg:realperson_benny_watts_31c593 rdfs:label "Benny Watts"@fr .
+qg:realperson_luchenko_5c627a rdf:type qg:Thing .
+qg:realperson_luchenko_5c627a rdfs:label "Luchenko"@fr .
+qg:realperson_paul_85a56a rdf:type qg:Thing .
+qg:realperson_paul_85a56a rdfs:label "Paul"@fr .
+qg:realperson_alice_c9386a rdf:type qg:Thing .
+qg:realperson_alice_c9386a rdfs:label "Alice"@fr .
+qg:realperson_flento_572905 rdf:type qg:Thing .
+qg:realperson_flento_572905 rdfs:label "Flento"@fr .
+qg:realperson_laev_9510c0 rdf:type qg:Thing .
+qg:realperson_laev_9510c0 rdfs:label "Laev"@fr .
+qg:realperson_mike_b6da1c rdf:type qg:Thing .
+qg:realperson_mike_b6da1c rdfs:label "Mike"@fr .
+qg:realperson_polg_r_8cb6a7 rdf:type qg:Thing .
+qg:realperson_polg_r_8cb6a7 rdfs:label "Polgár"@fr .
+qg:realperson_sizemore_98dd42 rdf:type qg:Thing .
+qg:realperson_sizemore_98dd42 rdfs:label "Sizemore"@fr .
+qg:realperson_alice_harmon_fe3b25 rdf:type qg:Thing .
+qg:realperson_alice_harmon_fe3b25 rdfs:label "Alice Harmon"@fr .
+qg:realperson_annette_180865 rdf:type qg:Thing .
+qg:realperson_annette_180865 rdfs:label "Annette"@fr .
+qg:realperson_anya_taylor_joy_ef2a62 rdf:type qg:Thing .
+qg:realperson_anya_taylor_joy_ef2a62 rdfs:label "Anya Taylor-Joy"@fr .
+qg:realperson_cleo_481c9e rdf:type qg:Thing .
+qg:realperson_cleo_481c9e rdfs:label "Cleo"@fr .
+qg:realperson_cloe_6c755b rdf:type qg:Thing .
+qg:realperson_cloe_6c755b rdfs:label "Cloe"@fr .
+qg:realperson_d_l_townes_3a054a rdf:type qg:Thing .
+qg:realperson_d_l_townes_3a054a rdfs:label "D.L Townes"@fr .
+qg:realperson_deardorff_cc78f6 rdf:type qg:Thing .
+qg:realperson_deardorff_cc78f6 rdfs:label "Deardorff"@fr .
+qg:realperson_diedrich_29d297 rdf:type qg:Thing .
+qg:realperson_diedrich_29d297 rdfs:label "Diedrich"@fr .
+qg:realperson_duhamel_e2a2c8 rdf:type qg:Thing .
+qg:realperson_duhamel_e2a2c8 rdfs:label "Duhamel"@fr .
+qg:realperson_harry_beltik_377296 rdf:type qg:Thing .
+qg:realperson_harry_beltik_377296 rdfs:label "Harry Beltik"@fr .
+qg:realperson_hellstrom_1ffc1d rdf:type qg:Thing .
+qg:realperson_hellstrom_1ffc1d rdfs:label "Hellstrom"@fr .
+qg:realperson_judit_polg_r_223c91 rdf:type qg:Thing .
+qg:realperson_judit_polg_r_223c91 rdfs:label "Judit Polgár"@fr .
+qg:realperson_margaret_f7e1bb rdf:type qg:Thing .
+qg:realperson_margaret_f7e1bb rdfs:label "Margaret"@fr .
+qg:realperson_mary_sue_adddfe rdf:type qg:Thing .
+qg:realperson_mary_sue_adddfe rdfs:label "Mary-Sue"@fr .
+qg:realperson_morphy_d58503 rdf:type qg:Thing .
+qg:realperson_morphy_d58503 rdfs:label "Morphy"@fr .
+qg:realperson_najdorf_a6c06e rdf:type qg:Thing .
+qg:realperson_najdorf_a6c06e rdfs:label "Najdorf"@fr .
+qg:realperson_rudolph_fc52d2 rdf:type qg:Thing .
+qg:realperson_rudolph_fc52d2 rdfs:label "Rudolph"@fr .
+qg:realperson_shapkin_588cbc rdf:type qg:Thing .
+qg:realperson_shapkin_588cbc rdfs:label "Shapkin"@fr .
+qg:realperson_tevis_9e55ed rdf:type qg:Thing .
+qg:realperson_tevis_9e55ed rdfs:label "Tevis"@fr .
+qg:realperson_watts_454a86 rdf:type qg:Thing .
+qg:realperson_watts_454a86 rdfs:label "Watts"@fr .
+qg:realperson_albin_949c34 rdf:type qg:Thing .
+qg:realperson_albin_949c34 rdfs:label "Albin"@fr .
+qg:realperson_alec_bergland_06b400 rdf:type qg:Thing .
+qg:realperson_alec_bergland_06b400 rdfs:label "Alec Bergland"@fr .
+qg:realperson_allston_wheatley_41e2d6 rdf:type qg:Thing .
+qg:realperson_allston_wheatley_41e2d6 rdfs:label "Allston Wheatley"@fr .
+qg:realperson_annabeth_kelly_4fb0f5 rdf:type qg:Thing .
+qg:realperson_annabeth_kelly_4fb0f5 rdfs:label "Annabeth Kelly"@fr .
+qg:realperson_annette_packer_f73dd2 rdf:type qg:Thing .
+qg:realperson_annette_packer_f73dd2 rdfs:label "Annette Packer"@fr .
+qg:realperson_arthur_levertov_7d5145 rdf:type qg:Thing .
+qg:realperson_arthur_levertov_7d5145 rdfs:label "Arthur Levertov"@fr .
+qg:realperson_beltik_h_585105 rdf:type qg:Thing .
+qg:realperson_beltik_h_585105 rdfs:label "Beltik H"@fr .
+qg:realperson_bergland_4cab8f rdf:type qg:Thing .
+qg:realperson_bergland_4cab8f rdfs:label "Bergland"@fr .
+qg:realperson_beth_harmon_a3ff9f rdf:type qg:Thing .
+qg:realperson_beth_harmon_a3ff9f rdfs:label "Beth Harmon"@fr .
+qg:realperson_booth_17a609 rdf:type qg:Thing .
+qg:realperson_booth_17a609 rdfs:label "Booth"@fr .
+qg:realperson_bulova_37429c rdf:type qg:Thing .
+qg:realperson_bulova_37429c rdfs:label "Bulova"@fr .
+qg:realperson_charles_levy_7cec21 rdf:type qg:Thing .
+qg:realperson_charles_levy_7cec21 rdfs:label "Charles Levy"@fr .
+qg:realperson_cooke_b1c6cc rdf:type qg:Thing .
+qg:realperson_cooke_b1c6cc rdfs:label "Cooke"@fr .
+qg:realperson_darga_72cd69 rdf:type qg:Thing .
+qg:realperson_darga_72cd69 rdfs:label "Darga"@fr .
+qg:realperson_diana_lanni_7a7025 rdf:type qg:Thing .
+qg:realperson_diana_lanni_7a7025 rdfs:label "Diana Lanni"@fr .
+qg:realperson_dick_evans_f40379 rdf:type qg:Thing .
+qg:realperson_dick_evans_f40379 rdfs:label "Dick Evans"@fr .
+qg:realperson_e_shapkin_716172 rdf:type qg:Thing .
+qg:realperson_e_shapkin_716172 rdfs:label "E. Shapkin"@fr .
+qg:realperson_elizabeth_beth_olivia_harmon_267a89 rdf:type qg:Thing .
+qg:realperson_elizabeth_beth_olivia_harmon_267a89 rdfs:label "Elizabeth \"Beth\" Olivia Harmon"@fr .
+qg:realperson_fergussen_907c33 rdf:type qg:Thing .
+qg:realperson_fergussen_907c33 rdfs:label "Fergussen"@fr .
+qg:realperson_fork_6e0d3c rdf:type qg:Thing .
+qg:realperson_fork_6e0d3c rdfs:label "Fork"@fr .
+qg:realperson_friedman_bbb15f rdf:type qg:Thing .
+qg:realperson_friedman_bbb15f rdfs:label "Friedman"@fr .
+qg:realperson_georgi_c719b6 rdf:type qg:Thing .
+qg:realperson_georgi_c719b6 rdfs:label "Georgi"@fr .
+qg:realperson_georgi_girev_4acfdc rdf:type qg:Thing .
+qg:realperson_georgi_girev_4acfdc rdfs:label "Georgi Girev"@fr .
+qg:realperson_girev_619b31 rdf:type qg:Thing .
+qg:realperson_girev_619b31 rdfs:label "Girev"@fr .
+qg:realperson_goldman_73b039 rdf:type qg:Thing .
+qg:realperson_goldman_73b039 rdfs:label "Goldman"@fr .
+qg:realperson_grandmaster_a16bb6 rdf:type qg:Thing .
+qg:realperson_grandmaster_a16bb6 rdfs:label "Grandmaster"@fr .
+qg:realperson_harmon_e_865a18 rdf:type qg:Thing .
+qg:realperson_harmon_e_865a18 rdfs:label "Harmon E"@fr .
+qg:realperson_hilton_wexler_1f6fec rdf:type qg:Thing .
+qg:realperson_hilton_wexler_1f6fec rdfs:label "Hilton Wexler"@fr .
+qg:realperson_hou_yifan_b82958 rdf:type qg:Thing .
+qg:realperson_hou_yifan_b82958 rdfs:label "Hou Yifan"@fr .
+qg:realperson_isla_johnston_23ebe8 rdf:type qg:Thing .
+qg:realperson_isla_johnston_23ebe8 rdfs:label "Isla Johnston"@fr .
+qg:realperson_lanni_c57786 rdf:type qg:Thing .
+qg:realperson_lanni_c57786 rdfs:label "Lanni"@fr .
+qg:realperson_levenfish_881e3d rdf:type qg:Thing .
+qg:realperson_levenfish_881e3d rdfs:label "Levenfish"@fr .
+qg:realperson_malovicz_955e0b rdf:type qg:Thing .
+qg:realperson_malovicz_955e0b rdfs:label "Malovicz"@fr .
+qg:realperson_manfredi_09b3b2 rdf:type qg:Thing .
+qg:realperson_manfredi_09b3b2 rdfs:label "Manfredi"@fr .
+qg:realperson_matt_87b290 rdf:type qg:Thing .
+qg:realperson_matt_87b290 rdfs:label "Matt"@fr .
+qg:realperson_mcdonnell_191717 rdf:type qg:Thing .
+qg:realperson_mcdonnell_191717 rdfs:label "McDonnell"@fr .
+qg:realperson_octavio_marenco_fb3b39 rdf:type qg:Thing .
+qg:realperson_octavio_marenco_fb3b39 rdfs:label "Octavio Marenco"@fr .
+qg:realperson_p_darga_a5a0d5 rdf:type qg:Thing .
+qg:realperson_p_darga_a5a0d5 rdfs:label "P. Darga"@fr .
+qg:realperson_p_w_sergeant_7694cb rdf:type qg:Thing .
+qg:realperson_p_w_sergeant_7694cb rdfs:label "P. W. Sergeant"@fr .
+qg:realperson_packer_3967ea rdf:type qg:Thing .
+qg:realperson_packer_3967ea rdfs:label "Packer"@fr .
+qg:realperson_paul_morphy_963080 rdf:type qg:Thing .
+qg:realperson_paul_morphy_963080 rdfs:label "Paul Morphy"@fr .
+qg:realperson_r_uljanov_452fe1 rdf:type qg:Thing .
+qg:realperson_r_uljanov_452fe1 rdfs:label "R. Uljanov"@fr .
+qg:realperson_rossolimo_66f272 rdf:type qg:Thing .
+qg:realperson_rossolimo_66f272 rdfs:label "Rossolimo"@fr .
+qg:realperson_s_malovicz_0510c9 rdf:type qg:Thing .
+qg:realperson_s_malovicz_0510c9 rdfs:label "S. Malovicz"@fr .
+qg:realperson_samantha_963d7e rdf:type qg:Thing .
+qg:realperson_samantha_963d7e rdfs:label "Samantha"@fr .
+qg:realperson_uljanov_3e9597 rdf:type qg:Thing .
+qg:realperson_uljanov_3e9597 rdfs:label "Uljanov"@fr .
+qg:realperson_w_c_griffith_e9e34f rdf:type qg:Thing .
+qg:realperson_w_c_griffith_e9e34f rdfs:label "W. C. Griffith"@fr .
+qg:realperson_walter_tevis_36bc4f rdf:type qg:Thing .
+qg:realperson_walter_tevis_36bc4f rdfs:label "Walter Tevis"@fr .
+qg:realperson_weiss_9df278 rdf:type qg:Thing .
+qg:realperson_weiss_9df278 rdfs:label "Weiss"@fr .
+qg:realperson_beth_396d7b qg:childOf qg:realperson_paul_85a56a .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_beth_396d7b ;
+   rdf:predicate qg:childOf ;
+   rdf:object qg:realperson_paul_85a56a ;
+   qg:confidence "0.85"^^xsd:decimal ;
+   qg:evidence "Following her divorce with Beth's father, Paul, Alice eventually fell into a downward spiral of paranoia, anxiety, and depression." ;
+   qg:evidenceStartChar "20236"^^xsd:integer ;
+   qg:evidenceEndChar "20366"^^xsd:integer  .
+qg:character_beth_249771 qg:childOf qg:character_beth_249771 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:childOf ;
+   rdf:object qg:character_beth_249771 ;
+   qg:confidence "0.85"^^xsd:decimal ;
+   qg:evidence "Alice Harmon, Beth's mother and the driver of the car, died in the crash, leaving Beth an orphan since her father is gone, presumed to have had a \"carefree life.\"" ;
+   qg:evidenceStartChar "739"^^xsd:integer ;
+   qg:evidenceEndChar "901"^^xsd:integer  .
+qg:realperson_beth_396d7b qg:defeated qg:realperson_annette_180865 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_beth_396d7b ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:realperson_annette_180865 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Beth easily defeats Annette to the surprise of the twins and a fellow player D.L. Townes, whom she briefly chatted with before her first match." ;
+   qg:evidenceStartChar "11247"^^xsd:integer ;
+   qg:evidenceEndChar "11390"^^xsd:integer  .
+qg:realperson_elizabeth_harmon_0a1f94 qg:defeated qg:event_kentucky_state_championship_5df4e7 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_elizabeth_harmon_0a1f94 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:event_kentucky_state_championship_5df4e7 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Elizabeth Harmon wins the 1963 Kentucky State Championship." ;
+   qg:evidenceStartChar "27033"^^xsd:integer ;
+   qg:evidenceEndChar "27092"^^xsd:integer  .
+qg:realperson_elizabeth_harmon_0a1f94 qg:defeated qg:event_the_cincinnati_tournament_2cab8e .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_elizabeth_harmon_0a1f94 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:event_the_cincinnati_tournament_2cab8e ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Elizabeth Harmon wins the Cincinnati Tournament." ;
+   qg:evidenceStartChar "28389"^^xsd:integer ;
+   qg:evidenceEndChar "28437"^^xsd:integer  .
+qg:realperson_elizabeth_harmon_0a1f94 qg:defeated qg:event_the_pittsburgh_tournament_8b074f .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_elizabeth_harmon_0a1f94 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:event_the_pittsburgh_tournament_8b074f ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Elizabeth Harmon wins the Pittsburgh Tournament." ;
+   qg:evidenceStartChar "28949"^^xsd:integer ;
+   qg:evidenceEndChar "28997"^^xsd:integer  .
+qg:realperson_vasily_borgov_bb0b07 qg:defeated qg:event_mexico_city_invitational_tournament_332b52 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_vasily_borgov_bb0b07 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:event_mexico_city_invitational_tournament_332b52 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Grandmaster Vasily Borgov wins the 1966 Mexico City Invitational Tournament." ;
+   qg:evidenceStartChar "32646"^^xsd:integer ;
+   qg:evidenceEndChar "32722"^^xsd:integer  .
+qg:realperson_vasily_borgov_bb0b07 qg:defeated qg:event_paris_remy_vallon_invitational_c38967 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_vasily_borgov_bb0b07 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:event_paris_remy_vallon_invitational_c38967 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Grandmaster Vasily Borgov wins the 1967 Paris Remy-Vallon Invitational." ;
+   qg:evidenceStartChar "34654"^^xsd:integer ;
+   qg:evidenceEndChar "34725"^^xsd:integer  .
+qg:realperson_elizabeth_harmon_0a1f94 qg:defeated qg:event_moscow_invitational_95c9aa .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_elizabeth_harmon_0a1f94 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:event_moscow_invitational_95c9aa ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Results: U.S. Champion Elizabeth Harmon wins the 1968 Moscow Invitational." ;
+   qg:evidenceStartChar "38791"^^xsd:integer ;
+   qg:evidenceEndChar "38866"^^xsd:integer  .
+qg:character_beth_249771 qg:defeated qg:character_shaibel_25488d .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:character_shaibel_25488d ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "This time, Beth finally beats Mr. Shaibel, albeit narrowly, and Mr. Shaibel takes it badly." ;
+   qg:evidenceStartChar "3038"^^xsd:integer ;
+   qg:evidenceEndChar "3129"^^xsd:integer  .
+qg:character_beth_249771 qg:defeated qg:character_sizemore_e93777 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:character_sizemore_e93777 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Beth then beats Sizemore and goes home." ;
+   qg:evidenceStartChar "5188"^^xsd:integer ;
+   qg:evidenceEndChar "5227"^^xsd:integer  .
+qg:character_beth_249771 qg:defeated qg:location_moscow_58824a .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:defeated ;
+   rdf:object qg:location_moscow_58824a ;
+   qg:confidence "0.7"^^xsd:decimal ;
+   qg:evidence "Jolene to Beth Jolene pulls Beth out of the fire by giving her a loan from her law school fund, expecting to receive it back when Beth wins in Moscow." ;
+   qg:evidenceStartChar "5515"^^xsd:integer ;
+   qg:evidenceEndChar "5665"^^xsd:integer  .
+qg:character_paul_fb4141 qg:divorced qg:character_alice_2e1f17 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_paul_fb4141 ;
+   rdf:predicate qg:divorced ;
+   rdf:object qg:character_alice_2e1f17 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "However, after failing to convince Alice to let him into the trailer, Paul divorced Alice." ;
+   qg:evidenceStartChar "1282"^^xsd:integer ;
+   qg:evidenceEndChar "1372"^^xsd:integer  .
+qg:realperson_beth_396d7b qg:entered qg:event_the_kentucky_state_championship_588585 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_beth_396d7b ;
+   rdf:predicate qg:entered ;
+   rdf:object qg:event_the_kentucky_state_championship_588585 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "As Beth enters the Kentucky State Championship in 1963, she is greeted by D.L Townes, who she befriends despite going up against him in one of her matches." ;
+   qg:evidenceStartChar "21375"^^xsd:integer ;
+   qg:evidenceEndChar "21531"^^xsd:integer  .
+qg:realperson_harmon_8c7d92 qg:lostTo qg:realperson_vasily_borgov_bb0b07 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_harmon_8c7d92 ;
+   rdf:predicate qg:lostTo ;
+   rdf:object qg:realperson_vasily_borgov_bb0b07 ;
+   qg:confidence "0.7"^^xsd:decimal ;
+   qg:evidence "Harmon loses against Vasily Borgov in Mexico City, and her mother dies in bed from hepatitis due to her alcohol abuse." ;
+   qg:evidenceStartChar "14802"^^xsd:integer ;
+   qg:evidenceEndChar "14921"^^xsd:integer  .
+qg:realperson_beth_396d7b qg:lostTo qg:realperson_borgov_ca901a .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_beth_396d7b ;
+   rdf:predicate qg:lostTo ;
+   rdf:object qg:realperson_borgov_ca901a ;
+   qg:confidence "0.7"^^xsd:decimal ;
+   qg:evidence "A few months after, Beth loses to Borgov in the 1967 Paris Remy-Vallon Invitational, wherein the results were influenced due to her state of inebriation." ;
+   qg:evidenceStartChar "23022"^^xsd:integer ;
+   qg:evidenceEndChar "23175"^^xsd:integer  .
+qg:realperson_alma_072166 qg:married qg:realperson_beth_396d7b .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_alma_072166 ;
+   rdf:predicate qg:married ;
+   rdf:object qg:realperson_beth_396d7b ;
+   qg:confidence "0.8"^^xsd:decimal ;
+   qg:evidence "Alma's husband and Beth's estranged adoptive father." ;
+   qg:evidenceStartChar "24618"^^xsd:integer ;
+   qg:evidenceEndChar "24671"^^xsd:integer  .
+qg:realperson_harmon_8c7d92 qg:met qg:realperson_benny_watts_31c593 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_harmon_8c7d92 ;
+   rdf:predicate qg:met ;
+   rdf:object qg:realperson_benny_watts_31c593 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Harmon meets US Champion Benny Watts in Cincinnati at a tournament shortly after becoming Kentucky state champion." ;
+   qg:evidenceStartChar "13457"^^xsd:integer ;
+   qg:evidenceEndChar "13571"^^xsd:integer  .
+qg:character_beth_249771 qg:met qg:character_borgov_1769f1 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:met ;
+   rdf:object qg:character_borgov_1769f1 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "In Mexico City, Beth meets the intimidating Borgov, while her mother cozies up to a pen pal." ;
+   qg:evidenceStartChar "194"^^xsd:integer ;
+   qg:evidenceEndChar "286"^^xsd:integer  .
+qg:character_beth_249771 qg:met qg:organization_christian_crusade_243686 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:met ;
+   rdf:object qg:organization_christian_crusade_243686 ;
+   qg:confidence "0.7"^^xsd:decimal ;
+   qg:evidence "Afterward, Beth meets with Christian Crusade regarding them sending her to Moscow:" ;
+   qg:evidenceStartChar "4300"^^xsd:integer ;
+   qg:evidenceEndChar "4383"^^xsd:integer  .
+qg:realperson_harmon_8c7d92 qg:played qg:realperson_rossolimo_66f272 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:realperson_harmon_8c7d92 ;
+   rdf:predicate qg:played ;
+   rdf:object qg:realperson_rossolimo_66f272 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Harmon plays the Rossolimo against GM Borgov, attempting to throw them both out of book." ;
+   qg:evidenceStartChar "32141"^^xsd:integer ;
+   qg:evidenceEndChar "32229"^^xsd:integer  .
+qg:character_beth_249771 qg:played qg:character_townes_0aa587 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:played ;
+   rdf:object qg:character_townes_0aa587 ;
+   qg:confidence "0.9"^^xsd:decimal ;
+   qg:evidence "Next, Beth plays Townes and aggressively puts him on the back foot, constantly harassing his rook, only for him to stymie her." ;
+   qg:evidenceStartChar "4711"^^xsd:integer ;
+   qg:evidenceEndChar "4837"^^xsd:integer  .
+qg:character_beth_249771 qg:played qg:character_borgov_1769f1 .
+[] rdf:type rdf:Statement ;
+   rdf:subject qg:character_beth_249771 ;
+   rdf:predicate qg:played ;
+   rdf:object qg:character_borgov_1769f1 ;
+   qg:confidence "0.7"^^xsd:decimal ;
+   qg:evidence "The next day, Beth plays against Borgov himself, the World Champion, but the absence of Alma from the match unsettles her." ;
+   qg:evidenceStartChar "2790"^^xsd:integer ;
+   qg:evidenceEndChar "2912"^^xsd:integer  .
