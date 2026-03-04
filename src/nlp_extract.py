@@ -7,6 +7,7 @@ import hashlib
 import unicodedata
 from collections import defaultdict, Counter
 from urllib.parse import urlparse
+from dedupe_entities import dedupe_entities_csv
 
 # -----------------------------
 # Config
@@ -627,3 +628,4 @@ def main(in_jsonl="data/raw_jsonl/pages.jsonl"):
 
 if __name__ == "__main__":
     main()
+    dedupe_entities_csv()

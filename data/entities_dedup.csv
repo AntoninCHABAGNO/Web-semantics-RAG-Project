@@ -1,0 +1,271 @@
+entity_class,canonical_text,total_count,entity_label,page_context,urls,aliases,entity_id
+Character,Beth,261,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Middle_Game|https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel|https://the-queens-gambit.fandom.com/wiki/Openings,Beth,Character:beth-249771
+Character,Alma,45,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Middle_Game,Alma,Character:alma-f59b48
+Character,Shaibel,45,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Middle_Game|https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel|https://the-queens-gambit.fandom.com/wiki/Openings,Shaibel,Character:shaibel-25488d
+Character,Benny,29,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Fork,Benny,Character:benny-c852c3
+Character,Borgov,28,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Middle_Game,Borgov,Character:borgov-1769f1
+Character,Jolene,28,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Openings,Jolene,Character:jolene-cf83fc
+Character,Townes,27,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork,Townes,Character:townes-0aa587
+Character,Beltik,26,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork,Beltik,Character:beltik-11889c
+Character,Alice,21,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game,Alice,Character:alice-2e1f17
+Character,Paul,14,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Openings,Paul,Character:paul-fb4141
+Character,Ganz,13,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel|https://the-queens-gambit.fandom.com/wiki/Openings,Ganz,Character:ganz-f84605
+Character,Harmon,9,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges,Harmon,Character:harmon-50bda7
+Character,Alice Harmon,8,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Openings,Alice Harmon,Character:alice_harmon-5d125e
+Character,Beth Harmon,8,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel,Beth Harmon|Beth Harmon's,Character:beth_harmon-ed307a
+Character,Deardorff,6,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Openings,Deardorff,Character:deardorff-bf9589
+Character,Benny Watts,5,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game,Benny Watts,Character:benny_watts-5a7374
+Character,Cleo,5,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Cleo,Character:cleo-56b750
+Character,Harry Beltik,5,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork,Harry Beltik,Character:harry_beltik-e4c3db
+Character,Allston Wheatley,4,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Middle_Game,Allston Wheatley,Character:allston_wheatley-c010b8
+Character,Elizabeth Harmon,4,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Openings,Elizabeth Harmon,Character:elizabeth_harmon-314b5f
+Character,Luchenko,4,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Luchenko,Character:luchenko-aad5d1
+Character,Manuel,4,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Middle_Game,Manuel,Character:manuel-d50c91
+Character,Vasily Borgov,4,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Middle_Game|https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel|https://the-queens-gambit.fandom.com/wiki/Openings,Vasily Borgov|Vasily Borgov's,Character:vasily_borgov-b82697
+Character,Alma Wheatley,3,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Exchanges,Alma Wheatley,Character:alma_wheatley-5ca547
+Character,Margaret,3,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Exchanges,Margaret,Character:margaret-ce1958
+Character,Margaret Neil,3,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork,Margaret Neil,Character:margaret_neil-abb2cb
+Character,Matt,3,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Middle_Game,Matt,Character:matt-d07775
+Character,Mike,3,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Middle_Game,Mike,Character:mike-2ef3f7
+Character,Allston,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Exchanges,Allston,Character:allston-3e52a1
+Character,Annette Packer,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Exchanges,Annette Packer,Character:annette_packer-6789c0
+Character,Cullen,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Exchanges,Cullen,Character:cullen-6a8994
+Character,Elizabeth,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game,Elizabeth,Character:elizabeth-e40884
+Character,Michaelangelo,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Michaelangelo|Michaelanglo,Character:michaelangelo-a364a9
+Character,Morphy,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Fork,Morphy,Character:morphy-7f8ddf
+Character,Packer,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Packer,Character:packer-75e6f0
+Character,White,2,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Middle_Game|https://the-queens-gambit.fandom.com/wiki/Openings,White,Character:white-f57dea
+Character,Alekhine,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Fork,Alekhine,Character:alekhine-bf6684
+Character,Annette,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Exchanges,Annette,Character:annette-dc37f6
+Character,Arthur Levertov,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Arthur Levertov,Character:arthur_levertov-2b1381
+Character,Bill Camp,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel,Bill Camp,Character:bill_camp-e94e52
+Character,Bradley,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Fork,Bradley,Character:bradley-38119b
+Character,Bulova,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Middle_Game,Bulova,Character:bulova-453276
+Character,Charles Levy,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,Charles Levy,Character:charles_levy-c895d0
+Character,Chloe Pirrie,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Alice_Harmon,Chloe Pirrie,Character:chloe_pirrie-27a06c
+Character,Christopher,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Christopher,Character:christopher-be8e34
+Character,Crawford Walker,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Crawford Walker,Character:crawford_walker-446e1d
+Character,D.L. Townes,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes,D.L. Townes,Character:d_l_townes-fb4fc2
+Character,Fergussen,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,Fergussen,Character:fergussen-27be7a
+Character,Flento,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Flento,Character:flento-a41815
+Character,Helen Deardorff,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,Helen Deardorff's,Character:helen_deardorff-86c8f0
+Character,Hellstrom,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Hellstrom,Character:hellstrom-c8b424
+Character,Hilton Wexler,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Hilton Wexler,Character:hilton_wexler-35e297
+Character,Jacob Fortune-Lloyd,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes,Jacob Fortune-Lloyd,Character:jacob_fortune_lloyd-abe222
+Character,Jesus,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Jesus,Character:jesus-fa2ec9
+Character,Jolene Dewitt,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,Jolene Dewitt,Character:jolene_dewitt-7030b6
+Character,Levertov,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Levertov,Character:levertov-f8d4ca
+Character,Margaret Johnson,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Fork,Margaret Johnson,Character:margaret_johnson-aeffd9
+Character,Mary-Sue,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,Mary-Sue,Character:mary_sue-fe9563
+Character,Najdorf,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,Najdorf,Character:najdorf-3505e7
+Character,Nona Gaprindashvili,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Nona Gaprindashvili,Character:nona_gaprindashvili-6aaab2
+Character,Roger,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes,Roger,Character:roger-2cbc0e
+Character,Shapkin,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Shapkin,Character:shapkin-6dcb24
+Character,Shirley Munson,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,Shirley Munson,Character:shirley_munson-9ecc60
+Character,Sizemore,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Exchanges,Sizemore,Character:sizemore-e93777
+Character,Wexler,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Wexler,Character:wexler-bdcc20
+Character,William Shaibel,1,PERSON,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,William Shaibel,Character:william_shaibel-1906e3
+Event,the Moscow Invitational,4,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Moscow Invitational,Event:the_moscow_invitational-ce8c95
+Event,the U.S. Championship,4,EVENT,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Fork,the U.S. Championship|the US Championship,Event:the_u_s_championship-86e517
+Event,the Kentucky State Championship,3,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Exchanges,the Kentucky State Championship,Event:the_kentucky_state_championship-588585
+Event,Paris Remy-Vallon Invitational,2,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Paris Remy-Vallon Invitational,Event:paris_remy_vallon_invitational-c38967
+Event,the U.S. Open,2,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns,the U.S. Open,Event:the_u_s_open-8dd5eb
+Event,Chess Olympiad,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Chess Olympiad,Event:chess_olympiad-94a615
+Event,Exchanges,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Exchanges,Event:exchanges-e11069
+Event,Kentucky State Championship,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Kentucky State Championship,Event:kentucky_state_championship-5df4e7
+Event,Mexico City Invitational Tournament,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Mexico City Invitational Tournament,Event:mexico_city_invitational_tournament-332b52
+Event,Moscow Invitational,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Moscow Invitational,Event:moscow_invitational-95c9aa
+Event,Open,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Open,Event:open-f79fe9
+Event,U.S. Championship,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,U.S. Championship,Event:u_s_championship-6e77a3
+Event,U.S. Open Chess Championship,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,U.S. Open Chess Championship,Event:u_s_open_chess_championship-dc6cd6
+Event,US Championship,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,US Championship,Event:us_championship-059e00
+Event,another U.S. Open,1,EVENT,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Fork,another U.S. Open,Event:another_u_s_open-31632e
+Event,the Candidates Tournament,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Candidates Tournament,Event:the_candidates_tournament-f6a3cb
+Event,the Cincinnati Tournament,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Cincinnati Tournament,Event:the_cincinnati_tournament-2cab8e
+Event,the Las Vegas U.S. Open Chess Championship,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Las Vegas U.S. Open Chess Championship,Event:the_las_vegas_u_s_open_chess_championship-2e0143
+Event,the Las Vegas US Open,1,EVENT,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes,the Las Vegas US Open,Event:the_las_vegas_us_open-acd076
+Event,the Pittsburgh Tournament,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Pittsburgh Tournament,Event:the_pittsburgh_tournament-8b074f
+Event,the Women World Chess Championship,1,EVENT,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Women's World Chess Championship,Event:the_women_world_chess_championship-eb8805
+Group,Russian,10,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Middle_Game,Russian,Group:russian-a27314
+Group,American,3,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,American,Group:american-81cd95
+Group,Christian,3,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Openings,Christian,Group:christian-c0d3c8
+Group,Sicilian,3,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns,Sicilian,Group:sicilian-958e2a
+Group,German,2,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,German,Group:german-734821
+Group,Russians,2,NORP,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Russians,Group:russians-62a71b
+Group,Soviet,2,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Soviet,Group:soviet-62a689
+Group,Soviets,2,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Soviets,Group:soviets-7f4217
+Group,Chinese,1,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Chinese,Group:chinese-ade7ee
+Group,Communists,1,NORP,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment,Communists,Group:communists-7b5f61
+Group,Dutch,1,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Dutch,Group:dutch-76e126
+Group,French,1,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,French,Group:french-35b672
+Group,Hungarian,1,NORP,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Hungarian,Group:hungarian-092e14
+Location,Kentucky,20,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork,Kentucky,Location:kentucky-190bff
+Location,Moscow,11,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/End_Game,Moscow,Location:moscow-58824a
+Location,Paris,9,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Middle_Game|https://the-queens-gambit.fandom.com/wiki/Openings,Paris,Location:paris-4e15b1
+Location,USSR,9,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game,USSR,Location:ussr-bdd2d8
+Location,Cincinnati,8,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns,Cincinnati,Location:cincinnati-a0d99f
+Location,New York,7,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Fork,New York,Location:new_york-a8c649
+Location,Methuen,6,GPE,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges,Methuen,Location:methuen-ac58a5
+Location,Russia,6,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes,Russia,Location:russia-0419b7
+Location,U.S,6,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Fork,U.S.,Location:u_s-d925a5
+Location,Mexico City,4,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Middle_Game,Mexico City,Location:mexico_city-c4dd39
+Location,France,3,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,France,Location:france-6ffce1
+Location,Las Vegas,3,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns,Las Vegas,Location:las_vegas-946932
+Location,Lexington,3,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Lexington,Location:lexington-693361
+Location,Ohio,3,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Ohio,Location:ohio-778d5a
+Location,the United States,3,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes|https://the-queens-gambit.fandom.com/wiki/Middle_Game,the United States,Location:the_united_states-0ad7d0
+Location,Italy,2,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Italy,Location:italy-7dc766
+Location,Pittsburg,2,GPE,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns,Pittsburg|Pittsburgh,Location:pittsburg-4d2c8e
+Location,San Francisco,2,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game,San Francisco,Location:san_francisco-804927
+Location,Austria,1,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Austria,Location:austria-082585
+Location,George Town,1,GPE,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,George Town,Location:george_town-39f077
+Location,Hotel de Ville,1,FAC,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Hotel de Ville,Location:hotel_de_ville-b67219
+Location,Hungary,1,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Hungary,Location:hungary-8aba9c
+Location,Lucerne,1,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Lucerne,Location:lucerne-49a600
+Location,Mexico,1,GPE,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Middle_Game,Mexico,Location:mexico-cd8780
+Location,Nevada,1,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Nevada,Location:nevada-aacef4
+Location,Norway,1,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Norway,Location:norway-60e542
+Location,Southwest,1,LOC,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Exchanges,Southwest,Location:southwest-22569f
+Location,Sweden,1,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Sweden,Location:sweden-a37856
+Location,United States,1,GPE,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Fork,United States,Location:united_states-136a3c
+Location,Wakefield,1,GPE,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Alice_Harmon,Wakefield,Location:wakefield-288d8b
+Location,Yugoslavia,1,GPE,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Yugoslavia,Location:yugoslavia-b6c013
+Location,a Chess Club,1,FAC,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,a Chess Club,Location:a_chess_club-69da79
+Location,the Aztec Palace,1,FAC,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Aztec Palace,Location:the_aztec_palace-78f31d
+Location,the Mariposa Hotel,1,FAC,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Mariposa Hotel,Location:the_mariposa_hotel-d3276f
+Organization,Netflix,9,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Exchanges|https://the-queens-gambit.fandom.com/wiki/Fork|https://the-queens-gambit.fandom.com/wiki/Middle_Game|https://the-queens-gambit.fandom.com/wiki/Openings,Netflix,Organization:netflix-bee0a7
+Organization,Unknown,9,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Unknown,Organization:unknown-75d7fa
+Organization,Chess Review,8,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes,Chess Review,Organization:chess_review-b0f184
+Organization,Christian Crusade,8,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game,Christian Crusade,Organization:christian_crusade-243686
+Organization,FIDE,7,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,FIDE,Organization:fide-b251db
+Organization,USCF,5,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Exchanges,USCF,Organization:uscf-0c46e4
+Organization,Kentucky State,4,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Adjournment|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game,Kentucky State,Organization:kentucky_state-8b0edd
+Organization,Life,4,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns,Life,Organization:life-6146a3
+Organization,Methuen Home,4,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game|https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel,Methuen Home|Methuen Home's,Organization:methuen_home-0e82f3
+Organization,the Lexington Herald-Leader,4,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/D.L._Townes,the Lexington Herald-Leader,Organization:the_lexington_herald_leader-0b9aa4
+Organization,Cornell University,3,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Alice_Harmon|https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Cornell University,Organization:cornell_university-07f6ca
+Organization,Apple Pi,2,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns|https://the-queens-gambit.fandom.com/wiki/Exchanges,Apple Pi,Organization:apple_pi-3923b8
+Organization,Duncan High School,2,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/Mr._Shaibel,Duncan High School,Organization:duncan_high_school-cbdc81
+Organization,Fairfield High School,2,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Fairfield High School|Fairfield High School's,Organization:fairfield_high_school-2794aa
+Organization,Henry Clay High School,2,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Henry Clay High School,Organization:henry_clay_high_school-83073e
+Organization,State Department,2,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,State Department,Organization:state_department-c7fc39
+Organization,The State Department,2,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,The State Department|the State Department,Organization:the_state_department-231c1d
+Organization,Time Magazine,2,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon|https://the-queens-gambit.fandom.com/wiki/End_Game,Time Magazine|Times Magazine,Organization:time_magazine-6e0886
+Organization,the Sicilian Defence,2,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Sicilian Defence|the Sicilian Defense,Organization:the_sicilian_defence-2489e5
+Organization,Beautiful,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns,Beautiful,Organization:beautiful-142eed
+Organization,Chess Federation,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Chess Federation,Organization:chess_federation-3e38b5
+Organization,Chess Life,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Chess Life,Organization:chess_life-cdddff
+Organization,Corvair,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Corvair,Organization:corvair-89bd76
+Organization,E. Townes,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,E. Townes,Organization:e_townes-5644c1
+Organization,Fairfield High,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Exchanges,Fairfield High,Organization:fairfield_high-d6f9ec
+Organization,GM Marenco,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,GM Marenco,Organization:gm_marenco-97ebb5
+Organization,Gibson Hotel,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Gibson Hotel,Organization:gibson_hotel-da4635
+Organization,"Harmon, E",1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,"Harmon, E.",Organization:harmon_e-39a8f6
+Organization,International Master FIDE,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,International Master FIDE,Organization:international_master_fide-513680
+Organization,Lexington Herald-Leader,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/D.L._Townes,Lexington Herald-Leader,Organization:lexington_herald_leader-17fa19
+Organization,Librium,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Librium,Organization:librium-31c8ff
+Organization,Marie Claire,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Marie Claire,Organization:marie_claire-0e3172
+Organization,NPR,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,NPR,Organization:npr-b21d7a
+Organization,Reuters,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,Reuters,Organization:reuters-f89ab9
+Organization,The Observer,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,The Observer,Organization:the_observer-7ecb35
+Organization,UPI,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,UPI,Organization:upi-946266
+Organization,"the ""State Normal School for Colored Persons",1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,"the ""State Normal School for Colored Persons",Organization:the_state_normal_school_for_colored_persons-06cad7
+Organization,the Chess Federation,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,the Chess Federation,Organization:the_chess_federation-ee96a0
+Organization,the Christian Crusade,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,the Christian Crusade,Organization:the_christian_crusade-c20d9f
+Organization,the Class of 1966,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the Class of 1966,Organization:the_class_of_1966-e0afe1
+Organization,the King Pawn,1,ORG,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,the King's Pawn,Organization:the_king_pawn-e94294
+Organization,the Methuen Home,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/Openings,the Methuen Home,Organization:the_methuen_home-e89837
+Organization,the U.S. Government,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,the U.S. Government,Organization:the_u_s_government-018688
+Organization,the White House,1,ORG,IN_UNIVERSE,https://the-queens-gambit.fandom.com/wiki/End_Game,the White House,Organization:the_white_house-6f3ef9
+RealPerson,Harmon,191,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Harmon,RealPerson:harmon-8c7d92
+RealPerson,Beth,60,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Beth,RealPerson:beth-396d7b
+RealPerson,Shaibel,29,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Shaibel,RealPerson:shaibel-340fdd
+RealPerson,Borgov,22,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Borgov,RealPerson:borgov-ca901a
+RealPerson,Jolene,20,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Jolene,RealPerson:jolene-ae67ae
+RealPerson,Benny,18,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Benny,RealPerson:benny-270f2f
+RealPerson,Beltik,14,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Beltik,RealPerson:beltik-ebecb7
+RealPerson,Wheatley,12,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Wheatley|Wheatleys,RealPerson:wheatley-3f5031
+RealPerson,Townes,11,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Townes,RealPerson:townes-ceeffb
+RealPerson,Harry,9,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Harry,RealPerson:harry-98fe7f
+RealPerson,Elizabeth Harmon,8,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Elizabeth Harmon,RealPerson:elizabeth_harmon-0a1f94
+RealPerson,Ganz,8,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Ganz,RealPerson:ganz-2471c7
+RealPerson,Vasily Borgov,6,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Vasily Borgov,RealPerson:vasily_borgov-bb0b07
+RealPerson,Alma,5,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Alma,RealPerson:alma-072166
+RealPerson,Benny Watts,5,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Benny Watts,RealPerson:benny_watts-31c593
+RealPerson,Luchenko,4,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Luchenko,RealPerson:luchenko-5c627a
+RealPerson,Paul,4,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Paul,RealPerson:paul-85a56a
+RealPerson,Alice,3,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Alice,RealPerson:alice-c9386a
+RealPerson,Flento,3,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Flento,RealPerson:flento-572905
+RealPerson,Laev,3,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Laev,RealPerson:laev-9510c0
+RealPerson,Mike,3,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Mike,RealPerson:mike-b6da1c
+RealPerson,Polgár,3,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Polgár,RealPerson:polg_r-8cb6a7
+RealPerson,Sizemore,3,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Sizemore,RealPerson:sizemore-98dd42
+RealPerson,Alice Harmon,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Alice Harmon,RealPerson:alice_harmon-fe3b25
+RealPerson,Annette,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Annette,RealPerson:annette-180865
+RealPerson,Anya Taylor-Joy,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Anya Taylor-Joy,RealPerson:anya_taylor_joy-ef2a62
+RealPerson,Cleo,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Cleo,RealPerson:cleo-481c9e
+RealPerson,Cloe,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Cloe,RealPerson:cloe-6c755b
+RealPerson,D.L Townes,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,D.L Townes|D.L. Townes,RealPerson:d_l_townes-3a054a
+RealPerson,Deardorff,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Deardorff,RealPerson:deardorff-cc78f6
+RealPerson,Diedrich,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Diedrich,RealPerson:diedrich-29d297
+RealPerson,Duhamel,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Duhamel,RealPerson:duhamel-e2a2c8
+RealPerson,Harry Beltik,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Harry Beltik,RealPerson:harry_beltik-377296
+RealPerson,Hellstrom,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Hellstrom,RealPerson:hellstrom-1ffc1d
+RealPerson,Judit Polgár,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Judit Polgár,RealPerson:judit_polg_r-223c91
+RealPerson,Margaret,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Margaret,RealPerson:margaret-f7e1bb
+RealPerson,Mary-Sue,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Mary-Sue,RealPerson:mary_sue-adddfe
+RealPerson,Morphy,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Morphy,RealPerson:morphy-d58503
+RealPerson,Najdorf,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Najdorf,RealPerson:najdorf-a6c06e
+RealPerson,Rudolph,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Rudolph,RealPerson:rudolph-fc52d2
+RealPerson,Shapkin,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Shapkin,RealPerson:shapkin-588cbc
+RealPerson,Tevis,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Tevis,RealPerson:tevis-9e55ed
+RealPerson,Watts,2,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Watts,RealPerson:watts-454a86
+RealPerson,Albin,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Albin,RealPerson:albin-949c34
+RealPerson,Alec Bergland,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Alec Bergland,RealPerson:alec_bergland-06b400
+RealPerson,Allston Wheatley,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Allston Wheatley,RealPerson:allston_wheatley-41e2d6
+RealPerson,Annabeth Kelly,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Annabeth Kelly,RealPerson:annabeth_kelly-4fb0f5
+RealPerson,Annette Packer,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Annette Packer,RealPerson:annette_packer-f73dd2
+RealPerson,Arthur Levertov,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Arthur Levertov,RealPerson:arthur_levertov-7d5145
+RealPerson,Beltik H,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Beltik H.,RealPerson:beltik_h-585105
+RealPerson,Bergland,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Bergland,RealPerson:bergland-4cab8f
+RealPerson,Beth Harmon,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Beth Harmon,RealPerson:beth_harmon-a3ff9f
+RealPerson,Booth,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Booth,RealPerson:booth-17a609
+RealPerson,Bulova,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Bulova,RealPerson:bulova-37429c
+RealPerson,Charles Levy,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Charles Levy,RealPerson:charles_levy-7cec21
+RealPerson,Cooke,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Cooke,RealPerson:cooke-b1c6cc
+RealPerson,Darga,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Darga,RealPerson:darga-72cd69
+RealPerson,Diana Lanni,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Diana Lanni,RealPerson:diana_lanni-7a7025
+RealPerson,Dick Evans,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Dick Evans,RealPerson:dick_evans-f40379
+RealPerson,E. Shapkin,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,E. Shapkin,RealPerson:e_shapkin-716172
+RealPerson,"Elizabeth ""Beth"" Olivia Harmon",1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,"Elizabeth ""Beth"" Olivia Harmon",RealPerson:elizabeth_beth_olivia_harmon-267a89
+RealPerson,Fergussen,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Fergussen,RealPerson:fergussen-907c33
+RealPerson,Fork,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Fork,RealPerson:fork-6e0d3c
+RealPerson,Friedman,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Friedman,RealPerson:friedman-bbb15f
+RealPerson,Georgi,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Georgi,RealPerson:georgi-c719b6
+RealPerson,Georgi Girev,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Georgi Girev,RealPerson:georgi_girev-4acfdc
+RealPerson,Girev,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Girev,RealPerson:girev-619b31
+RealPerson,Goldman,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Goldman,RealPerson:goldman-73b039
+RealPerson,Grandmaster,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Grandmaster,RealPerson:grandmaster-a16bb6
+RealPerson,Harmon E,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Harmon E.,RealPerson:harmon_e-865a18
+RealPerson,Hilton Wexler,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Hilton Wexler,RealPerson:hilton_wexler-1f6fec
+RealPerson,Hou Yifan,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Hou Yifan,RealPerson:hou_yifan-b82958
+RealPerson,Isla Johnston,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Isla Johnston,RealPerson:isla_johnston-23ebe8
+RealPerson,Lanni,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Lanni,RealPerson:lanni-c57786
+RealPerson,Levenfish,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Levenfish,RealPerson:levenfish-881e3d
+RealPerson,Malovicz,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Malovicz,RealPerson:malovicz-955e0b
+RealPerson,Manfredi,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Manfredi,RealPerson:manfredi-09b3b2
+RealPerson,Matt,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Matt,RealPerson:matt-87b290
+RealPerson,McDonnell,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,McDonnell,RealPerson:mcdonnell-191717
+RealPerson,Octavio Marenco,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Octavio Marenco,RealPerson:octavio_marenco-fb3b39
+RealPerson,P. Darga,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,P. Darga,RealPerson:p_darga-a5a0d5
+RealPerson,P. W. Sergeant,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,P. W. Sergeant,RealPerson:p_w_sergeant-7694cb
+RealPerson,Packer,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Packer,RealPerson:packer-3967ea
+RealPerson,Paul Morphy,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Paul Morphy,RealPerson:paul_morphy-963080
+RealPerson,R. Uljanov,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,R. Uljanov,RealPerson:r_uljanov-452fe1
+RealPerson,Rossolimo,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Rossolimo,RealPerson:rossolimo-66f272
+RealPerson,S. Malovicz,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,S. Malovicz,RealPerson:s_malovicz-0510c9
+RealPerson,Samantha,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Samantha,RealPerson:samantha-963d7e
+RealPerson,Uljanov,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Uljanov,RealPerson:uljanov-3e9597
+RealPerson,W. C. Griffith,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,W. C. Griffith,RealPerson:w_c_griffith-e9e34f
+RealPerson,Walter Tevis,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Walter Tevis,RealPerson:walter_tevis-36bc4f
+RealPerson,Weiss,1,PERSON,REAL_WORLD,https://the-queens-gambit.fandom.com/wiki/Beth_Harmon,Weiss,RealPerson:weiss-9df278
