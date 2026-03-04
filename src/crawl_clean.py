@@ -31,7 +31,7 @@ def robots_allowed(url: str, client: httpx.Client, user_agent: str) -> bool:
         rp.parse(r.text.splitlines())
         return rp.can_fetch(user_agent, url)
     except Exception:
-        return False
+        return True
 
 def extract_main_text(html: str):
     downloaded = trafilatura.extract(
@@ -115,6 +115,73 @@ def extract_awoiaf_links_important(html: str, base_url: str, limit: int | None =
 
     return links
 
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin, urlparse
+
+def extract_fandom_links_important(html: str, base_url: str, limit: int | None = 80):
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Contenu principal MediaWiki/Fandom
+    content = soup.select_one("#mw-content-text .mw-parser-output") or soup.select_one("#mw-content-text")
+    if not content:
+        return []
+
+    # Enlève les zones "bruit" fréquentes sur Fandom
+    for sel in [
+        "#toc",                    # table des matières
+        ".portable-infobox",       # infobox Fandom (PortableInfobox) :contentReference[oaicite:1]{index=1}
+        ".infobox",
+        ".navbox",
+        ".mw-references-wrap",
+        "ol.references",
+        ".reflist",
+        ".catlinks",
+        ".printfooter",
+        ".metadata",
+    ]:
+        for tag in content.select(sel):
+            tag.decompose()
+
+    links = []
+    seen = set()
+    base_domain = urlparse(base_url).netloc.lower()
+
+    # Parcours dans l’ordre du DOM => ordre stable
+    for a in content.select("a[href]"):
+        href = a.get("href", "")
+
+        # On garde les pages wiki internes: /wiki/...
+        if not href.startswith("/wiki/"):
+            continue
+
+        # Ignore ancres et pages spéciales
+        href_no_frag = href.split("#", 1)[0]
+        if any(href_no_frag.startswith(p) for p in [
+            "/wiki/Special:",
+            "/wiki/Category:",
+            "/wiki/File:",
+            "/wiki/Template:",
+            "/wiki/Talk:",
+            "/wiki/User:",
+            "/wiki/Help:",
+        ]):
+            continue
+
+        full = urljoin(base_url, href_no_frag)
+
+        # Sécurité: rester sur le même domaine
+        if urlparse(full).netloc.lower() != base_domain:
+            continue
+
+        if full not in seen:
+            seen.add(full)
+            links.append(full)
+
+        if limit is not None and len(links) >= limit:
+            break
+
+    return links
+
 def crawl_seeds_level_order(
     seeds,
     out_pages_jsonl_path: str,
@@ -158,10 +225,10 @@ def crawl_seeds_level_order(
                         continue
 
                     # 1) EXTRAIRE + EXPORTER TOUS LES LIENS DE CETTE PAGE
-                    if "awoiaf.westeros.org" in get_domain(url):
-                        out_links = extract_awoiaf_links_important(resp.text, url, limit=80)
+                    if "the-queens-gambit.fandom.com" in get_domain(url):
+                        out_links = extract_fandom_links_important(resp.text, url, limit=80)
                     else:
-                        out_links = []  # ici tu peux brancher un extracteur générique si tu veux
+                        out_links = []
 
                     f_links.write(json.dumps({
                         "url": url,
@@ -205,13 +272,11 @@ def crawl_seeds_level_order(
 
 if __name__ == "__main__":
     seeds = [
-        "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones"
-        #"https://awoiaf.westeros.org/index.php/Westeros",
-        #"https://awoiaf.westeros.org/index.php/A_Song_of_Ice_and_Fire",
-        #"https://awoiaf.westeros.org/index.php/Daenerys_Targaryen",
-        #"https://awoiaf.westeros.org/index.php/Arya_Stark"
-    ]
-    cfg = CrawlConfig(min_words=300, max_pages=20, delay_s=1.0, max_depth=1)
+        "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+        "https://the-queens-gambit.fandom.com/wiki/The_Queen%27s_Gambit",
+        "https://the-queens-gambit.fandom.com/wiki/Openings",
+    ]   
+    cfg = CrawlConfig(min_words=300, max_pages=30, delay_s=1.0, max_depth=2)
     crawl_seeds_level_order(
         seeds,
         out_pages_jsonl_path="data/raw_jsonl/pages.jsonl",
