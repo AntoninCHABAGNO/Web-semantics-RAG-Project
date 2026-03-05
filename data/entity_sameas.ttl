@@ -4,6 +4,534 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://example.org/qg#character_albin_b41fd6/sameAs/Q1001948> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1001948 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_albin_b41fd6 .
+
+<http://example.org/qg#character_alekhine_d4eb92/sameAs/Q16130169> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q16130169 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_alekhine_d4eb92 .
+
+<http://example.org/qg#character_alice_15aa82/sameAs/Q650689> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q650689 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_alice_15aa82 .
+
+<http://example.org/qg#character_alice_harmon_b24c50/sameAs/Q63644053> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q63644053 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_alice_harmon_b24c50 .
+
+<http://example.org/qg#character_allston_b835fb/sameAs/Q21452335> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q21452335 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_allston_b835fb .
+
+<http://example.org/qg#character_annette_7c8aa1/sameAs/Q18071263> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q18071263 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_annette_7c8aa1 .
+
+<http://example.org/qg#character_anya_taylor_joy_7853b7/sameAs/Q20882479> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q20882479 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_anya_taylor_joy_7853b7 .
+
+<http://example.org/qg#character_beltik_7c0d52/sameAs/Q60376168> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q60376168 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_beltik_7c0d52 .
+
+<http://example.org/qg#character_benny_ff906e/sameAs/Q18640998> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q18640998 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_benny_ff906e .
+
+<http://example.org/qg#character_bergland_563a2c/sameAs/Q665148> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q665148 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_bergland_563a2c .
+
+<http://example.org/qg#character_beth_harmon_0c125c/sameAs/Q102378740> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q102378740 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_beth_harmon_0c125c .
+
+<http://example.org/qg#character_bill_camp_375ab3/sameAs/Q3639959> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q3639959 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_bill_camp_375ab3 .
+
+<http://example.org/qg#character_booth_4a58b1/sameAs/Q13156704> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q13156704 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_booth_4a58b1 .
+
+<http://example.org/qg#character_bradley_40bf0d/sameAs/Q538847> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q538847 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_bradley_40bf0d .
+
+<http://example.org/qg#character_bulova_faf089/sameAs/Q106066723> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q106066723 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_bulova_faf089 .
+
+<http://example.org/qg#character_charles_levy_7f7647/sameAs/Q112843087> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q112843087 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_charles_levy_7f7647 .
+
+<http://example.org/qg#character_chloe_pirrie_495e07/sameAs/Q18030614> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q18030614 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_chloe_pirrie_495e07 .
+
+<http://example.org/qg#character_christopher_c783f9/sameAs/Q1084472> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1084472 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_christopher_c783f9 .
+
+<http://example.org/qg#character_cooke_d4130e/sameAs/Q105436579> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q105436579 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_cooke_d4130e .
+
+<http://example.org/qg#character_crawford_walker_3a1b3f/sameAs/Q76067418> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q76067418 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_crawford_walker_3a1b3f .
+
+<http://example.org/qg#character_cullen_6474f1/sameAs/Q40386> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q40386 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_cullen_6474f1 .
+
+<http://example.org/qg#character_darga_edba99/sameAs/Q1165843> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q1165843 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_darga_edba99 .
+
+<http://example.org/qg#character_deardorff_d8d493/sameAs/Q37468336> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q37468336 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_deardorff_d8d493 .
+
+<http://example.org/qg#character_diana_lanni_19020b/sameAs/Q109420063> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q109420063 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_diana_lanni_19020b .
+
+<http://example.org/qg#character_dick_evans_b2825e/sameAs/Q5272895> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q5272895 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_dick_evans_b2825e .
+
+<http://example.org/qg#character_diedrich_e67fd5/sameAs/Q20804429> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q20804429 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_diedrich_e67fd5 .
+
+<http://example.org/qg#character_duhamel_b0ac5f/sameAs/Q3041042> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q3041042 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_duhamel_b0ac5f .
+
+<http://example.org/qg#character_elizabeth_bcb181/sameAs/Q385468> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q385468 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_elizabeth_bcb181 .
+
+<http://example.org/qg#character_elizabeth_harmon_e36a73/sameAs/Q115870050> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q115870050 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_elizabeth_harmon_e36a73 .
+
+<http://example.org/qg#character_friedman_e2439e/sameAs/Q1451887> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1451887 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_friedman_e2439e .
+
+<http://example.org/qg#character_georgi_58c4ac/sameAs/Q17533877> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q17533877 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_georgi_58c4ac .
+
+<http://example.org/qg#character_girev_2c3631/sameAs/Q65283299> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q65283299 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_girev_2c3631 .
+
+<http://example.org/qg#character_goldman_f80ea5/sameAs/Q1535908> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1535908 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_goldman_f80ea5 .
+
+<http://example.org/qg#character_grandmaster_9b4991/sameAs/Q105269> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q105269 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_grandmaster_9b4991 .
+
+<http://example.org/qg#character_harmon_140a20/sameAs/Q16276369> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q16276369 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_harmon_140a20 .
+
+<http://example.org/qg#character_harmon_e_c0b572/sameAs/Q120481132> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q120481132 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_harmon_e_c0b572 .
+
+<http://example.org/qg#character_harry_737f4b/sameAs/Q668885> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q668885 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_harry_737f4b .
+
+<http://example.org/qg#character_hou_yifan_9e15c9/sameAs/Q234011> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q234011 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_hou_yifan_9e15c9 .
+
+<http://example.org/qg#character_isla_johnston_743cc7/sameAs/Q117121905> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q117121905 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_isla_johnston_743cc7 .
+
+<http://example.org/qg#character_jacob_fortune_lloyd_927fd6/sameAs/Q101237941> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q101237941 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_jacob_fortune_lloyd_927fd6 .
+
+<http://example.org/qg#character_jesus_84f268/sameAs/Q1158269> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1158269 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_jesus_84f268 .
+
+<http://example.org/qg#character_jolene_ef5c2d/sameAs/Q1551339> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1551339 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_jolene_ef5c2d .
+
+<http://example.org/qg#character_judit_polg_r_f13b0f/sameAs/Q183250> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q183250 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_judit_polg_r_f13b0f .
+
+<http://example.org/qg#character_lanni_9d3b4b/sameAs/Q98669307> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q98669307 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_lanni_9d3b4b .
+
+<http://example.org/qg#character_levenfish_a725df/sameAs/Q135840032> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q135840032 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_levenfish_a725df .
+
+<http://example.org/qg#character_manfredi_47d3c2/sameAs/Q41211341> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q41211341 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_manfredi_47d3c2 .
+
+<http://example.org/qg#character_manuel_c1cf6c/sameAs/Q11113719> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q11113719 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_manuel_c1cf6c .
+
+<http://example.org/qg#character_margaret_9a2442/sameAs/Q4963612> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q4963612 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_margaret_9a2442 .
+
+<http://example.org/qg#character_margaret_johnson_c8d437/sameAs/Q110462047> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q110462047 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_margaret_johnson_c8d437 .
+
+<http://example.org/qg#character_margaret_neil_832045/sameAs/Q114953943> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q114953943 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_margaret_neil_832045 .
+
+<http://example.org/qg#character_mcdonnell_434a93/sameAs/Q21511109> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q21511109 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_mcdonnell_434a93 .
+
+<http://example.org/qg#character_morphy_35dccc/sameAs/Q56599541> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q56599541 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_morphy_35dccc .
+
+<http://example.org/qg#character_najdorf_10dbbd/sameAs/Q4312397> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q4312397 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_najdorf_10dbbd .
+
+<http://example.org/qg#character_nona_gaprindashvili_3b3a7b/sameAs/Q231630> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q231630 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_nona_gaprindashvili_3b3a7b .
+
+<http://example.org/qg#character_packer_9f9db2/sameAs/Q62858956> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q62858956 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_packer_9f9db2 .
+
+<http://example.org/qg#character_paul_morphy_698df9/sameAs/Q105589> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q105589 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_paul_morphy_698df9 .
+
+<http://example.org/qg#character_polg_r_4b1f61/sameAs/Q2419449> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q2419449 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_polg_r_4b1f61 .
+
+<http://example.org/qg#character_roger_64c8fd/sameAs/Q4925304> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q4925304 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_roger_64c8fd .
+
+<http://example.org/qg#character_rossolimo_c00a3a/sameAs/Q7369913> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q7369913 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_rossolimo_c00a3a .
+
+<http://example.org/qg#character_rudolph_d0465b/sameAs/Q18028739> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q18028739 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_rudolph_d0465b .
+
+<http://example.org/qg#character_samantha_f81e43/sameAs/Q6774> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q6774 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_samantha_f81e43 .
+
+<http://example.org/qg#character_shapkin_07a5e0/sameAs/Q4520240> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q4520240 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_shapkin_07a5e0 .
+
+<http://example.org/qg#character_sizemore_1cd968/sameAs/Q21510222> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q21510222 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_sizemore_1cd968 .
+
+<http://example.org/qg#character_tevis_e17d32/sameAs/Q37551763> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q37551763 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_tevis_e17d32 .
+
+<http://example.org/qg#character_townes_379370/sameAs/Q16557405> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q16557405 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_townes_379370 .
+
+<http://example.org/qg#character_w_c_griffith_005a56/sameAs/Q60042041> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q60042041 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_w_c_griffith_005a56 .
+
+<http://example.org/qg#character_walter_tevis_658c18/sameAs/Q740928> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q740928 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_walter_tevis_658c18 .
+
+<http://example.org/qg#character_watts_2182cf/sameAs/Q17144855> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q17144855 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_watts_2182cf .
+
+<http://example.org/qg#character_weiss_16f701/sameAs/Q145210> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q145210 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_weiss_16f701 .
+
+<http://example.org/qg#character_wexler_56889a/sameAs/Q37492869> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q37492869 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_wexler_56889a .
+
+<http://example.org/qg#character_wheatley_e7791f/sameAs/Q7991927> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q7991927 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_wheatley_e7791f .
+
+<http://example.org/qg#character_white_8f265d/sameAs/Q1215200> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1215200 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_white_8f265d .
+
+<http://example.org/qg#event_chess_olympiad_345423/sameAs/Q428303> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q428303 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:event_chess_olympiad_345423 .
+
+<http://example.org/qg#event_exchanges_3020b9/sameAs/Q50815242> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q50815242 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:event_exchanges_3020b9 .
+
+<http://example.org/qg#event_the_u_s_open_0de146/sameAs/Q5870552> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q5870552 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:event_the_u_s_open_0de146 .
+
+<http://example.org/qg#event_u_s_open_chess_championship_865273/sameAs/Q1995105> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q1995105 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:event_u_s_open_chess_championship_865273 .
+
+<http://example.org/qg#group_american_ee58cd/sameAs/Q169889> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q169889 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_american_ee58cd .
+
+<http://example.org/qg#group_chinese_e99992/sameAs/Q7850> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q7850 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_chinese_e99992 .
+
+<http://example.org/qg#group_christian_df9176/sameAs/Q18001597> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q18001597 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_christian_df9176 .
+
+<http://example.org/qg#group_communists_c34c1d/sameAs/Q21027324> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q21027324 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_communists_c34c1d .
+
+<http://example.org/qg#group_dutch_e92e24/sameAs/Q7411> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q7411 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_dutch_e92e24 .
+
+<http://example.org/qg#group_french_b0dfdf/sameAs/Q150> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q150 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_french_b0dfdf .
+
+<http://example.org/qg#group_german_a9949f/sameAs/Q188> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q188 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_german_a9949f .
+
+<http://example.org/qg#group_hungarian_7bce55/sameAs/Q9067> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q9067 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_hungarian_7bce55 .
+
+<http://example.org/qg#group_russian_b71f39/sameAs/Q7737> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q7737 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_russian_b71f39 .
+
+<http://example.org/qg#group_russians_2e63eb/sameAs/Q49542> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q49542 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_russians_2e63eb .
+
+<http://example.org/qg#group_sicilian_4084b8/sameAs/Q33973> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q33973 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_sicilian_4084b8 .
+
+<http://example.org/qg#group_soviet_b5159c/sameAs/Q15180> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q15180 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:group_soviet_b5159c .
+
 <http://example.org/qg#location_austria_0dfdfa/sameAs/Q40> a rdf:Statement ;
     qg:confidence 0.98 ;
     rdf:object wd:Q40 ;
@@ -27,12 +555,6 @@
     rdf:object wd:Q61092 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_george_town_9ca28e .
-
-<http://example.org/qg#location_hotel_de_ville_112ff1/sameAs/Q968939> a rdf:Statement ;
-    qg:confidence 0.70 ;
-    rdf:object wd:Q968939 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:location_hotel_de_ville_112ff1 .
 
 <http://example.org/qg#location_hungary_718883/sameAs/Q28> a rdf:Statement ;
     qg:confidence 0.98 ;
@@ -238,12 +760,6 @@
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_fairfield_high_school_0b3977 .
 
-<http://example.org/qg#organization_harmon_e_5ddc10/sameAs/Q64481724> a rdf:Statement ;
-    qg:confidence 0.70 ;
-    rdf:object wd:Q64481724 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_harmon_e_5ddc10 .
-
 <http://example.org/qg#organization_henry_clay_high_school_452fc7/sameAs/Q5719501> a rdf:Statement ;
     qg:confidence 0.95 ;
     rdf:object wd:Q5719501 ;
@@ -268,12 +784,6 @@
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_librium_2b326b .
 
-<http://example.org/qg#organization_marie_claire_08b737/sameAs/Q2909086> a rdf:Statement ;
-    qg:confidence 0.70 ;
-    rdf:object wd:Q2909086 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_marie_claire_08b737 .
-
 <http://example.org/qg#organization_netflix_380329/sameAs/Q907311> a rdf:Statement ;
     qg:confidence 0.95 ;
     rdf:object wd:Q907311 ;
@@ -285,12 +795,6 @@
     rdf:object wd:Q130879 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_reuters_7b4264 .
-
-<http://example.org/qg#organization_state_department_d1f0e6/sameAs/Q789915> a rdf:Statement ;
-    qg:confidence 0.70 ;
-    rdf:object wd:Q789915 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_state_department_d1f0e6 .
 
 <http://example.org/qg#organization_the_observer_5ba4ff/sameAs/Q336197> a rdf:Statement ;
     qg:confidence 0.95 ;
@@ -310,12 +814,6 @@
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_the_state_department_9d6be3 .
 
-<http://example.org/qg#organization_the_u_s_government_9968dc/sameAs/Q7889914> a rdf:Statement ;
-    qg:confidence 0.70 ;
-    rdf:object wd:Q7889914 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_the_u_s_government_9968dc .
-
 <http://example.org/qg#organization_the_white_house_7129cc/sameAs/Q35525> a rdf:Statement ;
     qg:confidence 0.85 ;
     rdf:object wd:Q35525 ;
@@ -328,6 +826,182 @@
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_time_magazine_64acec .
 
+qg:character_albin_b41fd6 owl:sameAs wd:Q1001948 .
+
+qg:character_alekhine_d4eb92 owl:sameAs wd:Q16130169 .
+
+qg:character_alice_15aa82 owl:sameAs wd:Q650689 .
+
+qg:character_alice_harmon_b24c50 owl:sameAs wd:Q63644053 .
+
+qg:character_allston_b835fb owl:sameAs wd:Q21452335 .
+
+qg:character_annette_7c8aa1 owl:sameAs wd:Q18071263 .
+
+qg:character_anya_taylor_joy_7853b7 owl:sameAs wd:Q20882479 .
+
+qg:character_beltik_7c0d52 owl:sameAs wd:Q60376168 .
+
+qg:character_benny_ff906e owl:sameAs wd:Q18640998 .
+
+qg:character_bergland_563a2c owl:sameAs wd:Q665148 .
+
+qg:character_beth_harmon_0c125c owl:sameAs wd:Q102378740 .
+
+qg:character_bill_camp_375ab3 owl:sameAs wd:Q3639959 .
+
+qg:character_booth_4a58b1 owl:sameAs wd:Q13156704 .
+
+qg:character_bradley_40bf0d owl:sameAs wd:Q538847 .
+
+qg:character_bulova_faf089 owl:sameAs wd:Q106066723 .
+
+qg:character_charles_levy_7f7647 owl:sameAs wd:Q112843087 .
+
+qg:character_chloe_pirrie_495e07 owl:sameAs wd:Q18030614 .
+
+qg:character_christopher_c783f9 owl:sameAs wd:Q1084472 .
+
+qg:character_cooke_d4130e owl:sameAs wd:Q105436579 .
+
+qg:character_crawford_walker_3a1b3f owl:sameAs wd:Q76067418 .
+
+qg:character_cullen_6474f1 owl:sameAs wd:Q40386 .
+
+qg:character_darga_edba99 owl:sameAs wd:Q1165843 .
+
+qg:character_deardorff_d8d493 owl:sameAs wd:Q37468336 .
+
+qg:character_diana_lanni_19020b owl:sameAs wd:Q109420063 .
+
+qg:character_dick_evans_b2825e owl:sameAs wd:Q5272895 .
+
+qg:character_diedrich_e67fd5 owl:sameAs wd:Q20804429 .
+
+qg:character_duhamel_b0ac5f owl:sameAs wd:Q3041042 .
+
+qg:character_elizabeth_bcb181 owl:sameAs wd:Q385468 .
+
+qg:character_elizabeth_harmon_e36a73 owl:sameAs wd:Q115870050 .
+
+qg:character_friedman_e2439e owl:sameAs wd:Q1451887 .
+
+qg:character_georgi_58c4ac owl:sameAs wd:Q17533877 .
+
+qg:character_girev_2c3631 owl:sameAs wd:Q65283299 .
+
+qg:character_goldman_f80ea5 owl:sameAs wd:Q1535908 .
+
+qg:character_grandmaster_9b4991 owl:sameAs wd:Q105269 .
+
+qg:character_harmon_140a20 owl:sameAs wd:Q16276369 .
+
+qg:character_harmon_e_c0b572 owl:sameAs wd:Q120481132 .
+
+qg:character_harry_737f4b owl:sameAs wd:Q668885 .
+
+qg:character_hou_yifan_9e15c9 owl:sameAs wd:Q234011 .
+
+qg:character_isla_johnston_743cc7 owl:sameAs wd:Q117121905 .
+
+qg:character_jacob_fortune_lloyd_927fd6 owl:sameAs wd:Q101237941 .
+
+qg:character_jesus_84f268 owl:sameAs wd:Q1158269 .
+
+qg:character_jolene_ef5c2d owl:sameAs wd:Q1551339 .
+
+qg:character_judit_polg_r_f13b0f owl:sameAs wd:Q183250 .
+
+qg:character_lanni_9d3b4b owl:sameAs wd:Q98669307 .
+
+qg:character_levenfish_a725df owl:sameAs wd:Q135840032 .
+
+qg:character_manfredi_47d3c2 owl:sameAs wd:Q41211341 .
+
+qg:character_manuel_c1cf6c owl:sameAs wd:Q11113719 .
+
+qg:character_margaret_9a2442 owl:sameAs wd:Q4963612 .
+
+qg:character_margaret_johnson_c8d437 owl:sameAs wd:Q110462047 .
+
+qg:character_margaret_neil_832045 owl:sameAs wd:Q114953943 .
+
+qg:character_mcdonnell_434a93 owl:sameAs wd:Q21511109 .
+
+qg:character_morphy_35dccc owl:sameAs wd:Q56599541 .
+
+qg:character_najdorf_10dbbd owl:sameAs wd:Q4312397 .
+
+qg:character_nona_gaprindashvili_3b3a7b owl:sameAs wd:Q231630 .
+
+qg:character_packer_9f9db2 owl:sameAs wd:Q62858956 .
+
+qg:character_paul_morphy_698df9 owl:sameAs wd:Q105589 .
+
+qg:character_polg_r_4b1f61 owl:sameAs wd:Q2419449 .
+
+qg:character_roger_64c8fd owl:sameAs wd:Q4925304 .
+
+qg:character_rossolimo_c00a3a owl:sameAs wd:Q7369913 .
+
+qg:character_rudolph_d0465b owl:sameAs wd:Q18028739 .
+
+qg:character_samantha_f81e43 owl:sameAs wd:Q6774 .
+
+qg:character_shapkin_07a5e0 owl:sameAs wd:Q4520240 .
+
+qg:character_sizemore_1cd968 owl:sameAs wd:Q21510222 .
+
+qg:character_tevis_e17d32 owl:sameAs wd:Q37551763 .
+
+qg:character_townes_379370 owl:sameAs wd:Q16557405 .
+
+qg:character_w_c_griffith_005a56 owl:sameAs wd:Q60042041 .
+
+qg:character_walter_tevis_658c18 owl:sameAs wd:Q740928 .
+
+qg:character_watts_2182cf owl:sameAs wd:Q17144855 .
+
+qg:character_weiss_16f701 owl:sameAs wd:Q145210 .
+
+qg:character_wexler_56889a owl:sameAs wd:Q37492869 .
+
+qg:character_wheatley_e7791f owl:sameAs wd:Q7991927 .
+
+qg:character_white_8f265d owl:sameAs wd:Q1215200 .
+
+qg:event_chess_olympiad_345423 owl:sameAs wd:Q428303 .
+
+qg:event_exchanges_3020b9 owl:sameAs wd:Q50815242 .
+
+qg:event_the_u_s_open_0de146 owl:sameAs wd:Q5870552 .
+
+qg:event_u_s_open_chess_championship_865273 owl:sameAs wd:Q1995105 .
+
+qg:group_american_ee58cd owl:sameAs wd:Q169889 .
+
+qg:group_chinese_e99992 owl:sameAs wd:Q7850 .
+
+qg:group_christian_df9176 owl:sameAs wd:Q18001597 .
+
+qg:group_communists_c34c1d owl:sameAs wd:Q21027324 .
+
+qg:group_dutch_e92e24 owl:sameAs wd:Q7411 .
+
+qg:group_french_b0dfdf owl:sameAs wd:Q150 .
+
+qg:group_german_a9949f owl:sameAs wd:Q188 .
+
+qg:group_hungarian_7bce55 owl:sameAs wd:Q9067 .
+
+qg:group_russian_b71f39 owl:sameAs wd:Q7737 .
+
+qg:group_russians_2e63eb owl:sameAs wd:Q49542 .
+
+qg:group_sicilian_4084b8 owl:sameAs wd:Q33973 .
+
+qg:group_soviet_b5159c owl:sameAs wd:Q15180 .
+
 qg:location_austria_0dfdfa owl:sameAs wd:Q40 .
 
 qg:location_cincinnati_84bc17 owl:sameAs wd:Q43196 .
@@ -335,8 +1009,6 @@ qg:location_cincinnati_84bc17 owl:sameAs wd:Q43196 .
 qg:location_france_55b616 owl:sameAs wd:Q142 .
 
 qg:location_george_town_9ca28e owl:sameAs wd:Q61092 .
-
-qg:location_hotel_de_ville_112ff1 owl:sameAs wd:Q968939 .
 
 qg:location_hungary_718883 owl:sameAs wd:Q28 .
 
@@ -406,8 +1078,6 @@ qg:organization_fairfield_high_2a8e25 owl:sameAs wd:Q48976516 .
 
 qg:organization_fairfield_high_school_0b3977 owl:sameAs wd:Q48976516 .
 
-qg:organization_harmon_e_5ddc10 owl:sameAs wd:Q64481724 .
-
 qg:organization_henry_clay_high_school_452fc7 owl:sameAs wd:Q5719501 .
 
 qg:organization_kentucky_state_76893a owl:sameAs wd:Q1187623 .
@@ -416,21 +1086,15 @@ qg:organization_lexington_herald_leader_84abee owl:sameAs wd:Q6537812 .
 
 qg:organization_librium_2b326b owl:sameAs wd:Q52271807 .
 
-qg:organization_marie_claire_08b737 owl:sameAs wd:Q2909086 .
-
 qg:organization_netflix_380329 owl:sameAs wd:Q907311 .
 
 qg:organization_reuters_7b4264 owl:sameAs wd:Q130879 .
-
-qg:organization_state_department_d1f0e6 owl:sameAs wd:Q789915 .
 
 qg:organization_the_observer_5ba4ff owl:sameAs wd:Q336197 .
 
 qg:organization_the_sicilian_defence_f05bf7 owl:sameAs wd:Q16615089 .
 
 qg:organization_the_state_department_9d6be3 owl:sameAs wd:Q1469605 .
-
-qg:organization_the_u_s_government_9968dc owl:sameAs wd:Q7889914 .
 
 qg:organization_the_white_house_7129cc owl:sameAs wd:Q35525 .
 

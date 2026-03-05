@@ -1,55 +1,138 @@
 private_entity,private_label,private_type,wikidata_id,wikidata_uri,confidence,wd_label,wd_description
-http://example.org/qg#location_george_town_9ca28e,George Town,http://example.org/qg#Location,Q61092,http://www.wikidata.org/entity/Q61092,0.98,George Town,capital city of the Malaysian state of Penang
-http://example.org/qg#location_yugoslavia_aaf583,Yugoslavia,http://example.org/qg#Location,Q83286,http://www.wikidata.org/entity/Q83286,0.85,Socialist Federal Republic of Yugoslavia,Central and Southeast European socialist state (1945–1992)
-http://example.org/qg#organization_librium_2b326b,Librium,http://example.org/qg#Organization,Q52271807,http://www.wikidata.org/entity/Q52271807,0.85,Librium prevents the analgesia and shuttlebox escape deficit typically observed following inescapable shock,scientific article published in November 1984
-http://example.org/qg#location_russia_b2a8ec,Russia,http://example.org/qg#Location,Q159,http://www.wikidata.org/entity/Q159,0.98,Russia,country in Eastern Europe and Northern Asia
-http://example.org/qg#location_sweden_6c5481,Sweden,http://example.org/qg#Location,Q34,http://www.wikidata.org/entity/Q34,0.98,Sweden,country in Northern Europe
-http://example.org/qg#location_lucerne_a74033,Lucerne,http://example.org/qg#Location,Q4191,http://www.wikidata.org/entity/Q4191,0.98,Lucerne,"city at Lake Lucerne, in central Switzerland"
-http://example.org/qg#location_norway_49e016,Norway,http://example.org/qg#Location,Q20,http://www.wikidata.org/entity/Q20,0.98,Norway,country in Northern Europe
-http://example.org/qg#organization_reuters_7b4264,Reuters,http://example.org/qg#Organization,Q130879,http://www.wikidata.org/entity/Q130879,0.95,Reuters,international news agency
-http://example.org/qg#organization_the_state_department_9d6be3,The State Department,http://example.org/qg#Organization,Q1469605,http://www.wikidata.org/entity/Q1469605,0.85,The State Department Store,1953 film by Viktor Gertler
-http://example.org/qg#organization_harmon_e_5ddc10,"Harmon, E",http://example.org/qg#Organization,Q64481724,http://www.wikidata.org/entity/Q64481724,0.70,Elijah Dewey Harmon,entry in American Medical Biographies
-http://example.org/qg#organization_lexington_herald_leader_84abee,Lexington Herald-Leader,http://example.org/qg#Organization,Q6537812,http://www.wikidata.org/entity/Q6537812,0.95,Lexington Herald-Leader,"newspaper based in Lexington, Kentucky"
-http://example.org/qg#organization_the_u_s_government_9968dc,the U.S. Government,http://example.org/qg#Organization,Q7889914,http://www.wikidata.org/entity/Q7889914,0.70,The United States Government Manual,official handbook of the United States federal government
-http://example.org/qg#organization_the_white_house_7129cc,the White House,http://example.org/qg#Organization,Q35525,http://www.wikidata.org/entity/Q35525,0.85,White House,official residence and office of the President of the United States
-http://example.org/qg#organization_chess_federation_c74aa5,Chess Federation,http://example.org/qg#Organization,Q100589423,http://www.wikidata.org/entity/Q100589423,0.95,chess federation,sports governing body organizing chess
-http://example.org/qg#location_moscow_467d57,Moscow,http://example.org/qg#Location,Q649,http://www.wikidata.org/entity/Q649,0.98,Moscow,capital and most populous city of Russia
-http://example.org/qg#organization_henry_clay_high_school_452fc7,Henry Clay High School,http://example.org/qg#Organization,Q5719501,http://www.wikidata.org/entity/Q5719501,0.95,Henry Clay High School,"high school in Lexington, Fayette County, Kentucky"
-http://example.org/qg#location_hungary_718883,Hungary,http://example.org/qg#Location,Q28,http://www.wikidata.org/entity/Q28,0.98,Hungary,country in Central Europe
-http://example.org/qg#location_italy_7503c5,Italy,http://example.org/qg#Location,Q38,http://www.wikidata.org/entity/Q38,0.98,Italy,country in southern Europe
-http://example.org/qg#organization_netflix_380329,Netflix,http://example.org/qg#Organization,Q907311,http://www.wikidata.org/entity/Q907311,0.95,Netflix,American subscription video on-demand over-the-top streaming service
-http://example.org/qg#location_wakefield_85a97f,Wakefield,http://example.org/qg#Location,Q12806242,http://www.wikidata.org/entity/Q12806242,0.95,Wakefield,family name
-http://example.org/qg#location_kentucky_d71f08,Kentucky,http://example.org/qg#Location,Q1603,http://www.wikidata.org/entity/Q1603,0.95,Kentucky,state of the United States of America
-http://example.org/qg#location_cincinnati_84bc17,Cincinnati,http://example.org/qg#Location,Q43196,http://www.wikidata.org/entity/Q43196,0.98,Cincinnati,"city in Ohio, United States; county seat of Hamilton County"
-http://example.org/qg#organization_apple_pi_3df3dd,Apple Pi,http://example.org/qg#Organization,Q18148824,http://www.wikidata.org/entity/Q18148824,0.85,Apple Pie Hill,"mountain in New Jersey, United States of America"
-http://example.org/qg#location_pittsburg_33a1cf,Pittsburg,http://example.org/qg#Location,Q1342,http://www.wikidata.org/entity/Q1342,0.88,Pittsburgh,"city and county seat in Allegheny County, Pennsylvania, United States"
+http://example.org/qg#character_jesus_84f268,Jesus,http://example.org/qg#Character,Q1158269,http://www.wikidata.org/entity/Q1158269,0.95,Jesus,male given name
 http://example.org/qg#organization_duncan_high_school_10af2d,Duncan High School,http://example.org/qg#Organization,Q5314386,http://www.wikidata.org/entity/Q5314386,0.95,Duncan High School,"high school in Duncan, Greenlee County, Arizona"
-http://example.org/qg#organization_chess_life_07bb03,Chess Life,http://example.org/qg#Organization,Q2670147,http://www.wikidata.org/entity/Q2670147,0.95,Chess Life,US periodical
-http://example.org/qg#organization_cornell_university_f32aeb,Cornell University,http://example.org/qg#Organization,Q49115,http://www.wikidata.org/entity/Q49115,0.95,Cornell University,"private and statutory land-grant research university in Ithaca, New York, USA"
-http://example.org/qg#organization_fairfield_high_school_0b3977,Fairfield High School,http://example.org/qg#Organization,Q48976516,http://www.wikidata.org/entity/Q48976516,0.95,Fairfield High School,"high school in California, United States"
-http://example.org/qg#organization_state_department_d1f0e6,State Department,http://example.org/qg#Organization,Q789915,http://www.wikidata.org/entity/Q789915,0.70,United States Department of State,executive department of the U.S. federal government
-http://example.org/qg#organization_christian_crusade_36689e,Christian Crusade,http://example.org/qg#Organization,Q126963189,http://www.wikidata.org/entity/Q126963189,0.85,Christian Crusaders,
-http://example.org/qg#location_las_vegas_0e5aeb,Las Vegas,http://example.org/qg#Location,Q23768,http://www.wikidata.org/entity/Q23768,0.98,Las Vegas,"seat of Clark County, and largest city in state of Nevada, United States"
+http://example.org/qg#organization_chess_federation_c74aa5,Chess Federation,http://example.org/qg#Organization,Q100589423,http://www.wikidata.org/entity/Q100589423,0.95,chess federation,sports governing body organizing chess
+http://example.org/qg#organization_netflix_380329,Netflix,http://example.org/qg#Organization,Q907311,http://www.wikidata.org/entity/Q907311,0.95,Netflix,American subscription video on-demand over-the-top streaming service
+http://example.org/qg#group_french_b0dfdf,French,http://example.org/qg#Group,Q150,http://www.wikidata.org/entity/Q150,0.95,French,Romance language
 http://example.org/qg#organization_time_magazine_64acec,Time Magazine,http://example.org/qg#Organization,Q43297,http://www.wikidata.org/entity/Q43297,0.88,Time,American news magazine and website
-http://example.org/qg#location_nevada_13929f,Nevada,http://example.org/qg#Location,Q1227,http://www.wikidata.org/entity/Q1227,0.95,Nevada,state of the United States of America
-http://example.org/qg#organization_the_sicilian_defence_f05bf7,the Sicilian Defence,http://example.org/qg#Organization,Q16615089,http://www.wikidata.org/entity/Q16615089,0.95,The Sicilian Defence,2014 album
-http://example.org/qg#organization_kentucky_state_76893a,Kentucky State,http://example.org/qg#Organization,Q1187623,http://www.wikidata.org/entity/Q1187623,0.85,Kentucky State University,"public, historically black, land grant university in Frankfort, Kentucky, United States"
-http://example.org/qg#location_paris_f747bd,Paris,http://example.org/qg#Location,Q90,http://www.wikidata.org/entity/Q90,0.98,Paris,capital and most populous city in France
-http://example.org/qg#organization_the_observer_5ba4ff,The Observer,http://example.org/qg#Organization,Q336197,http://www.wikidata.org/entity/Q336197,0.95,The Observer,British weekly newspaper
-http://example.org/qg#location_united_states_96d841,United States,http://example.org/qg#Location,Q30,http://www.wikidata.org/entity/Q30,0.98,United States,country located primarily in North America
-http://example.org/qg#location_mexico_508201,Mexico,http://example.org/qg#Location,Q96,http://www.wikidata.org/entity/Q96,0.98,Mexico,country in North America
-http://example.org/qg#location_lexington_442a81,Lexington,http://example.org/qg#Location,Q49241,http://www.wikidata.org/entity/Q49241,0.98,Lexington,"city in and county seat of Fayette County, Kentucky, United States"
-http://example.org/qg#organization_fairfield_high_2a8e25,Fairfield High,http://example.org/qg#Organization,Q48976516,http://www.wikidata.org/entity/Q48976516,0.85,Fairfield High School,"high school in California, United States"
-http://example.org/qg#organization_corvair_9dc263,Corvair,http://example.org/qg#Organization,Q23637332,http://www.wikidata.org/entity/Q23637332,0.85,Corvair Fitch Sprint,
-http://example.org/qg#location_new_york_fe8900,New York,http://example.org/qg#Location,Q1384,http://www.wikidata.org/entity/Q1384,0.95,New York,state of the United States of America
-http://example.org/qg#organization_chess_review_f901f0,Chess Review,http://example.org/qg#Organization,Q3667265,http://www.wikidata.org/entity/Q3667265,0.98,Chess Review,American magazine
-http://example.org/qg#location_the_united_states_0c38dc,the United States,http://example.org/qg#Location,Q30,http://www.wikidata.org/entity/Q30,0.88,United States,country located primarily in North America
-http://example.org/qg#location_methuen_90a106,Methuen,http://example.org/qg#Location,Q3296078,http://www.wikidata.org/entity/Q3296078,0.85,Methuen Publishing,UK book publishing company
-http://example.org/qg#organization_beautiful_2a7ca8,Beautiful,http://example.org/qg#Organization,Q813449,http://www.wikidata.org/entity/Q813449,0.95,Beautiful,2002 song by Christina Aguilera
-http://example.org/qg#location_mexico_city_7afdf6,Mexico City,http://example.org/qg#Location,Q1489,http://www.wikidata.org/entity/Q1489,0.98,Mexico City,capital and largest city of Mexico
 http://example.org/qg#location_austria_0dfdfa,Austria,http://example.org/qg#Location,Q40,http://www.wikidata.org/entity/Q40,0.98,Austria,country in Central Europe
-http://example.org/qg#location_san_francisco_6cf9a6,San Francisco,http://example.org/qg#Location,Q62,http://www.wikidata.org/entity/Q62,0.98,San Francisco,"consolidated city and county in California, United States"
-http://example.org/qg#location_hotel_de_ville_112ff1,Hotel de Ville,http://example.org/qg#Location,Q968939,http://www.wikidata.org/entity/Q968939,0.70,Hôtel de Ville,Paris Métro station
+http://example.org/qg#location_cincinnati_84bc17,Cincinnati,http://example.org/qg#Location,Q43196,http://www.wikidata.org/entity/Q43196,0.98,Cincinnati,"city in Ohio, United States; county seat of Hamilton County"
+http://example.org/qg#location_united_states_96d841,United States,http://example.org/qg#Location,Q30,http://www.wikidata.org/entity/Q30,0.98,United States,country located primarily in North America
+http://example.org/qg#character_benny_ff906e,Benny,http://example.org/qg#Character,Q18640998,http://www.wikidata.org/entity/Q18640998,0.95,Benny,male given name
+http://example.org/qg#character_christopher_c783f9,Christopher,http://example.org/qg#Character,Q1084472,http://www.wikidata.org/entity/Q1084472,0.95,Christopher,male given name
+http://example.org/qg#character_diedrich_e67fd5,Diedrich,http://example.org/qg#Character,Q20804429,http://www.wikidata.org/entity/Q20804429,0.95,Diedrich,male given name
+http://example.org/qg#character_bulova_faf089,Bulova,http://example.org/qg#Character,Q106066723,http://www.wikidata.org/entity/Q106066723,0.95,Bulova,family name
+http://example.org/qg#character_bergland_563a2c,Bergland,http://example.org/qg#Character,Q665148,http://www.wikidata.org/entity/Q665148,0.95,Bergland,"municipality in Melk District, Lower Austria, Austria"
 http://example.org/qg#location_southwest_ad0d71,Southwest,http://example.org/qg#Location,Q2381698,http://www.wikidata.org/entity/Q2381698,0.95,southwest,intercardinal direction between south and west
+http://example.org/qg#character_alice_15aa82,Alice,http://example.org/qg#Character,Q650689,http://www.wikidata.org/entity/Q650689,0.95,Alice,female given name
+http://example.org/qg#location_san_francisco_6cf9a6,San Francisco,http://example.org/qg#Location,Q62,http://www.wikidata.org/entity/Q62,0.98,San Francisco,"consolidated city and county in California, United States"
+http://example.org/qg#location_wakefield_85a97f,Wakefield,http://example.org/qg#Location,Q12806242,http://www.wikidata.org/entity/Q12806242,0.95,Wakefield,family name
+http://example.org/qg#character_anya_taylor_joy_7853b7,Anya Taylor-Joy,http://example.org/qg#Character,Q20882479,http://www.wikidata.org/entity/Q20882479,0.85,Anya Taylor-Joy,Actress (born 1996)
+http://example.org/qg#organization_reuters_7b4264,Reuters,http://example.org/qg#Organization,Q130879,http://www.wikidata.org/entity/Q130879,0.95,Reuters,international news agency
+http://example.org/qg#group_chinese_e99992,Chinese,http://example.org/qg#Group,Q7850,http://www.wikidata.org/entity/Q7850,0.95,Chinese,language group of the Sinitic languages
+http://example.org/qg#organization_kentucky_state_76893a,Kentucky State,http://example.org/qg#Organization,Q1187623,http://www.wikidata.org/entity/Q1187623,0.85,Kentucky State University,"public, historically black, land grant university in Frankfort, Kentucky, United States"
+http://example.org/qg#event_the_u_s_open_0de146,the U.S. Open,http://example.org/qg#Event,Q5870552,http://www.wikidata.org/entity/Q5870552,0.85,history of the U.S. Open Cup,aspect of history
+http://example.org/qg#organization_chess_review_f901f0,Chess Review,http://example.org/qg#Organization,Q3667265,http://www.wikidata.org/entity/Q3667265,0.98,Chess Review,American magazine
+http://example.org/qg#group_german_a9949f,German,http://example.org/qg#Group,Q188,http://www.wikidata.org/entity/Q188,0.95,German,West Germanic language native to Central Europe
+http://example.org/qg#location_kentucky_d71f08,Kentucky,http://example.org/qg#Location,Q1603,http://www.wikidata.org/entity/Q1603,0.95,Kentucky,state of the United States of America
+http://example.org/qg#character_townes_379370,Townes,http://example.org/qg#Character,Q16557405,http://www.wikidata.org/entity/Q16557405,0.85,Henry K. Townes,U.S. entomologist (1913–1990)
+http://example.org/qg#character_rudolph_d0465b,Rudolph,http://example.org/qg#Character,Q18028739,http://www.wikidata.org/entity/Q18028739,0.95,Rudolph,male given name
+http://example.org/qg#character_harmon_e_c0b572,Harmon E,http://example.org/qg#Character,Q120481132,http://www.wikidata.org/entity/Q120481132,0.85,Harmon Edgar Mcelhaney,Indiana author 1916-
+http://example.org/qg#location_italy_7503c5,Italy,http://example.org/qg#Location,Q38,http://www.wikidata.org/entity/Q38,0.98,Italy,country in southern Europe
+http://example.org/qg#character_walter_tevis_658c18,Walter Tevis,http://example.org/qg#Character,Q740928,http://www.wikidata.org/entity/Q740928,0.95,Walter Tevis,American writer (1928–1984)
+http://example.org/qg#character_hou_yifan_9e15c9,Hou Yifan,http://example.org/qg#Character,Q234011,http://www.wikidata.org/entity/Q234011,0.85,Hou Yifan,Chinese chess player
+http://example.org/qg#location_mexico_508201,Mexico,http://example.org/qg#Location,Q96,http://www.wikidata.org/entity/Q96,0.98,Mexico,country in North America
+http://example.org/qg#character_girev_2c3631,Girev,http://example.org/qg#Character,Q65283299,http://www.wikidata.org/entity/Q65283299,0.85,Girevi,village in Tusheti in Georgia
+http://example.org/qg#location_mexico_city_7afdf6,Mexico City,http://example.org/qg#Location,Q1489,http://www.wikidata.org/entity/Q1489,0.98,Mexico City,capital and largest city of Mexico
+http://example.org/qg#character_margaret_9a2442,Margaret,http://example.org/qg#Character,Q4963612,http://www.wikidata.org/entity/Q4963612,0.95,Margaret,female given name
+http://example.org/qg#group_communists_c34c1d,Communists,http://example.org/qg#Group,Q21027324,http://www.wikidata.org/entity/Q21027324,0.95,Communists,2014 film directed by Jean-Marie Straub
+http://example.org/qg#location_paris_f747bd,Paris,http://example.org/qg#Location,Q90,http://www.wikidata.org/entity/Q90,0.98,Paris,capital and most populous city in France
+http://example.org/qg#event_u_s_open_chess_championship_865273,U.S. Open Chess Championship,http://example.org/qg#Event,Q1995105,http://www.wikidata.org/entity/Q1995105,0.98,U.S. Open Chess Championship,annual chess tournament in the United States
+http://example.org/qg#location_moscow_467d57,Moscow,http://example.org/qg#Location,Q649,http://www.wikidata.org/entity/Q649,0.98,Moscow,capital and most populous city of Russia
+http://example.org/qg#character_w_c_griffith_005a56,W. C. Griffith,http://example.org/qg#Character,Q60042041,http://www.wikidata.org/entity/Q60042041,0.95,W. C. Griffith,researcher ORCID ID = 0000-0002-0260-1956
+http://example.org/qg#organization_fairfield_high_school_0b3977,Fairfield High School,http://example.org/qg#Organization,Q48976516,http://www.wikidata.org/entity/Q48976516,0.95,Fairfield High School,"high school in California, United States"
 http://example.org/qg#location_france_55b616,France,http://example.org/qg#Location,Q142,http://www.wikidata.org/entity/Q142,0.98,France,"country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)"
-http://example.org/qg#organization_marie_claire_08b737,Marie Claire,http://example.org/qg#Organization,Q2909086,http://www.wikidata.org/entity/Q2909086,0.70,Marie-Claire,female given name
+http://example.org/qg#character_georgi_58c4ac,Georgi,http://example.org/qg#Character,Q17533877,http://www.wikidata.org/entity/Q17533877,0.95,Georgi,male given name
+http://example.org/qg#character_lanni_9d3b4b,Lanni,http://example.org/qg#Character,Q98669307,http://www.wikidata.org/entity/Q98669307,0.95,Lanni,female given name
+http://example.org/qg#character_tevis_e17d32,Tevis,http://example.org/qg#Character,Q37551763,http://www.wikidata.org/entity/Q37551763,0.95,Tevis,family name
+http://example.org/qg#organization_cornell_university_f32aeb,Cornell University,http://example.org/qg#Organization,Q49115,http://www.wikidata.org/entity/Q49115,0.95,Cornell University,"private and statutory land-grant research university in Ithaca, New York, USA"
+http://example.org/qg#location_methuen_90a106,Methuen,http://example.org/qg#Location,Q3296078,http://www.wikidata.org/entity/Q3296078,0.85,Methuen Publishing,UK book publishing company
+http://example.org/qg#character_darga_edba99,Darga,http://example.org/qg#Character,Q1165843,http://www.wikidata.org/entity/Q1165843,0.85,Dargaud,publisher of comics
+http://example.org/qg#character_manuel_c1cf6c,Manuel,http://example.org/qg#Character,Q11113719,http://www.wikidata.org/entity/Q11113719,0.95,Manuel,male given name
+http://example.org/qg#character_judit_polg_r_f13b0f,Judit Polgár,http://example.org/qg#Character,Q183250,http://www.wikidata.org/entity/Q183250,0.85,Judit Polgár,Hungarian chess player
+http://example.org/qg#location_new_york_fe8900,New York,http://example.org/qg#Location,Q1384,http://www.wikidata.org/entity/Q1384,0.95,New York,state of the United States of America
+http://example.org/qg#location_lucerne_a74033,Lucerne,http://example.org/qg#Location,Q4191,http://www.wikidata.org/entity/Q4191,0.98,Lucerne,"city at Lake Lucerne, in central Switzerland"
+http://example.org/qg#organization_chess_life_07bb03,Chess Life,http://example.org/qg#Organization,Q2670147,http://www.wikidata.org/entity/Q2670147,0.95,Chess Life,US periodical
+http://example.org/qg#character_allston_b835fb,Allston,http://example.org/qg#Character,Q21452335,http://www.wikidata.org/entity/Q21452335,0.95,Allston,family name
+http://example.org/qg#organization_corvair_9dc263,Corvair,http://example.org/qg#Organization,Q23637332,http://www.wikidata.org/entity/Q23637332,0.85,Corvair Fitch Sprint,
+http://example.org/qg#group_russian_b71f39,Russian,http://example.org/qg#Group,Q7737,http://www.wikidata.org/entity/Q7737,0.95,Russian,East Slavic language
+http://example.org/qg#group_christian_df9176,Christian,http://example.org/qg#Group,Q18001597,http://www.wikidata.org/entity/Q18001597,0.95,Christian,male given name
+http://example.org/qg#character_crawford_walker_3a1b3f,Crawford Walker,http://example.org/qg#Character,Q76067418,http://www.wikidata.org/entity/Q76067418,0.85,Crawford Walker,Peerage person ID=507855
+http://example.org/qg#character_charles_levy_7f7647,Charles Levy,http://example.org/qg#Character,Q112843087,http://www.wikidata.org/entity/Q112843087,0.95,Charles Levy,radio broadcaster
+http://example.org/qg#character_jacob_fortune_lloyd_927fd6,Jacob Fortune-Lloyd,http://example.org/qg#Character,Q101237941,http://www.wikidata.org/entity/Q101237941,0.85,Jacob Fortune-Lloyd,British actor
+http://example.org/qg#group_hungarian_7bce55,Hungarian,http://example.org/qg#Group,Q9067,http://www.wikidata.org/entity/Q9067,0.95,Hungarian,Uralic language
+http://example.org/qg#character_albin_b41fd6,Albin,http://example.org/qg#Character,Q1001948,http://www.wikidata.org/entity/Q1001948,0.95,Albin,male given name
+http://example.org/qg#event_chess_olympiad_345423,Chess Olympiad,http://example.org/qg#Event,Q428303,http://www.wikidata.org/entity/Q428303,0.98,Chess Olympiad,biennial chess tournament
+http://example.org/qg#character_goldman_f80ea5,Goldman,http://example.org/qg#Character,Q1535908,http://www.wikidata.org/entity/Q1535908,0.95,Goldman,family name
+http://example.org/qg#character_grandmaster_9b4991,Grandmaster,http://example.org/qg#Character,Q105269,http://www.wikidata.org/entity/Q105269,0.95,Grandmaster,title in chess awarded by FIDE
+http://example.org/qg#location_sweden_6c5481,Sweden,http://example.org/qg#Location,Q34,http://www.wikidata.org/entity/Q34,0.98,Sweden,country in Northern Europe
+http://example.org/qg#character_najdorf_10dbbd,Najdorf,http://example.org/qg#Character,Q4312397,http://www.wikidata.org/entity/Q4312397,0.95,Najdorf,family name
+http://example.org/qg#location_yugoslavia_aaf583,Yugoslavia,http://example.org/qg#Location,Q83286,http://www.wikidata.org/entity/Q83286,0.85,Socialist Federal Republic of Yugoslavia,Central and Southeast European socialist state (1945–1992)
+http://example.org/qg#organization_christian_crusade_36689e,Christian Crusade,http://example.org/qg#Organization,Q126963189,http://www.wikidata.org/entity/Q126963189,0.85,Christian Crusaders,
+http://example.org/qg#location_russia_b2a8ec,Russia,http://example.org/qg#Location,Q159,http://www.wikidata.org/entity/Q159,0.98,Russia,country in Eastern Europe and Northern Asia
+http://example.org/qg#organization_the_sicilian_defence_f05bf7,the Sicilian Defence,http://example.org/qg#Organization,Q16615089,http://www.wikidata.org/entity/Q16615089,0.95,The Sicilian Defence,2014 album
+http://example.org/qg#organization_the_observer_5ba4ff,The Observer,http://example.org/qg#Organization,Q336197,http://www.wikidata.org/entity/Q336197,0.95,The Observer,British weekly newspaper
+http://example.org/qg#character_cullen_6474f1,Cullen,http://example.org/qg#Character,Q40386,http://www.wikidata.org/entity/Q40386,0.95,Cullen,family name
+http://example.org/qg#character_bill_camp_375ab3,Bill Camp,http://example.org/qg#Character,Q3639959,http://www.wikidata.org/entity/Q3639959,0.85,Bill Camp,American actor
+http://example.org/qg#organization_henry_clay_high_school_452fc7,Henry Clay High School,http://example.org/qg#Organization,Q5719501,http://www.wikidata.org/entity/Q5719501,0.95,Henry Clay High School,"high school in Lexington, Fayette County, Kentucky"
+http://example.org/qg#organization_apple_pi_3df3dd,Apple Pi,http://example.org/qg#Organization,Q18148824,http://www.wikidata.org/entity/Q18148824,0.85,Apple Pie Hill,"mountain in New Jersey, United States of America"
+http://example.org/qg#group_american_ee58cd,American,http://example.org/qg#Group,Q169889,http://www.wikidata.org/entity/Q169889,0.85,American Broadcasting Company,American broadcast television network owned by The Walt Disney Company
+http://example.org/qg#group_dutch_e92e24,Dutch,http://example.org/qg#Group,Q7411,http://www.wikidata.org/entity/Q7411,0.95,Dutch,West Germanic language
+http://example.org/qg#organization_the_state_department_9d6be3,The State Department,http://example.org/qg#Organization,Q1469605,http://www.wikidata.org/entity/Q1469605,0.85,The State Department Store,1953 film by Viktor Gertler
+http://example.org/qg#character_margaret_johnson_c8d437,Margaret Johnson,http://example.org/qg#Character,Q110462047,http://www.wikidata.org/entity/Q110462047,0.95,Margaret Johnson,American writer of children's literature
+http://example.org/qg#character_diana_lanni_19020b,Diana Lanni,http://example.org/qg#Character,Q109420063,http://www.wikidata.org/entity/Q109420063,0.85,Diana Lanni,chess player
+http://example.org/qg#character_alice_harmon_b24c50,Alice Harmon,http://example.org/qg#Character,Q63644053,http://www.wikidata.org/entity/Q63644053,0.85,Alice Harmon Shaw Kirkpatrick,1913 - 1994; American; Painter
+http://example.org/qg#character_mcdonnell_434a93,McDonnell,http://example.org/qg#Character,Q21511109,http://www.wikidata.org/entity/Q21511109,0.95,McDonnell,family name
+http://example.org/qg#character_elizabeth_harmon_e36a73,Elizabeth Harmon,http://example.org/qg#Character,Q115870050,http://www.wikidata.org/entity/Q115870050,0.95,Elizabeth Harmon,1652 - uncertain 1674
+http://example.org/qg#character_nona_gaprindashvili_3b3a7b,Nona Gaprindashvili,http://example.org/qg#Character,Q231630,http://www.wikidata.org/entity/Q231630,0.85,Nona Gaprindashvili,Soviet chess player
+http://example.org/qg#character_white_8f265d,White,http://example.org/qg#Character,Q1215200,http://www.wikidata.org/entity/Q1215200,0.95,White,family name
+http://example.org/qg#character_harry_737f4b,Harry,http://example.org/qg#Character,Q668885,http://www.wikidata.org/entity/Q668885,0.95,Harry,male given name
+http://example.org/qg#character_sizemore_1cd968,Sizemore,http://example.org/qg#Character,Q21510222,http://www.wikidata.org/entity/Q21510222,0.95,Sizemore,family name
+http://example.org/qg#character_annette_7c8aa1,Annette,http://example.org/qg#Character,Q18071263,http://www.wikidata.org/entity/Q18071263,0.95,Annette,female given name
+http://example.org/qg#character_deardorff_d8d493,Deardorff,http://example.org/qg#Character,Q37468336,http://www.wikidata.org/entity/Q37468336,0.95,Deardorff,family name
+http://example.org/qg#character_beltik_7c0d52,Beltik,http://example.org/qg#Character,Q60376168,http://www.wikidata.org/entity/Q60376168,0.85,Beltikri,"village in Bankura district, West Bengal, India"
+http://example.org/qg#organization_fairfield_high_2a8e25,Fairfield High,http://example.org/qg#Organization,Q48976516,http://www.wikidata.org/entity/Q48976516,0.85,Fairfield High School,"high school in California, United States"
+http://example.org/qg#organization_the_white_house_7129cc,the White House,http://example.org/qg#Organization,Q35525,http://www.wikidata.org/entity/Q35525,0.85,White House,official residence and office of the President of the United States
+http://example.org/qg#organization_librium_2b326b,Librium,http://example.org/qg#Organization,Q52271807,http://www.wikidata.org/entity/Q52271807,0.85,Librium prevents the analgesia and shuttlebox escape deficit typically observed following inescapable shock,scientific article published in November 1984
+http://example.org/qg#character_jolene_ef5c2d,Jolene,http://example.org/qg#Character,Q1551339,http://www.wikidata.org/entity/Q1551339,0.95,Jolene,female given name
+http://example.org/qg#character_roger_64c8fd,Roger,http://example.org/qg#Character,Q4925304,http://www.wikidata.org/entity/Q4925304,0.95,Roger,male given name
+http://example.org/qg#group_sicilian_4084b8,Sicilian,http://example.org/qg#Group,Q33973,http://www.wikidata.org/entity/Q33973,0.95,Sicilian,Italo-Dalmatian language spoken in Southern Italy
+http://example.org/qg#character_bradley_40bf0d,Bradley,http://example.org/qg#Character,Q538847,http://www.wikidata.org/entity/Q538847,0.95,Bradley,male given name
+http://example.org/qg#character_packer_9f9db2,Packer,http://example.org/qg#Character,Q62858956,http://www.wikidata.org/entity/Q62858956,0.95,Packer,open source tool for creating identical machine images for multiple platforms from a single source configuration
+http://example.org/qg#character_weiss_16f701,Weiss,http://example.org/qg#Character,Q145210,http://www.wikidata.org/entity/Q145210,0.95,Weiss,family name
+http://example.org/qg#character_isla_johnston_743cc7,Isla Johnston,http://example.org/qg#Character,Q117121905,http://www.wikidata.org/entity/Q117121905,0.85,Isla Johnston,British actress
+http://example.org/qg#character_paul_morphy_698df9,Paul Morphy,http://example.org/qg#Character,Q105589,http://www.wikidata.org/entity/Q105589,0.85,Paul Morphy,US chess player (1837–1884)
+http://example.org/qg#character_watts_2182cf,Watts,http://example.org/qg#Character,Q17144855,http://www.wikidata.org/entity/Q17144855,0.95,Watts,family name
+http://example.org/qg#location_lexington_442a81,Lexington,http://example.org/qg#Location,Q49241,http://www.wikidata.org/entity/Q49241,0.98,Lexington,"city in and county seat of Fayette County, Kentucky, United States"
+http://example.org/qg#character_beth_harmon_0c125c,Beth Harmon,http://example.org/qg#Character,Q102378740,http://www.wikidata.org/entity/Q102378740,0.98,Beth Harmon,fictional character from The Queen's Gambit
+http://example.org/qg#character_morphy_35dccc,Morphy,http://example.org/qg#Character,Q56599541,http://www.wikidata.org/entity/Q56599541,0.95,Morphy,family name
+http://example.org/qg#character_friedman_e2439e,Friedman,http://example.org/qg#Character,Q1451887,http://www.wikidata.org/entity/Q1451887,0.95,Friedman,family name
+http://example.org/qg#character_dick_evans_b2825e,Dick Evans,http://example.org/qg#Character,Q5272895,http://www.wikidata.org/entity/Q5272895,0.95,Dick Evans,English footballer (1875-1942)
+http://example.org/qg#location_the_united_states_0c38dc,the United States,http://example.org/qg#Location,Q30,http://www.wikidata.org/entity/Q30,0.88,United States,country located primarily in North America
+http://example.org/qg#character_samantha_f81e43,Samantha,http://example.org/qg#Character,Q6774,http://www.wikidata.org/entity/Q6774,0.95,Samantha,female given name
+http://example.org/qg#location_norway_49e016,Norway,http://example.org/qg#Location,Q20,http://www.wikidata.org/entity/Q20,0.98,Norway,country in Northern Europe
+http://example.org/qg#location_pittsburg_33a1cf,Pittsburg,http://example.org/qg#Location,Q1342,http://www.wikidata.org/entity/Q1342,0.88,Pittsburgh,"city and county seat in Allegheny County, Pennsylvania, United States"
+http://example.org/qg#location_george_town_9ca28e,George Town,http://example.org/qg#Location,Q61092,http://www.wikidata.org/entity/Q61092,0.98,George Town,capital city of the Malaysian state of Penang
+http://example.org/qg#character_wexler_56889a,Wexler,http://example.org/qg#Character,Q37492869,http://www.wikidata.org/entity/Q37492869,0.95,Wexler,family name
+http://example.org/qg#character_chloe_pirrie_495e07,Chloe Pirrie,http://example.org/qg#Character,Q18030614,http://www.wikidata.org/entity/Q18030614,0.85,Chloe Pirrie,Scottish actress
+http://example.org/qg#organization_lexington_herald_leader_84abee,Lexington Herald-Leader,http://example.org/qg#Organization,Q6537812,http://www.wikidata.org/entity/Q6537812,0.95,Lexington Herald-Leader,"newspaper based in Lexington, Kentucky"
+http://example.org/qg#character_margaret_neil_832045,Margaret Neil,http://example.org/qg#Character,Q114953943,http://www.wikidata.org/entity/Q114953943,0.85,Margaret Neilsen,
+http://example.org/qg#character_elizabeth_bcb181,Elizabeth,http://example.org/qg#Character,Q385468,http://www.wikidata.org/entity/Q385468,0.95,Elizabeth,female given name
+http://example.org/qg#location_hungary_718883,Hungary,http://example.org/qg#Location,Q28,http://www.wikidata.org/entity/Q28,0.98,Hungary,country in Central Europe
+http://example.org/qg#group_russians_2e63eb,Russians,http://example.org/qg#Group,Q49542,http://www.wikidata.org/entity/Q49542,0.95,Russians,East Slavic ethnic group native to Russia
+http://example.org/qg#character_shapkin_07a5e0,Shapkin,http://example.org/qg#Character,Q4520240,http://www.wikidata.org/entity/Q4520240,0.95,Shapkin,family name
+http://example.org/qg#location_las_vegas_0e5aeb,Las Vegas,http://example.org/qg#Location,Q23768,http://www.wikidata.org/entity/Q23768,0.98,Las Vegas,"seat of Clark County, and largest city in state of Nevada, United States"
+http://example.org/qg#organization_beautiful_2a7ca8,Beautiful,http://example.org/qg#Organization,Q813449,http://www.wikidata.org/entity/Q813449,0.95,Beautiful,2002 song by Christina Aguilera
+http://example.org/qg#location_nevada_13929f,Nevada,http://example.org/qg#Location,Q1227,http://www.wikidata.org/entity/Q1227,0.95,Nevada,state of the United States of America
+http://example.org/qg#character_alekhine_d4eb92,Alekhine,http://example.org/qg#Character,Q16130169,http://www.wikidata.org/entity/Q16130169,0.95,Alekhine,family name
+http://example.org/qg#character_levenfish_a725df,Levenfish,http://example.org/qg#Character,Q135840032,http://www.wikidata.org/entity/Q135840032,0.95,Levenfish,family name
+http://example.org/qg#character_wheatley_e7791f,Wheatley,http://example.org/qg#Character,Q7991927,http://www.wikidata.org/entity/Q7991927,0.95,Wheatley,family name
+http://example.org/qg#character_polg_r_4b1f61,Polgár,http://example.org/qg#Character,Q2419449,http://www.wikidata.org/entity/Q2419449,0.95,Polgár,town in Hungary
+http://example.org/qg#character_manfredi_47d3c2,Manfredi,http://example.org/qg#Character,Q41211341,http://www.wikidata.org/entity/Q41211341,0.95,Manfredi,male given name
+http://example.org/qg#character_rossolimo_c00a3a,Rossolimo,http://example.org/qg#Character,Q7369913,http://www.wikidata.org/entity/Q7369913,0.95,Rossolimo,family name
+http://example.org/qg#character_duhamel_b0ac5f,Duhamel,http://example.org/qg#Character,Q3041042,http://www.wikidata.org/entity/Q3041042,0.95,Duhamel,"municipality in Quebec, Canada"
+http://example.org/qg#character_cooke_d4130e,Cooke,http://example.org/qg#Character,Q105436579,http://www.wikidata.org/entity/Q105436579,0.95,Cooke,masculine given name
+http://example.org/qg#character_booth_4a58b1,Booth,http://example.org/qg#Character,Q13156704,http://www.wikidata.org/entity/Q13156704,0.95,Booth,family name
+http://example.org/qg#event_exchanges_3020b9,Exchanges,http://example.org/qg#Event,Q50815242,http://www.wikidata.org/entity/Q50815242,0.85,Exchanges: The Warwick Research Journal,"Academic journal published by University of Warwick, covering the subjects: General Works"
+http://example.org/qg#group_soviet_b5159c,Soviet,http://example.org/qg#Group,Q15180,http://www.wikidata.org/entity/Q15180,0.85,Soviet Union,former country in Eurasia (1922–1991)
+http://example.org/qg#character_harmon_140a20,Harmon,http://example.org/qg#Character,Q16276369,http://www.wikidata.org/entity/Q16276369,0.95,Harmon,family name
