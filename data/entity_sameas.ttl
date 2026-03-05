@@ -1,0 +1,438 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qg: <http://example.org/qg#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/qg#location_austria_0dfdfa/sameAs/Q40> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q40 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_austria_0dfdfa .
+
+<http://example.org/qg#location_cincinnati_84bc17/sameAs/Q43196> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q43196 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_cincinnati_84bc17 .
+
+<http://example.org/qg#location_france_55b616/sameAs/Q142> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q142 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_france_55b616 .
+
+<http://example.org/qg#location_george_town_9ca28e/sameAs/Q61092> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q61092 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_george_town_9ca28e .
+
+<http://example.org/qg#location_hotel_de_ville_112ff1/sameAs/Q968939> a rdf:Statement ;
+    qg:confidence 0.70 ;
+    rdf:object wd:Q968939 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_hotel_de_ville_112ff1 .
+
+<http://example.org/qg#location_hungary_718883/sameAs/Q28> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q28 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_hungary_718883 .
+
+<http://example.org/qg#location_italy_7503c5/sameAs/Q38> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q38 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_italy_7503c5 .
+
+<http://example.org/qg#location_kentucky_d71f08/sameAs/Q1603> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1603 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_kentucky_d71f08 .
+
+<http://example.org/qg#location_las_vegas_0e5aeb/sameAs/Q23768> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q23768 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_las_vegas_0e5aeb .
+
+<http://example.org/qg#location_lexington_442a81/sameAs/Q49241> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q49241 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_lexington_442a81 .
+
+<http://example.org/qg#location_lucerne_a74033/sameAs/Q4191> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q4191 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_lucerne_a74033 .
+
+<http://example.org/qg#location_methuen_90a106/sameAs/Q3296078> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q3296078 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_methuen_90a106 .
+
+<http://example.org/qg#location_mexico_508201/sameAs/Q96> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q96 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_mexico_508201 .
+
+<http://example.org/qg#location_mexico_city_7afdf6/sameAs/Q1489> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q1489 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_mexico_city_7afdf6 .
+
+<http://example.org/qg#location_moscow_467d57/sameAs/Q649> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q649 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_moscow_467d57 .
+
+<http://example.org/qg#location_nevada_13929f/sameAs/Q1227> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1227 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_nevada_13929f .
+
+<http://example.org/qg#location_new_york_fe8900/sameAs/Q1384> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q1384 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_new_york_fe8900 .
+
+<http://example.org/qg#location_norway_49e016/sameAs/Q20> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q20 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_norway_49e016 .
+
+<http://example.org/qg#location_paris_f747bd/sameAs/Q90> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q90 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_paris_f747bd .
+
+<http://example.org/qg#location_pittsburg_33a1cf/sameAs/Q1342> a rdf:Statement ;
+    qg:confidence 0.88 ;
+    rdf:object wd:Q1342 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_pittsburg_33a1cf .
+
+<http://example.org/qg#location_russia_b2a8ec/sameAs/Q159> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q159 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_russia_b2a8ec .
+
+<http://example.org/qg#location_san_francisco_6cf9a6/sameAs/Q62> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q62 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_san_francisco_6cf9a6 .
+
+<http://example.org/qg#location_southwest_ad0d71/sameAs/Q2381698> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q2381698 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_southwest_ad0d71 .
+
+<http://example.org/qg#location_sweden_6c5481/sameAs/Q34> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q34 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_sweden_6c5481 .
+
+<http://example.org/qg#location_the_united_states_0c38dc/sameAs/Q30> a rdf:Statement ;
+    qg:confidence 0.88 ;
+    rdf:object wd:Q30 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_the_united_states_0c38dc .
+
+<http://example.org/qg#location_united_states_96d841/sameAs/Q30> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q30 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_united_states_96d841 .
+
+<http://example.org/qg#location_wakefield_85a97f/sameAs/Q12806242> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q12806242 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_wakefield_85a97f .
+
+<http://example.org/qg#location_yugoslavia_aaf583/sameAs/Q83286> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q83286 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_yugoslavia_aaf583 .
+
+<http://example.org/qg#organization_apple_pi_3df3dd/sameAs/Q18148824> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q18148824 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_apple_pi_3df3dd .
+
+<http://example.org/qg#organization_beautiful_2a7ca8/sameAs/Q813449> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q813449 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_beautiful_2a7ca8 .
+
+<http://example.org/qg#organization_chess_federation_c74aa5/sameAs/Q100589423> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q100589423 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_chess_federation_c74aa5 .
+
+<http://example.org/qg#organization_chess_life_07bb03/sameAs/Q2670147> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q2670147 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_chess_life_07bb03 .
+
+<http://example.org/qg#organization_chess_review_f901f0/sameAs/Q3667265> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    rdf:object wd:Q3667265 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_chess_review_f901f0 .
+
+<http://example.org/qg#organization_christian_crusade_36689e/sameAs/Q126963189> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q126963189 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_christian_crusade_36689e .
+
+<http://example.org/qg#organization_cornell_university_f32aeb/sameAs/Q49115> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q49115 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_cornell_university_f32aeb .
+
+<http://example.org/qg#organization_corvair_9dc263/sameAs/Q23637332> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q23637332 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_corvair_9dc263 .
+
+<http://example.org/qg#organization_duncan_high_school_10af2d/sameAs/Q5314386> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q5314386 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_duncan_high_school_10af2d .
+
+<http://example.org/qg#organization_fairfield_high_2a8e25/sameAs/Q48976516> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q48976516 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_fairfield_high_2a8e25 .
+
+<http://example.org/qg#organization_fairfield_high_school_0b3977/sameAs/Q48976516> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q48976516 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_fairfield_high_school_0b3977 .
+
+<http://example.org/qg#organization_harmon_e_5ddc10/sameAs/Q64481724> a rdf:Statement ;
+    qg:confidence 0.70 ;
+    rdf:object wd:Q64481724 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_harmon_e_5ddc10 .
+
+<http://example.org/qg#organization_henry_clay_high_school_452fc7/sameAs/Q5719501> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q5719501 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_henry_clay_high_school_452fc7 .
+
+<http://example.org/qg#organization_kentucky_state_76893a/sameAs/Q1187623> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q1187623 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_kentucky_state_76893a .
+
+<http://example.org/qg#organization_lexington_herald_leader_84abee/sameAs/Q6537812> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q6537812 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_lexington_herald_leader_84abee .
+
+<http://example.org/qg#organization_librium_2b326b/sameAs/Q52271807> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q52271807 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_librium_2b326b .
+
+<http://example.org/qg#organization_marie_claire_08b737/sameAs/Q2909086> a rdf:Statement ;
+    qg:confidence 0.70 ;
+    rdf:object wd:Q2909086 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_marie_claire_08b737 .
+
+<http://example.org/qg#organization_netflix_380329/sameAs/Q907311> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q907311 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_netflix_380329 .
+
+<http://example.org/qg#organization_reuters_7b4264/sameAs/Q130879> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q130879 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_reuters_7b4264 .
+
+<http://example.org/qg#organization_state_department_d1f0e6/sameAs/Q789915> a rdf:Statement ;
+    qg:confidence 0.70 ;
+    rdf:object wd:Q789915 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_state_department_d1f0e6 .
+
+<http://example.org/qg#organization_the_observer_5ba4ff/sameAs/Q336197> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q336197 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_the_observer_5ba4ff .
+
+<http://example.org/qg#organization_the_sicilian_defence_f05bf7/sameAs/Q16615089> a rdf:Statement ;
+    qg:confidence 0.95 ;
+    rdf:object wd:Q16615089 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_the_sicilian_defence_f05bf7 .
+
+<http://example.org/qg#organization_the_state_department_9d6be3/sameAs/Q1469605> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q1469605 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_the_state_department_9d6be3 .
+
+<http://example.org/qg#organization_the_u_s_government_9968dc/sameAs/Q7889914> a rdf:Statement ;
+    qg:confidence 0.70 ;
+    rdf:object wd:Q7889914 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_the_u_s_government_9968dc .
+
+<http://example.org/qg#organization_the_white_house_7129cc/sameAs/Q35525> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    rdf:object wd:Q35525 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_the_white_house_7129cc .
+
+<http://example.org/qg#organization_time_magazine_64acec/sameAs/Q43297> a rdf:Statement ;
+    qg:confidence 0.88 ;
+    rdf:object wd:Q43297 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_time_magazine_64acec .
+
+qg:location_austria_0dfdfa owl:sameAs wd:Q40 .
+
+qg:location_cincinnati_84bc17 owl:sameAs wd:Q43196 .
+
+qg:location_france_55b616 owl:sameAs wd:Q142 .
+
+qg:location_george_town_9ca28e owl:sameAs wd:Q61092 .
+
+qg:location_hotel_de_ville_112ff1 owl:sameAs wd:Q968939 .
+
+qg:location_hungary_718883 owl:sameAs wd:Q28 .
+
+qg:location_italy_7503c5 owl:sameAs wd:Q38 .
+
+qg:location_kentucky_d71f08 owl:sameAs wd:Q1603 .
+
+qg:location_las_vegas_0e5aeb owl:sameAs wd:Q23768 .
+
+qg:location_lexington_442a81 owl:sameAs wd:Q49241 .
+
+qg:location_lucerne_a74033 owl:sameAs wd:Q4191 .
+
+qg:location_methuen_90a106 owl:sameAs wd:Q3296078 .
+
+qg:location_mexico_508201 owl:sameAs wd:Q96 .
+
+qg:location_mexico_city_7afdf6 owl:sameAs wd:Q1489 .
+
+qg:location_moscow_467d57 owl:sameAs wd:Q649 .
+
+qg:location_nevada_13929f owl:sameAs wd:Q1227 .
+
+qg:location_new_york_fe8900 owl:sameAs wd:Q1384 .
+
+qg:location_norway_49e016 owl:sameAs wd:Q20 .
+
+qg:location_paris_f747bd owl:sameAs wd:Q90 .
+
+qg:location_pittsburg_33a1cf owl:sameAs wd:Q1342 .
+
+qg:location_russia_b2a8ec owl:sameAs wd:Q159 .
+
+qg:location_san_francisco_6cf9a6 owl:sameAs wd:Q62 .
+
+qg:location_southwest_ad0d71 owl:sameAs wd:Q2381698 .
+
+qg:location_sweden_6c5481 owl:sameAs wd:Q34 .
+
+qg:location_the_united_states_0c38dc owl:sameAs wd:Q30 .
+
+qg:location_united_states_96d841 owl:sameAs wd:Q30 .
+
+qg:location_wakefield_85a97f owl:sameAs wd:Q12806242 .
+
+qg:location_yugoslavia_aaf583 owl:sameAs wd:Q83286 .
+
+qg:organization_apple_pi_3df3dd owl:sameAs wd:Q18148824 .
+
+qg:organization_beautiful_2a7ca8 owl:sameAs wd:Q813449 .
+
+qg:organization_chess_federation_c74aa5 owl:sameAs wd:Q100589423 .
+
+qg:organization_chess_life_07bb03 owl:sameAs wd:Q2670147 .
+
+qg:organization_chess_review_f901f0 owl:sameAs wd:Q3667265 .
+
+qg:organization_christian_crusade_36689e owl:sameAs wd:Q126963189 .
+
+qg:organization_cornell_university_f32aeb owl:sameAs wd:Q49115 .
+
+qg:organization_corvair_9dc263 owl:sameAs wd:Q23637332 .
+
+qg:organization_duncan_high_school_10af2d owl:sameAs wd:Q5314386 .
+
+qg:organization_fairfield_high_2a8e25 owl:sameAs wd:Q48976516 .
+
+qg:organization_fairfield_high_school_0b3977 owl:sameAs wd:Q48976516 .
+
+qg:organization_harmon_e_5ddc10 owl:sameAs wd:Q64481724 .
+
+qg:organization_henry_clay_high_school_452fc7 owl:sameAs wd:Q5719501 .
+
+qg:organization_kentucky_state_76893a owl:sameAs wd:Q1187623 .
+
+qg:organization_lexington_herald_leader_84abee owl:sameAs wd:Q6537812 .
+
+qg:organization_librium_2b326b owl:sameAs wd:Q52271807 .
+
+qg:organization_marie_claire_08b737 owl:sameAs wd:Q2909086 .
+
+qg:organization_netflix_380329 owl:sameAs wd:Q907311 .
+
+qg:organization_reuters_7b4264 owl:sameAs wd:Q130879 .
+
+qg:organization_state_department_d1f0e6 owl:sameAs wd:Q789915 .
+
+qg:organization_the_observer_5ba4ff owl:sameAs wd:Q336197 .
+
+qg:organization_the_sicilian_defence_f05bf7 owl:sameAs wd:Q16615089 .
+
+qg:organization_the_state_department_9d6be3 owl:sameAs wd:Q1469605 .
+
+qg:organization_the_u_s_government_9968dc owl:sameAs wd:Q7889914 .
+
+qg:organization_the_white_house_7129cc owl:sameAs wd:Q35525 .
+
+qg:organization_time_magazine_64acec owl:sameAs wd:Q43297 .
+
