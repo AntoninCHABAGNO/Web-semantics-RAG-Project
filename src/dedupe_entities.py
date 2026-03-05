@@ -10,15 +10,16 @@ def is_probably_initialism(name: str) -> bool:
     return bool(re.fullmatch(r"[A-Z]\.(?:[A-Z]\.)+", name.strip()))
 
 def build_global_entity_table(ent_df: pd.DataFrame) -> pd.DataFrame:
-    # agrège toutes les occurrences
+    count_col = "mention_count" if "mention_count" in ent_df.columns else "count_in_page"
     g = ent_df.groupby(["entity_class", "canonical_text"], as_index=False).agg(
-        total_count=("count_in_page", "sum"),
+        total_count=(count_col, "sum"),
         urls=("url", lambda x: "|".join(sorted(set(x)))),
         aliases=("aliases", lambda x: "|".join(sorted(set("|".join(x).split("|"))))),
         entity_label=("entity_label", "first"),
         page_context=("page_context", lambda x: "REAL_WORLD" if "REAL_WORLD" in set(x) else "IN_UNIVERSE"),
     )
     return g
+
 
 def merge_typos_with_similarity(group_df: pd.DataFrame, threshold: float = 0.94):
     """
