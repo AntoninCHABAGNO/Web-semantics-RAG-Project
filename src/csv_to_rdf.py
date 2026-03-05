@@ -23,11 +23,29 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, Optional, Tuple
+import re
 
 
 # -----------------------------
 # RDF/Turtle helpers
 # -----------------------------
+
+def as_import_iri(value: str) -> str:
+    """
+    Ensure owl:imports gets an absolute IRI.
+    - If already looks like an IRI scheme (http:, https:, file:), keep it.
+    - Otherwise, treat it as a local path and convert to file:... absolute URI.
+    """
+    v = (value or "").strip()
+    if not v:
+        return v
+
+    # already an IRI with scheme
+    if re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", v):
+        return v
+
+    # local path -> absolute file URI
+    return Path(v).resolve().as_uri()
 
 def ttl_escape_literal(s: str) -> str:
     """Escape string for Turtle literal."""
@@ -85,6 +103,7 @@ CLASS_MAP: Dict[str, str] = {
     "ORG": "Organization",
     "TOURNAMENT": "Tournament",
     "EVENT": "Event",
+    "GROUP": "Group",
 
     # Objects / concepts
     "CHESS_OPENING": "ChessOpening",
@@ -238,7 +257,8 @@ def convert(
         # represent the base namespace as an ontology node and import ontology_import
         base_iri = ns.base[:-1] if ns.base.endswith(("#", "/")) else ns.base
         ttl.append(emit_triple(f"<{base_iri}>", "rdf:type", "owl:Ontology"))
-        ttl.append(emit_triple(f"<{base_iri}>", "owl:imports", f"<{ontology_import}>"))
+        import_iri = as_import_iri(ontology_import)
+        ttl.append(emit_triple(f"<{base_iri}>", "owl:imports", f"<{import_iri}>"))
         ttl.append("\n")
 
     # ----- Entities (Individuals) -----
@@ -336,12 +356,12 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--out", type=Path, default=Path("data/queens_gambit_graph_abox.ttl"), help="Output TTL path.")
     p.add_argument("--base", type=str, default="http://example.org/qg#", help="Base IRI for your namespace.")
     p.add_argument("--prefix", type=str, default="qg", help="Prefix for your namespace.")
-    p.add_argument("--lang", type=str, default="fr", help="Language tag for rdfs:label (default: fr).")
+    p.add_argument("--lang", type=str, default="en", help="Language tag for rdfs:label (default: en).")
     p.add_argument(
         "--ontology-import",
         type=str,
-        default=None,
-        help="Optional IRI of ontology to import (e.g., file:ontologie.ttl or http://.../ontologie.ttl).",
+        default="data/ontologie_tbox.ttl",
+        help="Optional IRI of ontology to import (e.g., file:ontologie_tbox.ttl or http://.../ontologie_tbox.ttl).",
     )
     p.add_argument(
         "--non-strict-relations",
