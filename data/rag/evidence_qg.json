@@ -1,0 +1,188 @@
+{
+  "question": "What is the queen's gambit?",
+  "question_type": "identity",
+  "matched_entities": [
+    {
+      "uri": "http://www.wikidata.org/entity/Q85808226",
+      "label": "The Queen's Gambit",
+      "class": "Unknown"
+    },
+    {
+      "uri": "http://www.wikidata.org/entity/Q1115619",
+      "label": "The Queen's Gambit",
+      "class": "Unknown"
+    }
+  ],
+  "text_evidence": [
+    {
+      "rank": 1,
+      "score": 1.5571522235870363,
+      "title": "The Queen's Gambit",
+      "url": "https://the-queens-gambit.fandom.com/wiki/The_Queen%27s_Gambit",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/The_Queen%27s_Gambit::chunk_0",
+      "text": "- For the 1983 novel, see The Queen's Gambit (novel) The Queen's Gambit is a web-television drama miniseries on Netflix. The series is based on the novel of the same name, following Beth Harmon, a chess prodigy fueled by addiction. Anya Taylor-Joy stars in the lead role and is directed and developed by Scott Frank. Based on the novel by Walter Tevis, the Netflix limited drama series THE QUEEN’S GAMBIT is a coming-of-age story that explores the true cost of genius. Abandoned and entrusted to a Kentucky orphanage in the late 1950s, a young Beth Harmon discovers an astonishing talent for chess while developing an addiction to tranquilizers provided by the state to sedate the children. Haunted by her personal demons and burdened with the gift of genius, Beth navigates between her social awkwardness amongst peers and her overconfident ego behind a chessboard. Fueled by a cocktail of narcotics and obsession, she evolves into an impressively skilled and glamorous outcast, determined to conquer the traditional boundaries in the male-dominated world of competitive chess. - Anya Taylor-Joy as Elizabeth \"Beth\" Harmon - Marielle Heller as Mrs. Alma Wheatley - Thomas Brodie-Sangster as Benny Watts - Moses Ingram as Jolene - Harry Melling as Harry Beltik - Bill Camp as Mr Shaibel"
+    },
+    {
+      "rank": 2,
+      "score": 1.3675612211227417,
+      "title": "The Queen's Gambit (novel)",
+      "url": "https://the-queens-gambit.fandom.com/wiki/The_Queen%27s_Gambit_(novel)",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/The_Queen%27s_Gambit_(novel)::chunk_0",
+      "text": "- For the Netflix TV miniseries adaptation, see The Queen's Gambit. The Queen's Gambit is a 1983 American thriller novel written by Walter Tevis. It explores the life of fictional female chess prodigy Beth Harmon. It covers themes of adoption, feminism, chess, drug addiction and alcoholism. This novel was later adapted into a Netflix original TV miniseries of the same name, released on October 23, 2020. In a New York Times interview published at the time of his book's release in 1983, author Walter Tevis said the story is \"a tribute to brainy women.\" There has been speculation as to the inspiration for the Beth Harmon character, but Tevis emphatically denied that she was based on anyone in the chess community, male or female. In 2007, actor Heath Ledger was working on what would have been his feature directing debut, an adaptation of The Queen's Gambit, with British writer/producer Allan Scott. The leading role of a young female chess prodigy had been offered to Oscar nominee Ellen Page. Ledger, himself a highly rated chess player, was due to play a supporting role as well, until his untimely death."
+    },
+    {
+      "rank": 3,
+      "score": 0.9279985666275025,
+      "title": "The Queen's Gambit (novel)",
+      "url": "https://the-queens-gambit.fandom.com/wiki/The_Queen%27s_Gambit_(novel)",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/The_Queen%27s_Gambit_(novel)::chunk_1",
+      "text": "directing debut, an adaptation of The Queen's Gambit, with British writer/producer Allan Scott. The leading role of a young female chess prodigy had been offered to Oscar nominee Ellen Page. Ledger, himself a highly rated chess player, was due to play a supporting role as well, until his untimely death. Bruce Pandolfini, a US chess master, consulted on the chess positions prior to the book's publication, and was the one who suggested the book's final title after the chess opening called \"Queen's Gambit\". Thirty-eight years later, he also returned to consult on the 2020 Netflix miniseries adaptation. The epigraph of the novel is \"The Long-Legged Fly\" by W. B. Yeats. This poem covers one of the novel's main concerns, which is the inner workings of genius in a woman. Tevis discussed this concern in a 1983 interview, the year before his death on August 9, 1984. This novel traces the life of chess prodigy, Beth Harmon, from her childhood in an orphanage through her struggles with tranquilizer and alcohol addiction to her triumphant rise through the Grandmaster ranks. - 1983, US, Random House - 2003, US, Vintage"
+    },
+    {
+      "rank": 4,
+      "score": 0.7172102093696594,
+      "title": "Harmon vs. Borgov (1968)",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Harmon_vs._Borgov_(1968)",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Harmon_vs._Borgov_(1968)::chunk_0",
+      "text": "Disclaimer: There are many ways to interpret the final game between Harmon and Borgov. For instance, the game is actually based off of a real-world Queen's Gambit Accepted, as shown in this YouTube video. Still, the canonical continuation transposes into that game as follows: For the final game of the tournament, US Champion Elizabeth Harmon plays against World Champion and USSR Grandmaster Vasily Borgov in the 1968 Moscow Invitational Chess Tournament. It is the climax of the Netflix series, The Queen's Gambit. The Queen's Gambit Accepted: Central Variation, McDonnell Defense, is a somewhat unorthodox opening for both of their playing styles; Harmon more often plays the king's pawn as white, and Borgov more often plays a solid approach against the Queen's Gambit. This results in an intense, brutal battle of wits, inevitably resulting in Borgov's resignation. The game begins as a Queen's Gambit Declined: Albin Countergambit 3. e4, and it transposes after 3. dxc4. [Site \"https://lichess.org/DxKCK3mk\"] [Date \"1968.??.??\"] [Round \"1\"] [White \"Harmon, Elizabeth (?)\"] [Black \"Borgov, Vasily (?)\"] [Result \"1-0\"] [WhiteElo \"?\"] [BlackElo \"?\"] [Variant \"Standard\"] [TimeControl \"-\"] [ECO \"D20\"] [Opening \"Queen's Gambit Accepted: Central Variation, McDonnell Defense\"] [Termination \"Normal\"] [Annotator \"lichess.org\"] Harmon opens with the Queen's Gambit. 1. d4, d5 2. c4, e5 Borgov declines with the Albin Countergambit. 3. e4?? dxc4??"
+    },
+    {
+      "rank": 5,
+      "score": 0.6859673023223877,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_18",
+      "text": "white. Complete with a white domed hat consisting of series of soft peaks and a single huge pompom in the middle of its top. In short, she's dressed as if she’s a white queen chess-piece come to life. The coat's belt even gives the shape of the chess piece’s middle. By this point, we all know the queen’s gambit opening is played by white. One can't help but suspect this is a winking choice by Beth as a character, or one added by the costume designers. In either case, a well chosen final costume to close the series. The style of makeup and additional cosmetics she chooses may vary depending on her given mental wellbeing, but she generally applies a simple eyeliner without much concern for how what impressions she give off. Harmon desires to be seen as a professional before she is interpreted as a woman, yet she does not have any inherent resentment for her femininity. A 1964 interview from Chess Review remarks her as, \"A young, unsmiling girl, with brown eyes, red hair, and a dark blue dress ... with bright, intense eyes ... She is quiet, well-mannered, and out for blood\"."
+    },
+    {
+      "rank": 6,
+      "score": 0.648322319984436,
+      "title": "Harmon vs. Borgov (1968)",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Harmon_vs._Borgov_(1968)",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Harmon_vs._Borgov_(1968)::chunk_1",
+      "text": "(?)\"] [Black \"Borgov, Vasily (?)\"] [Result \"1-0\"] [WhiteElo \"?\"] [BlackElo \"?\"] [Variant \"Standard\"] [TimeControl \"-\"] [ECO \"D20\"] [Opening \"Queen's Gambit Accepted: Central Variation, McDonnell Defense\"] [Termination \"Normal\"] [Annotator \"lichess.org\"] Harmon opens with the Queen's Gambit. 1. d4, d5 2. c4, e5 Borgov declines with the Albin Countergambit. 3. e4?? dxc4?? Inaccuracy: Harmon replies with \"a complete deviation\" from Albin theory at the time by pushing her king's pawn. Inaccuracy: Borgov takes the gambit pawn, failing to take an opportunity for the advantage. The game transposes into a Queen's Gambit Accepted: Central Variation, McDonnell Defence. 4. Be3?? Nf6?? Inaccuracy: Once again, Harmon develops inaccurately, yet Borgov does not capitalize. 5. Nc3 Nc6 6. d5 Ne7?? Inaccuracy: Na5 was best. 7. Bxc4 Ng6 8. f3 Bd6 9. Qd2 Bd7 10. Nge2 a6 11. Bb3 b5 12. a4 O-O 13. O-O Qe7 14. Rac1 Nh5 15. g3 h6 16. Bc2 Rab8 17. axb5 axb5 18. Ra1 Ra8?? The moves go on to replicate the aforementioned referenced game, Ivanchuk, Vassily vs. Wolff, Patrick (1993). Hence, the position has transposed into a Queen's Gambit Accepted: Saduleto Variation. However, in an attempt to find a breakthrough, Harmon develops an improvement on the real-world Ivanchuk's attack with 37."
+    }
+  ],
+  "kg_evidence": [
+    {
+      "rank": 1,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Moses Ingram",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q101528973",
+      "object_label": "Moses Ingram"
+    },
+    {
+      "rank": 2,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Marcin Dorociński",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q11767544",
+      "object_label": "Marcin Dorociński"
+    },
+    {
+      "rank": 3,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Marian Meder",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q1465489",
+      "object_label": "Marian Meder"
+    },
+    {
+      "rank": 4,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Akemnji Ndifornyen",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q16733225",
+      "object_label": "Akemnji Ndifornyen"
+    },
+    {
+      "rank": 5,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Janina Elkin",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q1682748",
+      "object_label": "Janina Elkin"
+    },
+    {
+      "rank": 6,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Chloe Pirrie",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q18030614",
+      "object_label": "Chloe Pirrie"
+    },
+    {
+      "rank": 7,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Sergio Di Zio",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q185625",
+      "object_label": "Sergio Di Zio"
+    },
+    {
+      "rank": 8,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Christiane Seidel",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q19277385",
+      "object_label": "Christiane Seidel"
+    },
+    {
+      "rank": 9,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Rebecca Root",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q20054091",
+      "object_label": "Rebecca Root"
+    },
+    {
+      "rank": 10,
+      "score": 5.0,
+      "fact_text": "The Queen's Gambit --castMember--> Anya Taylor-Joy",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q85808226",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P161",
+      "predicate_label": "castMember",
+      "object_uri": "http://www.wikidata.org/entity/Q20882479",
+      "object_label": "Anya Taylor-Joy"
+    }
+  ]
+}

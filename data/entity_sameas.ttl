@@ -4,1007 +4,997 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/qg#character_albin_b41fd6/sameAs/Q1001948> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q1001948 ;
+<http://example.org/qg#character_allan_scott_75bb32/sameAs/Q29540143> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Allan Scott" ;
+    qg:wikidataLabel "Allan Scott"@en ;
+    rdf:object wd:Q29540143 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_albin_b41fd6 .
-
-<http://example.org/qg#character_alekhine_d4eb92/sameAs/Q16130169> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q16130169 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_alekhine_d4eb92 .
-
-<http://example.org/qg#character_alice_15aa82/sameAs/Q650689> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q650689 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_alice_15aa82 .
-
-<http://example.org/qg#character_alice_harmon_b24c50/sameAs/Q63644053> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q63644053 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_alice_harmon_b24c50 .
-
-<http://example.org/qg#character_allston_b835fb/sameAs/Q21452335> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q21452335 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_allston_b835fb .
-
-<http://example.org/qg#character_annette_7c8aa1/sameAs/Q18071263> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q18071263 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_annette_7c8aa1 .
-
-<http://example.org/qg#character_anya_taylor_joy_7853b7/sameAs/Q20882479> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q20882479 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_anya_taylor_joy_7853b7 .
-
-<http://example.org/qg#character_beltik_7c0d52/sameAs/Q60376168> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q60376168 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_beltik_7c0d52 .
-
-<http://example.org/qg#character_benny_ff906e/sameAs/Q18640998> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q18640998 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_benny_ff906e .
-
-<http://example.org/qg#character_bergland_563a2c/sameAs/Q665148> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q665148 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_bergland_563a2c .
+    rdf:subject qg:character_allan_scott_75bb32 .
 
 <http://example.org/qg#character_beth_harmon_0c125c/sameAs/Q102378740> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Beth Harmon" ;
+    qg:wikidataDescription "fictional character from The Queen's Gambit"@en ;
+    qg:wikidataLabel "Beth Harmon"@en ;
     rdf:object wd:Q102378740 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_beth_harmon_0c125c .
 
-<http://example.org/qg#character_bill_camp_375ab3/sameAs/Q3639959> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q3639959 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_bill_camp_375ab3 .
-
-<http://example.org/qg#character_booth_4a58b1/sameAs/Q13156704> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q13156704 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_booth_4a58b1 .
-
-<http://example.org/qg#character_bradley_40bf0d/sameAs/Q538847> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q538847 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_bradley_40bf0d .
-
 <http://example.org/qg#character_bulova_faf089/sameAs/Q106066723> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.85 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Bulova" ;
+    qg:wikidataDescription "family name"@en ;
+    qg:wikidataLabel "Bulova"@en ;
     rdf:object wd:Q106066723 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_bulova_faf089 .
 
 <http://example.org/qg#character_charles_levy_7f7647/sameAs/Q112843087> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Charles Levy" ;
+    qg:wikidataDescription "radio broadcaster"@en ;
+    qg:wikidataLabel "Charles Levy"@en ;
     rdf:object wd:Q112843087 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_charles_levy_7f7647 .
 
-<http://example.org/qg#character_chloe_pirrie_495e07/sameAs/Q18030614> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q18030614 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_chloe_pirrie_495e07 .
-
-<http://example.org/qg#character_christopher_c783f9/sameAs/Q1084472> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q1084472 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_christopher_c783f9 .
-
-<http://example.org/qg#character_cooke_d4130e/sameAs/Q105436579> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q105436579 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_cooke_d4130e .
-
 <http://example.org/qg#character_crawford_walker_3a1b3f/sameAs/Q76067418> a rdf:Statement ;
-    qg:confidence 0.85 ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Crawford Walker" ;
+    qg:wikidataDescription "Peerage person ID=507855"@en ;
+    qg:wikidataLabel "Crawford Walker"@en ;
     rdf:object wd:Q76067418 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_crawford_walker_3a1b3f .
 
-<http://example.org/qg#character_cullen_6474f1/sameAs/Q40386> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q40386 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_cullen_6474f1 .
-
-<http://example.org/qg#character_darga_edba99/sameAs/Q1165843> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q1165843 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_darga_edba99 .
-
-<http://example.org/qg#character_deardorff_d8d493/sameAs/Q37468336> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q37468336 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_deardorff_d8d493 .
-
 <http://example.org/qg#character_diana_lanni_19020b/sameAs/Q109420063> a rdf:Statement ;
-    qg:confidence 0.85 ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Diana Lanni" ;
+    qg:wikidataDescription "chess player"@en ;
+    qg:wikidataLabel "Diana Lanni"@en ;
     rdf:object wd:Q109420063 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_diana_lanni_19020b .
 
 <http://example.org/qg#character_dick_evans_b2825e/sameAs/Q5272895> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Dick Evans" ;
+    qg:wikidataDescription "English footballer (1875-1942)"@en ;
+    qg:wikidataLabel "Dick Evans"@en ;
     rdf:object wd:Q5272895 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_dick_evans_b2825e .
 
-<http://example.org/qg#character_diedrich_e67fd5/sameAs/Q20804429> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q20804429 ;
+<http://example.org/qg#character_ellen_page_5c3655/sameAs/Q111452842> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Ellen Page" ;
+    qg:wikidataLabel "Ellen Page"@en ;
+    rdf:object wd:Q111452842 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_diedrich_e67fd5 .
+    rdf:subject qg:character_ellen_page_5c3655 .
 
-<http://example.org/qg#character_duhamel_b0ac5f/sameAs/Q3041042> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q3041042 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_duhamel_b0ac5f .
-
-<http://example.org/qg#character_elizabeth_bcb181/sameAs/Q385468> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q385468 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_elizabeth_bcb181 .
-
-<http://example.org/qg#character_elizabeth_harmon_e36a73/sameAs/Q115870050> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q115870050 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_elizabeth_harmon_e36a73 .
-
-<http://example.org/qg#character_friedman_e2439e/sameAs/Q1451887> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q1451887 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_friedman_e2439e .
-
-<http://example.org/qg#character_georgi_58c4ac/sameAs/Q17533877> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q17533877 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_georgi_58c4ac .
-
-<http://example.org/qg#character_girev_2c3631/sameAs/Q65283299> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q65283299 ;
+<http://example.org/qg#character_girev_2c3631/sameAs/Q6953477> a rdf:Statement ;
+    qg:confidence 0.77 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Girev" ;
+    qg:wikidataDescription "settlement in Nusaybin, Turkey"@en ;
+    qg:wikidataLabel "Girevş"@en ;
+    rdf:object wd:Q6953477 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_girev_2c3631 .
 
-<http://example.org/qg#character_goldman_f80ea5/sameAs/Q1535908> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q1535908 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_goldman_f80ea5 .
-
-<http://example.org/qg#character_grandmaster_9b4991/sameAs/Q105269> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q105269 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_grandmaster_9b4991 .
-
-<http://example.org/qg#character_harmon_140a20/sameAs/Q16276369> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q16276369 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_harmon_140a20 .
-
-<http://example.org/qg#character_harmon_e_c0b572/sameAs/Q120481132> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q120481132 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_harmon_e_c0b572 .
-
-<http://example.org/qg#character_harry_737f4b/sameAs/Q668885> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q668885 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_harry_737f4b .
-
-<http://example.org/qg#character_hou_yifan_9e15c9/sameAs/Q234011> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q234011 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_hou_yifan_9e15c9 .
-
-<http://example.org/qg#character_isla_johnston_743cc7/sameAs/Q117121905> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q117121905 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_isla_johnston_743cc7 .
-
-<http://example.org/qg#character_jacob_fortune_lloyd_927fd6/sameAs/Q101237941> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q101237941 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_jacob_fortune_lloyd_927fd6 .
-
-<http://example.org/qg#character_jesus_84f268/sameAs/Q1158269> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q1158269 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_jesus_84f268 .
-
-<http://example.org/qg#character_jolene_ef5c2d/sameAs/Q1551339> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q1551339 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_jolene_ef5c2d .
-
-<http://example.org/qg#character_judit_polg_r_f13b0f/sameAs/Q183250> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q183250 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_judit_polg_r_f13b0f .
-
-<http://example.org/qg#character_lanni_9d3b4b/sameAs/Q98669307> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q98669307 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_lanni_9d3b4b .
-
 <http://example.org/qg#character_levenfish_a725df/sameAs/Q135840032> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.85 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Levenfish" ;
+    qg:wikidataDescription "family name"@en ;
+    qg:wikidataLabel "Levenfish"@en ;
     rdf:object wd:Q135840032 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_levenfish_a725df .
 
-<http://example.org/qg#character_manfredi_47d3c2/sameAs/Q41211341> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q41211341 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_manfredi_47d3c2 .
-
-<http://example.org/qg#character_manuel_c1cf6c/sameAs/Q11113719> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q11113719 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_manuel_c1cf6c .
-
-<http://example.org/qg#character_margaret_9a2442/sameAs/Q4963612> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q4963612 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_margaret_9a2442 .
-
-<http://example.org/qg#character_margaret_johnson_c8d437/sameAs/Q110462047> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q110462047 ;
+<http://example.org/qg#character_margaret_johnson_c8d437/sameAs/Q116179525> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Margaret Johnson" ;
+    qg:wikidataDescription "daughter of Ralph Johnson, mother of Anthony Mayney"@en ;
+    qg:wikidataLabel "Margaret Johnson"@en ;
+    rdf:object wd:Q116179525 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_margaret_johnson_c8d437 .
 
-<http://example.org/qg#character_margaret_neil_832045/sameAs/Q114953943> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q114953943 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_margaret_neil_832045 .
-
 <http://example.org/qg#character_mcdonnell_434a93/sameAs/Q21511109> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.85 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "McDonnell" ;
+    qg:wikidataDescription "family name"@en ;
+    qg:wikidataLabel "McDonnell"@en ;
     rdf:object wd:Q21511109 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_mcdonnell_434a93 .
 
-<http://example.org/qg#character_morphy_35dccc/sameAs/Q56599541> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q56599541 ;
+<http://example.org/qg#character_michaelangelo_c85781/sameAs/Q100393538> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Michaelangelo" ;
+    qg:wikidataDescription "fictional character in television series Ninja Turtles: The Next Mutation"@en ;
+    qg:wikidataLabel "Michaelangelo"@en ;
+    rdf:object wd:Q100393538 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_morphy_35dccc .
+    rdf:subject qg:character_michaelangelo_c85781 .
 
-<http://example.org/qg#character_najdorf_10dbbd/sameAs/Q4312397> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q4312397 ;
+<http://example.org/qg#character_rosa_bonheur_385110/sameAs/Q241732> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Rosa Bonheur" ;
+    qg:wikidataDescription "French artist (1822-1899)"@en ;
+    qg:wikidataLabel "Rosa Bonheur"@en ;
+    rdf:object wd:Q241732 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_najdorf_10dbbd .
+    rdf:subject qg:character_rosa_bonheur_385110 .
 
-<http://example.org/qg#character_nona_gaprindashvili_3b3a7b/sameAs/Q231630> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q231630 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_nona_gaprindashvili_3b3a7b .
-
-<http://example.org/qg#character_packer_9f9db2/sameAs/Q62858956> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q62858956 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_packer_9f9db2 .
-
-<http://example.org/qg#character_paul_morphy_698df9/sameAs/Q105589> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q105589 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_paul_morphy_698df9 .
-
-<http://example.org/qg#character_polg_r_4b1f61/sameAs/Q2419449> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q2419449 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_polg_r_4b1f61 .
-
-<http://example.org/qg#character_roger_64c8fd/sameAs/Q4925304> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q4925304 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_roger_64c8fd .
-
-<http://example.org/qg#character_rossolimo_c00a3a/sameAs/Q7369913> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q7369913 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_rossolimo_c00a3a .
-
-<http://example.org/qg#character_rudolph_d0465b/sameAs/Q18028739> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q18028739 ;
+<http://example.org/qg#character_rudolph_d0465b/sameAs/Q28736316> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Rudolph" ;
+    qg:wikidataDescription "fictional character from Bon Voyage!"@en ;
+    qg:wikidataLabel "Rudolph"@en ;
+    rdf:object wd:Q28736316 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_rudolph_d0465b .
 
-<http://example.org/qg#character_samantha_f81e43/sameAs/Q6774> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q6774 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_samantha_f81e43 .
-
-<http://example.org/qg#character_shapkin_07a5e0/sameAs/Q4520240> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q4520240 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_shapkin_07a5e0 .
-
-<http://example.org/qg#character_sizemore_1cd968/sameAs/Q21510222> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q21510222 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_sizemore_1cd968 .
-
-<http://example.org/qg#character_tevis_e17d32/sameAs/Q37551763> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q37551763 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_tevis_e17d32 .
-
-<http://example.org/qg#character_townes_379370/sameAs/Q16557405> a rdf:Statement ;
+<http://example.org/qg#character_vassily_83e341/sameAs/Q108656767> a rdf:Statement ;
     qg:confidence 0.85 ;
-    rdf:object wd:Q16557405 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Vassily" ;
+    qg:wikidataDescription "male given name"@en ;
+    qg:wikidataLabel "Vassily"@en ;
+    rdf:object wd:Q108656767 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_townes_379370 .
+    rdf:subject qg:character_vassily_83e341 .
+
+<http://example.org/qg#character_w_b_yeats_71c5a1/sameAs/Q119143457> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "W. B. Yeats" ;
+    qg:wikidataDescription "painting by Henry Marriott Paget (1856–1936), Ulster Museum"@en ;
+    qg:wikidataLabel "W. B. Yeats (1865–1939)"@en ;
+    rdf:object wd:Q119143457 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:character_w_b_yeats_71c5a1 .
 
 <http://example.org/qg#character_w_c_griffith_005a56/sameAs/Q60042041> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.82 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "W. C. Griffith" ;
+    qg:wikidataDescription "researcher ORCID ID = 0000-0002-0260-1956"@en ;
+    qg:wikidataLabel "W. C. Griffith"@en ;
     rdf:object wd:Q60042041 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:character_w_c_griffith_005a56 .
 
-<http://example.org/qg#character_walter_tevis_658c18/sameAs/Q740928> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q740928 ;
+<http://example.org/qg#character_wolff_b7d784/sameAs/Q115918608> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Wolff" ;
+    qg:wikidataDescription "fictional character from Fire Emblem Gaiden"@en ;
+    qg:wikidataLabel "Wolff"@en ;
+    rdf:object wd:Q115918608 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_walter_tevis_658c18 .
+    rdf:subject qg:character_wolff_b7d784 .
 
-<http://example.org/qg#character_watts_2182cf/sameAs/Q17144855> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q17144855 ;
+<http://example.org/qg#episode_adjournment_2bb5f9/sameAs/Q104650276> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Adjournment" ;
+    qg:wikidataDescription "2020 episode of The Queen's Gambit (S1 E6)"@en ;
+    qg:wikidataLabel "Adjournment"@en ;
+    rdf:object wd:Q104650276 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_watts_2182cf .
+    rdf:subject qg:episode_adjournment_2bb5f9 .
 
-<http://example.org/qg#character_weiss_16f701/sameAs/Q145210> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q145210 ;
+<http://example.org/qg#episode_doubled_pawns_6bdfa9/sameAs/Q104650207> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Doubled Pawns" ;
+    qg:wikidataDescription "2020 episode of The Queen's Gambit (S1 E3)"@en ;
+    qg:wikidataLabel "Doubled Pawns"@en ;
+    rdf:object wd:Q104650207 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_weiss_16f701 .
+    rdf:subject qg:episode_doubled_pawns_6bdfa9 .
 
-<http://example.org/qg#character_wexler_56889a/sameAs/Q37492869> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q37492869 ;
+<http://example.org/qg#episode_end_game_e70272/sameAs/Q104650295> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "End Game" ;
+    qg:wikidataDescription "2020 episode of The Queen's Gambit (S1 E7)"@en ;
+    qg:wikidataLabel "End Game"@en ;
+    rdf:object wd:Q104650295 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_wexler_56889a .
+    rdf:subject qg:episode_end_game_e70272 .
 
-<http://example.org/qg#character_wheatley_e7791f/sameAs/Q7991927> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q7991927 ;
+<http://example.org/qg#episode_exchanges_e1ed49/sameAs/Q104650188> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Exchanges" ;
+    qg:wikidataDescription "2020 episode of The Queen's Gambit (S1 E2)"@en ;
+    qg:wikidataLabel "Exchanges"@en ;
+    rdf:object wd:Q104650188 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_wheatley_e7791f .
+    rdf:subject qg:episode_exchanges_e1ed49 .
 
-<http://example.org/qg#character_white_8f265d/sameAs/Q1215200> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q1215200 ;
+<http://example.org/qg#episode_middle_game_60ed27/sameAs/Q104650246> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Middle Game" ;
+    qg:wikidataDescription "2020 episode of The Queen's Gambit (S1 E4)"@en ;
+    qg:wikidataLabel "Middle Game"@en ;
+    rdf:object wd:Q104650246 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:character_white_8f265d .
+    rdf:subject qg:episode_middle_game_60ed27 .
+
+<http://example.org/qg#episode_openings_ed66d5/sameAs/Q104650181> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Openings" ;
+    qg:wikidataLabel "Q104650181"@en ;
+    rdf:object wd:Q104650181 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:episode_openings_ed66d5 .
 
 <http://example.org/qg#event_chess_olympiad_345423/sameAs/Q428303> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Chess Olympiad" ;
+    qg:wikidataDescription "biennial chess tournament"@en ;
+    qg:wikidataLabel "Chess Olympiad"@en ;
     rdf:object wd:Q428303 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:event_chess_olympiad_345423 .
 
-<http://example.org/qg#event_exchanges_3020b9/sameAs/Q50815242> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q50815242 ;
+<http://example.org/qg#event_exchanges_3020b9/sameAs/Q104650188> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Exchanges" ;
+    qg:wikidataDescription "2020 episode of The Queen's Gambit (S1 E2)"@en ;
+    qg:wikidataLabel "Exchanges"@en ;
+    rdf:object wd:Q104650188 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:event_exchanges_3020b9 .
 
-<http://example.org/qg#event_the_u_s_open_0de146/sameAs/Q5870552> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q5870552 ;
+<http://example.org/qg#event_the_candidates_tournament_313f06/sameAs/Q1723677> a rdf:Statement ;
+    qg:confidence 0.76 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Candidates Tournament" ;
+    qg:wikidataDescription "international chess tournament organized by FIDE"@en ;
+    qg:wikidataLabel "Candidates Tournament"@en ;
+    rdf:object wd:Q1723677 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:event_the_u_s_open_0de146 .
+    rdf:subject qg:event_the_candidates_tournament_313f06 .
 
 <http://example.org/qg#event_u_s_open_chess_championship_865273/sameAs/Q1995105> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "U.S. Open Chess Championship" ;
+    qg:wikidataDescription "annual chess tournament in the United States"@en ;
+    qg:wikidataLabel "U.S. Open Chess Championship"@en ;
     rdf:object wd:Q1995105 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:event_u_s_open_chess_championship_865273 .
 
-<http://example.org/qg#group_american_ee58cd/sameAs/Q169889> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q169889 ;
+<http://example.org/qg#location_a_chess_club_f61917/sameAs/Q1896682> a rdf:Statement ;
+    qg:confidence 0.70 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Chess Club" ;
+    qg:wikidataDescription "club formed for the purpose of playing the board game of chess"@en ;
+    qg:wikidataLabel "chess club"@en ;
+    rdf:object wd:Q1896682 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_american_ee58cd .
-
-<http://example.org/qg#group_chinese_e99992/sameAs/Q7850> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q7850 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_chinese_e99992 .
-
-<http://example.org/qg#group_christian_df9176/sameAs/Q18001597> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q18001597 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_christian_df9176 .
-
-<http://example.org/qg#group_communists_c34c1d/sameAs/Q21027324> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q21027324 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_communists_c34c1d .
-
-<http://example.org/qg#group_dutch_e92e24/sameAs/Q7411> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q7411 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_dutch_e92e24 .
-
-<http://example.org/qg#group_french_b0dfdf/sameAs/Q150> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q150 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_french_b0dfdf .
-
-<http://example.org/qg#group_german_a9949f/sameAs/Q188> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q188 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_german_a9949f .
-
-<http://example.org/qg#group_hungarian_7bce55/sameAs/Q9067> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q9067 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_hungarian_7bce55 .
-
-<http://example.org/qg#group_russian_b71f39/sameAs/Q7737> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q7737 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_russian_b71f39 .
-
-<http://example.org/qg#group_russians_2e63eb/sameAs/Q49542> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q49542 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_russians_2e63eb .
-
-<http://example.org/qg#group_sicilian_4084b8/sameAs/Q33973> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q33973 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_sicilian_4084b8 .
-
-<http://example.org/qg#group_soviet_b5159c/sameAs/Q15180> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q15180 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:group_soviet_b5159c .
+    rdf:subject qg:location_a_chess_club_f61917 .
 
 <http://example.org/qg#location_austria_0dfdfa/sameAs/Q40> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Austria" ;
+    qg:wikidataDescription "country in Central Europe"@en ;
+    qg:wikidataLabel "Austria"@en ;
     rdf:object wd:Q40 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_austria_0dfdfa .
 
 <http://example.org/qg#location_cincinnati_84bc17/sameAs/Q43196> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Cincinnati" ;
+    qg:wikidataDescription "city in Ohio, United States; county seat of Hamilton County"@en ;
+    qg:wikidataLabel "Cincinnati"@en ;
     rdf:object wd:Q43196 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_cincinnati_84bc17 .
 
+<http://example.org/qg#location_denver_aaf23c/sameAs/Q16554> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Denver" ;
+    qg:wikidataDescription "consolidated city-county and capital of Colorado, United States"@en ;
+    qg:wikidataLabel "Denver"@en ;
+    rdf:object wd:Q16554 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:location_denver_aaf23c .
+
 <http://example.org/qg#location_france_55b616/sameAs/Q142> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "France" ;
+    qg:wikidataDescription "country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)"@en ;
+    qg:wikidataLabel "France"@en ;
     rdf:object wd:Q142 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_france_55b616 .
 
 <http://example.org/qg#location_george_town_9ca28e/sameAs/Q61092> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "George Town" ;
+    qg:wikidataDescription "capital city of the Malaysian state of Penang"@en ;
+    qg:wikidataLabel "George Town"@en ;
     rdf:object wd:Q61092 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_george_town_9ca28e .
 
 <http://example.org/qg#location_hungary_718883/sameAs/Q28> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Hungary" ;
+    qg:wikidataDescription "country in Central Europe"@en ;
+    qg:wikidataLabel "Hungary"@en ;
     rdf:object wd:Q28 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_hungary_718883 .
 
 <http://example.org/qg#location_italy_7503c5/sameAs/Q38> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Italy" ;
+    qg:wikidataDescription "country in southern Europe"@en ;
+    qg:wikidataLabel "Italy"@en ;
     rdf:object wd:Q38 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_italy_7503c5 .
 
 <http://example.org/qg#location_kentucky_d71f08/sameAs/Q1603> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.97 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Kentucky" ;
+    qg:wikidataDescription "state of the United States of America"@en ;
+    qg:wikidataLabel "Kentucky"@en ;
     rdf:object wd:Q1603 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_kentucky_d71f08 .
 
 <http://example.org/qg#location_las_vegas_0e5aeb/sameAs/Q23768> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Las Vegas" ;
+    qg:wikidataDescription "seat of Clark County, and largest city in state of Nevada, United States"@en ;
+    qg:wikidataLabel "Las Vegas"@en ;
     rdf:object wd:Q23768 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_las_vegas_0e5aeb .
 
 <http://example.org/qg#location_lexington_442a81/sameAs/Q49241> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Lexington" ;
+    qg:wikidataDescription "city in and county seat of Fayette County, Kentucky, United States"@en ;
+    qg:wikidataLabel "Lexington"@en ;
     rdf:object wd:Q49241 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_lexington_442a81 .
 
-<http://example.org/qg#location_lucerne_a74033/sameAs/Q4191> a rdf:Statement ;
-    qg:confidence 0.98 ;
-    rdf:object wd:Q4191 ;
+<http://example.org/qg#location_lucerne_a74033/sameAs/Q961598> a rdf:Statement ;
+    qg:confidence 0.89 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Lucerne" ;
+    qg:wikidataDescription "village in Putnam County, Missouri, United States"@en ;
+    qg:wikidataLabel "Lucerne"@en ;
+    rdf:object wd:Q961598 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_lucerne_a74033 .
 
-<http://example.org/qg#location_methuen_90a106/sameAs/Q3296078> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q3296078 ;
+<http://example.org/qg#location_methuen_90a106/sameAs/Q54179> a rdf:Statement ;
+    qg:confidence 0.97 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Methuen" ;
+    qg:wikidataDescription "city in Massachusetts, United States"@en ;
+    qg:wikidataLabel "Methuen"@en ;
+    rdf:object wd:Q54179 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_methuen_90a106 .
 
-<http://example.org/qg#location_mexico_508201/sameAs/Q96> a rdf:Statement ;
-    qg:confidence 0.98 ;
-    rdf:object wd:Q96 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:location_mexico_508201 .
-
 <http://example.org/qg#location_mexico_city_7afdf6/sameAs/Q1489> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Mexico City" ;
+    qg:wikidataDescription "capital and largest city of Mexico"@en ;
+    qg:wikidataLabel "Mexico City"@en ;
     rdf:object wd:Q1489 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_mexico_city_7afdf6 .
 
 <http://example.org/qg#location_moscow_467d57/sameAs/Q649> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.97 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Moscow" ;
+    qg:wikidataDescription "capital and most populous city of Russia"@en ;
+    qg:wikidataLabel "Moscow"@en ;
     rdf:object wd:Q649 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_moscow_467d57 .
 
-<http://example.org/qg#location_nevada_13929f/sameAs/Q1227> a rdf:Statement ;
+<http://example.org/qg#location_nevada_13929f/sameAs/Q959584> a rdf:Statement ;
     qg:confidence 0.95 ;
-    rdf:object wd:Q1227 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Nevada" ;
+    qg:wikidataDescription "city in and county seat of Vernon County, Missouri, United States"@en ;
+    qg:wikidataLabel "Nevada"@en ;
+    rdf:object wd:Q959584 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_nevada_13929f .
 
 <http://example.org/qg#location_new_york_fe8900/sameAs/Q1384> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "New York" ;
+    qg:wikidataDescription "state of the United States of America"@en ;
+    qg:wikidataLabel "New York"@en ;
     rdf:object wd:Q1384 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_new_york_fe8900 .
 
 <http://example.org/qg#location_norway_49e016/sameAs/Q20> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Norway" ;
+    qg:wikidataDescription "country in Northern Europe"@en ;
+    qg:wikidataLabel "Norway"@en ;
     rdf:object wd:Q20 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_norway_49e016 .
 
-<http://example.org/qg#location_paris_f747bd/sameAs/Q90> a rdf:Statement ;
-    qg:confidence 0.98 ;
-    rdf:object wd:Q90 ;
+<http://example.org/qg#location_paris_f747bd/sameAs/Q830149> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Paris" ;
+    qg:wikidataDescription "city in and county seat of Lamar County, Texas, United States"@en ;
+    qg:wikidataLabel "Paris"@en ;
+    rdf:object wd:Q830149 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_paris_f747bd .
 
-<http://example.org/qg#location_pittsburg_33a1cf/sameAs/Q1342> a rdf:Statement ;
-    qg:confidence 0.88 ;
-    rdf:object wd:Q1342 ;
+<http://example.org/qg#location_pittsburg_33a1cf/sameAs/Q982452> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Pittsburg" ;
+    qg:wikidataDescription "city in and county seat of Camp County, Texas, United States"@en ;
+    qg:wikidataLabel "Pittsburg"@en ;
+    rdf:object wd:Q982452 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_pittsburg_33a1cf .
 
 <http://example.org/qg#location_russia_b2a8ec/sameAs/Q159> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Russia" ;
+    qg:wikidataDescription "country in Eastern Europe and Northern Asia"@en ;
+    qg:wikidataLabel "Russia"@en ;
     rdf:object wd:Q159 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_russia_b2a8ec .
 
 <http://example.org/qg#location_san_francisco_6cf9a6/sameAs/Q62> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "San Francisco" ;
+    qg:wikidataDescription "consolidated city and county in California, United States"@en ;
+    qg:wikidataLabel "San Francisco"@en ;
     rdf:object wd:Q62 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_san_francisco_6cf9a6 .
 
-<http://example.org/qg#location_southwest_ad0d71/sameAs/Q2381698> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q2381698 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:location_southwest_ad0d71 .
-
 <http://example.org/qg#location_sweden_6c5481/sameAs/Q34> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Sweden" ;
+    qg:wikidataDescription "country in Northern Europe"@en ;
+    qg:wikidataLabel "Sweden"@en ;
     rdf:object wd:Q34 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_sweden_6c5481 .
 
-<http://example.org/qg#location_the_united_states_0c38dc/sameAs/Q30> a rdf:Statement ;
-    qg:confidence 0.88 ;
-    rdf:object wd:Q30 ;
+<http://example.org/qg#location_the_united_states_0c38dc/sameAs/Q106501494> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "the United States" ;
+    qg:wikidataDescription "Vanity Fair caricature of The Hon TF Bayard by Spy"@en ;
+    qg:wikidataLabel "The United States"@en ;
+    rdf:object wd:Q106501494 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_the_united_states_0c38dc .
 
 <http://example.org/qg#location_united_states_96d841/sameAs/Q30> a rdf:Statement ;
-    qg:confidence 0.98 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "United States" ;
+    qg:wikidataDescription "country located primarily in North America"@en ;
+    qg:wikidataLabel "United States"@en ;
     rdf:object wd:Q30 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_united_states_96d841 .
 
-<http://example.org/qg#location_wakefield_85a97f/sameAs/Q12806242> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q12806242 ;
+<http://example.org/qg#location_wakefield_85a97f/sameAs/Q928044> a rdf:Statement ;
+    qg:confidence 0.89 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Wakefield" ;
+    qg:wikidataDescription "village in La Pêche, Quebec, Canada, former municipality"@en ;
+    qg:wikidataLabel "Wakefield"@en ;
+    rdf:object wd:Q928044 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_wakefield_85a97f .
 
-<http://example.org/qg#location_yugoslavia_aaf583/sameAs/Q83286> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q83286 ;
+<http://example.org/qg#location_yugoslavia_aaf583/sameAs/Q36704> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Yugoslavia" ;
+    qg:wikidataDescription "1918–1992 country in Southeastern Europe"@en ;
+    qg:wikidataLabel "Yugoslavia"@en ;
+    rdf:object wd:Q36704 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:location_yugoslavia_aaf583 .
 
-<http://example.org/qg#organization_apple_pi_3df3dd/sameAs/Q18148824> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q18148824 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_apple_pi_3df3dd .
-
-<http://example.org/qg#organization_beautiful_2a7ca8/sameAs/Q813449> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q813449 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_beautiful_2a7ca8 .
-
 <http://example.org/qg#organization_chess_federation_c74aa5/sameAs/Q100589423> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Chess Federation" ;
+    qg:wikidataDescription "sports governing body organizing chess"@en ;
+    qg:wikidataLabel "chess federation"@en ;
     rdf:object wd:Q100589423 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_chess_federation_c74aa5 .
 
 <http://example.org/qg#organization_chess_life_07bb03/sameAs/Q2670147> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Chess Life" ;
+    qg:wikidataDescription "US periodical"@en ;
+    qg:wikidataLabel "Chess Life"@en ;
     rdf:object wd:Q2670147 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_chess_life_07bb03 .
 
 <http://example.org/qg#organization_chess_review_f901f0/sameAs/Q3667265> a rdf:Statement ;
     qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Chess Review" ;
+    qg:wikidataDescription "American magazine"@en ;
+    qg:wikidataLabel "Chess Review"@en ;
     rdf:object wd:Q3667265 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_chess_review_f901f0 .
 
 <http://example.org/qg#organization_christian_crusade_36689e/sameAs/Q126963189> a rdf:Statement ;
-    qg:confidence 0.85 ;
+    qg:confidence 0.78 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Christian Crusade" ;
+    qg:wikidataLabel "Christian Crusaders"@en ;
     rdf:object wd:Q126963189 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_christian_crusade_36689e .
 
 <http://example.org/qg#organization_cornell_university_f32aeb/sameAs/Q49115> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Cornell University" ;
+    qg:wikidataDescription "private and statutory land-grant research university in Ithaca, New York, USA"@en ;
+    qg:wikidataLabel "Cornell University"@en ;
     rdf:object wd:Q49115 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_cornell_university_f32aeb .
 
-<http://example.org/qg#organization_corvair_9dc263/sameAs/Q23637332> a rdf:Statement ;
+<http://example.org/qg#organization_corvair_9dc263/sameAs/Q5173424> a rdf:Statement ;
     qg:confidence 0.85 ;
-    rdf:object wd:Q23637332 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Corvair" ;
+    qg:wikidataDescription "Wikimedia disambiguation page"@en ;
+    qg:wikidataLabel "Corvair"@en ;
+    rdf:object wd:Q5173424 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_corvair_9dc263 .
 
 <http://example.org/qg#organization_duncan_high_school_10af2d/sameAs/Q5314386> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Duncan High School" ;
+    qg:wikidataDescription "high school in Duncan, Greenlee County, Arizona"@en ;
+    qg:wikidataLabel "Duncan High School"@en ;
     rdf:object wd:Q5314386 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_duncan_high_school_10af2d .
 
-<http://example.org/qg#organization_fairfield_high_2a8e25/sameAs/Q48976516> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q48976516 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_fairfield_high_2a8e25 .
-
 <http://example.org/qg#organization_fairfield_high_school_0b3977/sameAs/Q48976516> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Fairfield High School" ;
+    qg:wikidataDescription "high school in California, United States"@en ;
+    qg:wikidataLabel "Fairfield High School"@en ;
     rdf:object wd:Q48976516 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_fairfield_high_school_0b3977 .
 
 <http://example.org/qg#organization_henry_clay_high_school_452fc7/sameAs/Q5719501> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Henry Clay High School" ;
+    qg:wikidataDescription "high school in Lexington, Fayette County, Kentucky"@en ;
+    qg:wikidataLabel "Henry Clay High School"@en ;
     rdf:object wd:Q5719501 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_henry_clay_high_school_452fc7 .
 
-<http://example.org/qg#organization_kentucky_state_76893a/sameAs/Q1187623> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q1187623 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_kentucky_state_76893a .
-
 <http://example.org/qg#organization_lexington_herald_leader_84abee/sameAs/Q6537812> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Lexington Herald-Leader" ;
+    qg:wikidataDescription "newspaper based in Lexington, Kentucky"@en ;
+    qg:wikidataLabel "Lexington Herald-Leader"@en ;
     rdf:object wd:Q6537812 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_lexington_herald_leader_84abee .
 
-<http://example.org/qg#organization_librium_2b326b/sameAs/Q52271807> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q52271807 ;
+<http://example.org/qg#organization_marie_claire_08b737/sameAs/Q778079> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Marie Claire" ;
+    qg:wikidataDescription "women's magazine"@en ;
+    qg:wikidataLabel "Marie Claire"@en ;
+    rdf:object wd:Q778079 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_librium_2b326b .
+    rdf:subject qg:organization_marie_claire_08b737 .
+
+<http://example.org/qg#organization_mcdonnell_3f8421/sameAs/Q21511109> a rdf:Statement ;
+    qg:confidence 0.85 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "McDonnell" ;
+    qg:wikidataDescription "family name"@en ;
+    qg:wikidataLabel "McDonnell"@en ;
+    rdf:object wd:Q21511109 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_mcdonnell_3f8421 .
 
 <http://example.org/qg#organization_netflix_380329/sameAs/Q907311> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Netflix" ;
+    qg:wikidataDescription "American subscription video on-demand over-the-top streaming service"@en ;
+    qg:wikidataLabel "Netflix"@en ;
     rdf:object wd:Q907311 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_netflix_380329 .
 
-<http://example.org/qg#organization_reuters_7b4264/sameAs/Q130879> a rdf:Statement ;
-    qg:confidence 0.95 ;
-    rdf:object wd:Q130879 ;
+<http://example.org/qg#organization_new_york_times_63ecee/sameAs/Q3875590> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "New York Times" ;
+    qg:wikidataDescription "2001 album by Adam Bomb"@en ;
+    qg:wikidataLabel "New York Times"@en ;
+    rdf:object wd:Q3875590 ;
     rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_reuters_7b4264 .
+    rdf:subject qg:organization_new_york_times_63ecee .
+
+<http://example.org/qg#organization_random_house_cf01b9/sameAs/Q744182> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Random House" ;
+    qg:wikidataDescription "American general-interest trade book publisher"@en ;
+    qg:wikidataLabel "Random House"@en ;
+    rdf:object wd:Q744182 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_random_house_cf01b9 .
+
+<http://example.org/qg#organization_the_lexington_herald_leader_587dd7/sameAs/Q6537812> a rdf:Statement ;
+    qg:confidence 0.76 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Lexington Herald-Leader" ;
+    qg:wikidataDescription "newspaper based in Lexington, Kentucky"@en ;
+    qg:wikidataLabel "Lexington Herald-Leader"@en ;
+    rdf:object wd:Q6537812 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:organization_the_lexington_herald_leader_587dd7 .
 
 <http://example.org/qg#organization_the_observer_5ba4ff/sameAs/Q336197> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "The Observer" ;
+    qg:wikidataDescription "British weekly newspaper"@en ;
+    qg:wikidataLabel "The Observer"@en ;
     rdf:object wd:Q336197 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_the_observer_5ba4ff .
 
 <http://example.org/qg#organization_the_sicilian_defence_f05bf7/sameAs/Q16615089> a rdf:Statement ;
-    qg:confidence 0.95 ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "the Sicilian Defence" ;
+    qg:wikidataDescription "2014 album"@en ;
+    qg:wikidataLabel "The Sicilian Defence"@en ;
     rdf:object wd:Q16615089 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_the_sicilian_defence_f05bf7 .
 
-<http://example.org/qg#organization_the_state_department_9d6be3/sameAs/Q1469605> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q1469605 ;
-    rdf:predicate owl:sameAs ;
-    rdf:subject qg:organization_the_state_department_9d6be3 .
-
-<http://example.org/qg#organization_the_white_house_7129cc/sameAs/Q35525> a rdf:Statement ;
-    qg:confidence 0.85 ;
-    rdf:object wd:Q35525 ;
+<http://example.org/qg#organization_the_white_house_7129cc/sameAs/Q21856367> a rdf:Statement ;
+    qg:confidence 0.92 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "the White House" ;
+    qg:wikidataDescription "painting by Chaïm Soutine"@en ;
+    qg:wikidataLabel "The White House"@en ;
+    rdf:object wd:Q21856367 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_the_white_house_7129cc .
 
-<http://example.org/qg#organization_time_magazine_64acec/sameAs/Q43297> a rdf:Statement ;
-    qg:confidence 0.88 ;
-    rdf:object wd:Q43297 ;
+<http://example.org/qg#organization_time_magazine_64acec/sameAs/Q124535786> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Time Magazine" ;
+    qg:wikidataDescription "organization"@en ;
+    qg:wikidataLabel "Time Magazine"@en ;
+    rdf:object wd:Q124535786 ;
     rdf:predicate owl:sameAs ;
     rdf:subject qg:organization_time_magazine_64acec .
 
-qg:character_albin_b41fd6 owl:sameAs wd:Q1001948 .
+<http://example.org/qg#real_person_anya_taylor_joy_160ff4/sameAs/Q20882479> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Anya Taylor-Joy" ;
+    qg:wikidataDescription "Actress (born 1996)"@en ;
+    qg:wikidataLabel "Anya Taylor-Joy"@en ;
+    rdf:object wd:Q20882479 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_anya_taylor_joy_160ff4 .
 
-qg:character_alekhine_d4eb92 owl:sameAs wd:Q16130169 .
+<http://example.org/qg#real_person_bill_camp_980f97/sameAs/Q3639959> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Bill Camp" ;
+    qg:wikidataDescription "American actor"@en ;
+    qg:wikidataLabel "Bill Camp"@en ;
+    rdf:object wd:Q3639959 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_bill_camp_980f97 .
 
-qg:character_alice_15aa82 owl:sameAs wd:Q650689 .
+<http://example.org/qg#real_person_bruce_pandolfini_7b4511/sameAs/Q624987> a rdf:Statement ;
+    qg:confidence 0.98 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Bruce Pandolfini" ;
+    qg:wikidataDescription "American chess author, teacher, and coach"@en ;
+    qg:wikidataLabel "Bruce Pandolfini"@en ;
+    rdf:object wd:Q624987 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_bruce_pandolfini_7b4511 .
 
-qg:character_alice_harmon_b24c50 owl:sameAs wd:Q63644053 .
+<http://example.org/qg#real_person_chloe_pirrie_9ab2ca/sameAs/Q18030614> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Chloe Pirrie" ;
+    qg:wikidataDescription "Scottish actress"@en ;
+    qg:wikidataLabel "Chloe Pirrie"@en ;
+    rdf:object wd:Q18030614 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_chloe_pirrie_9ab2ca .
 
-qg:character_allston_b835fb owl:sameAs wd:Q21452335 .
+<http://example.org/qg#real_person_harry_melling_f4475a/sameAs/Q329778> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Harry Melling" ;
+    qg:wikidataDescription "British actor"@en ;
+    qg:wikidataLabel "Harry Melling"@en ;
+    rdf:object wd:Q329778 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_harry_melling_f4475a .
 
-qg:character_annette_7c8aa1 owl:sameAs wd:Q18071263 .
+<http://example.org/qg#real_person_hou_yifan_0754e0/sameAs/Q234011> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Hou Yifan" ;
+    qg:wikidataDescription "Chinese chess player"@en ;
+    qg:wikidataLabel "Hou Yifan"@en ;
+    rdf:object wd:Q234011 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_hou_yifan_0754e0 .
 
-qg:character_anya_taylor_joy_7853b7 owl:sameAs wd:Q20882479 .
+<http://example.org/qg#real_person_isla_johnston_568f2a/sameAs/Q117121905> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Isla Johnston" ;
+    qg:wikidataDescription "British actress"@en ;
+    qg:wikidataLabel "Isla Johnston"@en ;
+    rdf:object wd:Q117121905 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_isla_johnston_568f2a .
 
-qg:character_beltik_7c0d52 owl:sameAs wd:Q60376168 .
+<http://example.org/qg#real_person_jacob_fortune_lloyd_e9fd39/sameAs/Q101237941> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Jacob Fortune-Lloyd" ;
+    qg:wikidataDescription "British actor"@en ;
+    qg:wikidataLabel "Jacob Fortune-Lloyd"@en ;
+    rdf:object wd:Q101237941 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_jacob_fortune_lloyd_e9fd39 .
 
-qg:character_benny_ff906e owl:sameAs wd:Q18640998 .
+<http://example.org/qg#real_person_judit_polg_r_233c22/sameAs/Q183250> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Judit Polgár" ;
+    qg:wikidataDescription "Hungarian chess player"@en ;
+    qg:wikidataLabel "Judit Polgár"@en ;
+    rdf:object wd:Q183250 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_judit_polg_r_233c22 .
 
-qg:character_bergland_563a2c owl:sameAs wd:Q665148 .
+<http://example.org/qg#real_person_marielle_heller_80cf4b/sameAs/Q21032133> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Marielle Heller" ;
+    qg:wikidataDescription "American director, writer and actress"@en ;
+    qg:wikidataLabel "Marielle Heller"@en ;
+    rdf:object wd:Q21032133 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_marielle_heller_80cf4b .
+
+<http://example.org/qg#real_person_millie_brady_72ac4a/sameAs/Q26213643> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Millie Brady" ;
+    qg:wikidataDescription "British actress"@en ;
+    qg:wikidataLabel "Millie Brady"@en ;
+    rdf:object wd:Q26213643 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_millie_brady_72ac4a .
+
+<http://example.org/qg#real_person_moses_ingram_017d28/sameAs/Q101528973> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Moses Ingram" ;
+    qg:wikidataDescription "American actress"@en ;
+    qg:wikidataLabel "Moses Ingram"@en ;
+    rdf:object wd:Q101528973 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_moses_ingram_017d28 .
+
+<http://example.org/qg#real_person_nona_gaprindashvili_e922d3/sameAs/Q231630> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Nona Gaprindashvili" ;
+    qg:wikidataDescription "Soviet chess player"@en ;
+    qg:wikidataLabel "Nona Gaprindashvili"@en ;
+    rdf:object wd:Q231630 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_nona_gaprindashvili_e922d3 .
+
+<http://example.org/qg#real_person_paul_morphy_a9d889/sameAs/Q105589> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Paul Morphy" ;
+    qg:wikidataDescription "US chess player (1837–1884)"@en ;
+    qg:wikidataLabel "Paul Morphy"@en ;
+    rdf:object wd:Q105589 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_paul_morphy_a9d889 .
+
+<http://example.org/qg#real_person_scott_frank_6235c6/sameAs/Q557208> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Scott Frank" ;
+    qg:wikidataDescription "American screenwriter and director"@en ;
+    qg:wikidataLabel "Scott Frank"@en ;
+    rdf:object wd:Q557208 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_scott_frank_6235c6 .
+
+<http://example.org/qg#real_person_thomas_brodie_sangster_0dde86/sameAs/Q312531> a rdf:Statement ;
+    qg:confidence 0.99 ;
+    qg:linkingMethod "search" ;
+    qg:matchedQuery "Thomas Brodie-Sangster" ;
+    qg:wikidataDescription "English actor"@en ;
+    qg:wikidataLabel "Thomas Brodie-Sangster"@en ;
+    rdf:object wd:Q312531 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_thomas_brodie_sangster_0dde86 .
+
+<http://example.org/qg#real_person_walter_tevis_2a7a70/sameAs/Q740928> a rdf:Statement ;
+    qg:confidence 1.00 ;
+    qg:linkingMethod "manual" ;
+    qg:matchedQuery "Walter Tevis" ;
+    qg:wikidataDescription "American writer (1928–1984)"@en ;
+    qg:wikidataLabel "Walter Tevis"@en ;
+    rdf:object wd:Q740928 ;
+    rdf:predicate owl:sameAs ;
+    rdf:subject qg:real_person_walter_tevis_2a7a70 .
+
+qg:character_allan_scott_75bb32 owl:sameAs wd:Q29540143 .
 
 qg:character_beth_harmon_0c125c owl:sameAs wd:Q102378740 .
-
-qg:character_bill_camp_375ab3 owl:sameAs wd:Q3639959 .
-
-qg:character_booth_4a58b1 owl:sameAs wd:Q13156704 .
-
-qg:character_bradley_40bf0d owl:sameAs wd:Q538847 .
 
 qg:character_bulova_faf089 owl:sameAs wd:Q106066723 .
 
 qg:character_charles_levy_7f7647 owl:sameAs wd:Q112843087 .
 
-qg:character_chloe_pirrie_495e07 owl:sameAs wd:Q18030614 .
-
-qg:character_christopher_c783f9 owl:sameAs wd:Q1084472 .
-
-qg:character_cooke_d4130e owl:sameAs wd:Q105436579 .
-
 qg:character_crawford_walker_3a1b3f owl:sameAs wd:Q76067418 .
-
-qg:character_cullen_6474f1 owl:sameAs wd:Q40386 .
-
-qg:character_darga_edba99 owl:sameAs wd:Q1165843 .
-
-qg:character_deardorff_d8d493 owl:sameAs wd:Q37468336 .
 
 qg:character_diana_lanni_19020b owl:sameAs wd:Q109420063 .
 
 qg:character_dick_evans_b2825e owl:sameAs wd:Q5272895 .
 
-qg:character_diedrich_e67fd5 owl:sameAs wd:Q20804429 .
+qg:character_ellen_page_5c3655 owl:sameAs wd:Q111452842 .
 
-qg:character_duhamel_b0ac5f owl:sameAs wd:Q3041042 .
-
-qg:character_elizabeth_bcb181 owl:sameAs wd:Q385468 .
-
-qg:character_elizabeth_harmon_e36a73 owl:sameAs wd:Q115870050 .
-
-qg:character_friedman_e2439e owl:sameAs wd:Q1451887 .
-
-qg:character_georgi_58c4ac owl:sameAs wd:Q17533877 .
-
-qg:character_girev_2c3631 owl:sameAs wd:Q65283299 .
-
-qg:character_goldman_f80ea5 owl:sameAs wd:Q1535908 .
-
-qg:character_grandmaster_9b4991 owl:sameAs wd:Q105269 .
-
-qg:character_harmon_140a20 owl:sameAs wd:Q16276369 .
-
-qg:character_harmon_e_c0b572 owl:sameAs wd:Q120481132 .
-
-qg:character_harry_737f4b owl:sameAs wd:Q668885 .
-
-qg:character_hou_yifan_9e15c9 owl:sameAs wd:Q234011 .
-
-qg:character_isla_johnston_743cc7 owl:sameAs wd:Q117121905 .
-
-qg:character_jacob_fortune_lloyd_927fd6 owl:sameAs wd:Q101237941 .
-
-qg:character_jesus_84f268 owl:sameAs wd:Q1158269 .
-
-qg:character_jolene_ef5c2d owl:sameAs wd:Q1551339 .
-
-qg:character_judit_polg_r_f13b0f owl:sameAs wd:Q183250 .
-
-qg:character_lanni_9d3b4b owl:sameAs wd:Q98669307 .
+qg:character_girev_2c3631 owl:sameAs wd:Q6953477 .
 
 qg:character_levenfish_a725df owl:sameAs wd:Q135840032 .
 
-qg:character_manfredi_47d3c2 owl:sameAs wd:Q41211341 .
-
-qg:character_manuel_c1cf6c owl:sameAs wd:Q11113719 .
-
-qg:character_margaret_9a2442 owl:sameAs wd:Q4963612 .
-
-qg:character_margaret_johnson_c8d437 owl:sameAs wd:Q110462047 .
-
-qg:character_margaret_neil_832045 owl:sameAs wd:Q114953943 .
+qg:character_margaret_johnson_c8d437 owl:sameAs wd:Q116179525 .
 
 qg:character_mcdonnell_434a93 owl:sameAs wd:Q21511109 .
 
-qg:character_morphy_35dccc owl:sameAs wd:Q56599541 .
+qg:character_michaelangelo_c85781 owl:sameAs wd:Q100393538 .
 
-qg:character_najdorf_10dbbd owl:sameAs wd:Q4312397 .
+qg:character_rosa_bonheur_385110 owl:sameAs wd:Q241732 .
 
-qg:character_nona_gaprindashvili_3b3a7b owl:sameAs wd:Q231630 .
+qg:character_rudolph_d0465b owl:sameAs wd:Q28736316 .
 
-qg:character_packer_9f9db2 owl:sameAs wd:Q62858956 .
+qg:character_vassily_83e341 owl:sameAs wd:Q108656767 .
 
-qg:character_paul_morphy_698df9 owl:sameAs wd:Q105589 .
-
-qg:character_polg_r_4b1f61 owl:sameAs wd:Q2419449 .
-
-qg:character_roger_64c8fd owl:sameAs wd:Q4925304 .
-
-qg:character_rossolimo_c00a3a owl:sameAs wd:Q7369913 .
-
-qg:character_rudolph_d0465b owl:sameAs wd:Q18028739 .
-
-qg:character_samantha_f81e43 owl:sameAs wd:Q6774 .
-
-qg:character_shapkin_07a5e0 owl:sameAs wd:Q4520240 .
-
-qg:character_sizemore_1cd968 owl:sameAs wd:Q21510222 .
-
-qg:character_tevis_e17d32 owl:sameAs wd:Q37551763 .
-
-qg:character_townes_379370 owl:sameAs wd:Q16557405 .
+qg:character_w_b_yeats_71c5a1 owl:sameAs wd:Q119143457 .
 
 qg:character_w_c_griffith_005a56 owl:sameAs wd:Q60042041 .
 
-qg:character_walter_tevis_658c18 owl:sameAs wd:Q740928 .
+qg:character_wolff_b7d784 owl:sameAs wd:Q115918608 .
 
-qg:character_watts_2182cf owl:sameAs wd:Q17144855 .
+qg:episode_adjournment_2bb5f9 owl:sameAs wd:Q104650276 .
 
-qg:character_weiss_16f701 owl:sameAs wd:Q145210 .
+qg:episode_doubled_pawns_6bdfa9 owl:sameAs wd:Q104650207 .
 
-qg:character_wexler_56889a owl:sameAs wd:Q37492869 .
+qg:episode_end_game_e70272 owl:sameAs wd:Q104650295 .
 
-qg:character_wheatley_e7791f owl:sameAs wd:Q7991927 .
+qg:episode_exchanges_e1ed49 owl:sameAs wd:Q104650188 .
 
-qg:character_white_8f265d owl:sameAs wd:Q1215200 .
+qg:episode_middle_game_60ed27 owl:sameAs wd:Q104650246 .
+
+qg:episode_openings_ed66d5 owl:sameAs wd:Q104650181 .
 
 qg:event_chess_olympiad_345423 owl:sameAs wd:Q428303 .
 
-qg:event_exchanges_3020b9 owl:sameAs wd:Q50815242 .
+qg:event_exchanges_3020b9 owl:sameAs wd:Q104650188 .
 
-qg:event_the_u_s_open_0de146 owl:sameAs wd:Q5870552 .
+qg:event_the_candidates_tournament_313f06 owl:sameAs wd:Q1723677 .
 
 qg:event_u_s_open_chess_championship_865273 owl:sameAs wd:Q1995105 .
 
-qg:group_american_ee58cd owl:sameAs wd:Q169889 .
-
-qg:group_chinese_e99992 owl:sameAs wd:Q7850 .
-
-qg:group_christian_df9176 owl:sameAs wd:Q18001597 .
-
-qg:group_communists_c34c1d owl:sameAs wd:Q21027324 .
-
-qg:group_dutch_e92e24 owl:sameAs wd:Q7411 .
-
-qg:group_french_b0dfdf owl:sameAs wd:Q150 .
-
-qg:group_german_a9949f owl:sameAs wd:Q188 .
-
-qg:group_hungarian_7bce55 owl:sameAs wd:Q9067 .
-
-qg:group_russian_b71f39 owl:sameAs wd:Q7737 .
-
-qg:group_russians_2e63eb owl:sameAs wd:Q49542 .
-
-qg:group_sicilian_4084b8 owl:sameAs wd:Q33973 .
-
-qg:group_soviet_b5159c owl:sameAs wd:Q15180 .
+qg:location_a_chess_club_f61917 owl:sameAs wd:Q1896682 .
 
 qg:location_austria_0dfdfa owl:sameAs wd:Q40 .
 
 qg:location_cincinnati_84bc17 owl:sameAs wd:Q43196 .
+
+qg:location_denver_aaf23c owl:sameAs wd:Q16554 .
 
 qg:location_france_55b616 owl:sameAs wd:Q142 .
 
@@ -1020,45 +1010,37 @@ qg:location_las_vegas_0e5aeb owl:sameAs wd:Q23768 .
 
 qg:location_lexington_442a81 owl:sameAs wd:Q49241 .
 
-qg:location_lucerne_a74033 owl:sameAs wd:Q4191 .
+qg:location_lucerne_a74033 owl:sameAs wd:Q961598 .
 
-qg:location_methuen_90a106 owl:sameAs wd:Q3296078 .
-
-qg:location_mexico_508201 owl:sameAs wd:Q96 .
+qg:location_methuen_90a106 owl:sameAs wd:Q54179 .
 
 qg:location_mexico_city_7afdf6 owl:sameAs wd:Q1489 .
 
 qg:location_moscow_467d57 owl:sameAs wd:Q649 .
 
-qg:location_nevada_13929f owl:sameAs wd:Q1227 .
+qg:location_nevada_13929f owl:sameAs wd:Q959584 .
 
 qg:location_new_york_fe8900 owl:sameAs wd:Q1384 .
 
 qg:location_norway_49e016 owl:sameAs wd:Q20 .
 
-qg:location_paris_f747bd owl:sameAs wd:Q90 .
+qg:location_paris_f747bd owl:sameAs wd:Q830149 .
 
-qg:location_pittsburg_33a1cf owl:sameAs wd:Q1342 .
+qg:location_pittsburg_33a1cf owl:sameAs wd:Q982452 .
 
 qg:location_russia_b2a8ec owl:sameAs wd:Q159 .
 
 qg:location_san_francisco_6cf9a6 owl:sameAs wd:Q62 .
 
-qg:location_southwest_ad0d71 owl:sameAs wd:Q2381698 .
-
 qg:location_sweden_6c5481 owl:sameAs wd:Q34 .
 
-qg:location_the_united_states_0c38dc owl:sameAs wd:Q30 .
+qg:location_the_united_states_0c38dc owl:sameAs wd:Q106501494 .
 
 qg:location_united_states_96d841 owl:sameAs wd:Q30 .
 
-qg:location_wakefield_85a97f owl:sameAs wd:Q12806242 .
+qg:location_wakefield_85a97f owl:sameAs wd:Q928044 .
 
-qg:location_yugoslavia_aaf583 owl:sameAs wd:Q83286 .
-
-qg:organization_apple_pi_3df3dd owl:sameAs wd:Q18148824 .
-
-qg:organization_beautiful_2a7ca8 owl:sameAs wd:Q813449 .
+qg:location_yugoslavia_aaf583 owl:sameAs wd:Q36704 .
 
 qg:organization_chess_federation_c74aa5 owl:sameAs wd:Q100589423 .
 
@@ -1070,33 +1052,67 @@ qg:organization_christian_crusade_36689e owl:sameAs wd:Q126963189 .
 
 qg:organization_cornell_university_f32aeb owl:sameAs wd:Q49115 .
 
-qg:organization_corvair_9dc263 owl:sameAs wd:Q23637332 .
+qg:organization_corvair_9dc263 owl:sameAs wd:Q5173424 .
 
 qg:organization_duncan_high_school_10af2d owl:sameAs wd:Q5314386 .
-
-qg:organization_fairfield_high_2a8e25 owl:sameAs wd:Q48976516 .
 
 qg:organization_fairfield_high_school_0b3977 owl:sameAs wd:Q48976516 .
 
 qg:organization_henry_clay_high_school_452fc7 owl:sameAs wd:Q5719501 .
 
-qg:organization_kentucky_state_76893a owl:sameAs wd:Q1187623 .
-
 qg:organization_lexington_herald_leader_84abee owl:sameAs wd:Q6537812 .
 
-qg:organization_librium_2b326b owl:sameAs wd:Q52271807 .
+qg:organization_marie_claire_08b737 owl:sameAs wd:Q778079 .
+
+qg:organization_mcdonnell_3f8421 owl:sameAs wd:Q21511109 .
 
 qg:organization_netflix_380329 owl:sameAs wd:Q907311 .
 
-qg:organization_reuters_7b4264 owl:sameAs wd:Q130879 .
+qg:organization_new_york_times_63ecee owl:sameAs wd:Q3875590 .
+
+qg:organization_random_house_cf01b9 owl:sameAs wd:Q744182 .
+
+qg:organization_the_lexington_herald_leader_587dd7 owl:sameAs wd:Q6537812 .
 
 qg:organization_the_observer_5ba4ff owl:sameAs wd:Q336197 .
 
 qg:organization_the_sicilian_defence_f05bf7 owl:sameAs wd:Q16615089 .
 
-qg:organization_the_state_department_9d6be3 owl:sameAs wd:Q1469605 .
+qg:organization_the_white_house_7129cc owl:sameAs wd:Q21856367 .
 
-qg:organization_the_white_house_7129cc owl:sameAs wd:Q35525 .
+qg:organization_time_magazine_64acec owl:sameAs wd:Q124535786 .
 
-qg:organization_time_magazine_64acec owl:sameAs wd:Q43297 .
+qg:real_person_anya_taylor_joy_160ff4 owl:sameAs wd:Q20882479 .
+
+qg:real_person_bill_camp_980f97 owl:sameAs wd:Q3639959 .
+
+qg:real_person_bruce_pandolfini_7b4511 owl:sameAs wd:Q624987 .
+
+qg:real_person_chloe_pirrie_9ab2ca owl:sameAs wd:Q18030614 .
+
+qg:real_person_harry_melling_f4475a owl:sameAs wd:Q329778 .
+
+qg:real_person_hou_yifan_0754e0 owl:sameAs wd:Q234011 .
+
+qg:real_person_isla_johnston_568f2a owl:sameAs wd:Q117121905 .
+
+qg:real_person_jacob_fortune_lloyd_e9fd39 owl:sameAs wd:Q101237941 .
+
+qg:real_person_judit_polg_r_233c22 owl:sameAs wd:Q183250 .
+
+qg:real_person_marielle_heller_80cf4b owl:sameAs wd:Q21032133 .
+
+qg:real_person_millie_brady_72ac4a owl:sameAs wd:Q26213643 .
+
+qg:real_person_moses_ingram_017d28 owl:sameAs wd:Q101528973 .
+
+qg:real_person_nona_gaprindashvili_e922d3 owl:sameAs wd:Q231630 .
+
+qg:real_person_paul_morphy_a9d889 owl:sameAs wd:Q105589 .
+
+qg:real_person_scott_frank_6235c6 owl:sameAs wd:Q557208 .
+
+qg:real_person_thomas_brodie_sangster_0dde86 owl:sameAs wd:Q312531 .
+
+qg:real_person_walter_tevis_2a7a70 owl:sameAs wd:Q740928 .
 

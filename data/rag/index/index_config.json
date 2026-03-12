@@ -1,0 +1,8 @@
+{
+  "input_chunks": "data\\rag\\chunks.jsonl",
+  "n_chunks": 128,
+  "embedding_dim": 384,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "faiss_enabled": true,
+  "faiss_index": "data\\rag\\index\\chunk_faiss.index"
+}

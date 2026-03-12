@@ -1,0 +1,75 @@
+{
+  "question": "Who is Alice Harmon?",
+  "question_type": "identity",
+  "matched_entities": [
+    {
+      "uri": "http://example.org/qg#character_alice_harmon_b24c50",
+      "label": "Alice Harmon",
+      "class": "Character"
+    }
+  ],
+  "text_evidence": [
+    {
+      "rank": 1,
+      "score": 1.645363521575928,
+      "title": "Alice Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Alice_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Alice_Harmon::chunk_0",
+      "text": "Content Warning: This article contains themes that may be difficult for some audiences. Alice Harmon is the biological mother to Beth Harmon and the divorced wife of Paul. She lived with her daughter in a trailer in Wakefield, Kentucky, until her vehicular suicide on July 24, 1957, leaving Beth orphaned. Alice is portrayed by Chloe Pirrie. Little is known about Alice's upbringing, save that she came from a wealthy family. Alice attended Cornell University and received a PhD in mathematics. During her academic career, she authored the dissertation Monomial Representations and Symmetric Presentations. She became a professor at Cornell University, and later married a wealthy man named Paul. They had a single daughter, Elizabeth. Overtime, her marriage to Paul became strained. Alice struggled greatly with mental illness, and although her husband made efforts to help her, they proved futile. Sometime after the year 1948, Alice took their daughter and fled from her marriage, isolating her and her daughter by moving into a trailer in Kentucky. A month after their disappearance, Paul eventually tracked down his wife and daughter. He expressed his concerns over Alice's declining health, begging her to let him into the trailer and take medication that he brought for her. However, after failing to convince Alice to let him into the trailer, Paul divorced Alice."
+    },
+    {
+      "rank": 2,
+      "score": 0.5662368535995483,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_1",
+      "text": "Harmon, died in a traffic collision, and her father unknown, Harmon is sent to Methuen Home, an exclusively-female Christian orphanage, on July 25th, 1957. On her arrival, she is given uniform clothes and a haircut, and the dress, which her name was embroidered onto by her mother, was apparently burnt. She meets Jolene – an older, confident orphan who advises her against swallowing the \"vitamins\" in the daytime. While she ignores this advice at first, Harmon quickly realizes the value in saving them until she can concentrate alone. They become close friends through mutual admiration and understanding of each other. Interestingly, when asked by Jolene about the whereabouts of her parents, Harmon replies that both of them are dead.[1] She may have no memory of her father whatsoever. Meanwhile, during her first night at the orphanage, Harmon has a flashback to when she was five, on the evening that her father officially gave up on trying to see her since Alice had kept \"running away.\" In the same flashback, Harmon realizes that her mother had taken the same vitamins, foreshadowing her susceptibility to abuse sedatives. In the flashback, Alice rounds up personal belongings that supposedly share a connection to Paul and her past, including the dissertation she wrote to obtain her Ph.D. in mathematics at Cornell University."
+    },
+    {
+      "rank": 3,
+      "score": 0.5563902616500854,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_0",
+      "text": "Elizabeth \"Beth\" Olivia Harmon is a chess prodigy and the main protagonist in the Netflix miniseries, The Queen's Gambit. Orphaned at a young age and scarred from Methuen Home's mistreatment, she is depicted as someone with immense anger and passion, which fuels her chess proficiency — and her susceptibility to substance addiction. While she accepts herself as someone who breaks gender norms, Harmon has expressed irritation with being renowned solely because of her gender. She experiences difficulty forming relationships with others that are not based on chess because of this. In addition to chess, Harmon maintains skills in mathematics, sciences, and history. Over the course of five years, she acquires a knowledge of Russian, which allows her to eavesdrop on gossip by people who assume she cannot understand the language. Harmon is played predominantly by Anya Taylor-Joy, and she is played by Annabeth Kelly as a five-year-old and Isla Johnston as a nine-year-old for other younger scenes. Openings[] After her mother, Alice Harmon, died in a traffic collision, and her father unknown, Harmon is sent to Methuen Home, an exclusively-female Christian orphanage, on July 25th, 1957. On her arrival, she is given uniform clothes and a haircut, and the dress, which her name was embroidered onto by her mother, was apparently burnt."
+    },
+    {
+      "rank": 4,
+      "score": 0.5078250169754028,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_15",
+      "text": "Harmon graduates from Fairfield High School with the Class of 1966 and receives a Bulova watch from her mother. The watch given to her says, \"With love, from mother.\" Harmon loses against Vasily Borgov in Mexico City, and her mother dies in bed from hepatitis due to her alcohol abuse. Harry Beltik, a former opponent, asks to coach her upon her return to Kentucky. Fork[] Harry helps Harmon cope with grief through attempting to teach her chess. They develop a brief intimate relationship, but they part ways inevitably, due to Harry seeking his own purpose, his recognition that Beth's skills easily transcend his own, and Harmon's self-destructive habits. In 1967, Harmon identifies further weaknesses in her play during the US Championship in Ohio. She wins against Benny, and they decide to prepare for her international career together in New York. Under Benny's tutorship, Harmon discovers that she can play even better when sober. While Benny is inebriated, they have a one night stand. Although, when she goes to Paris she meets up with Cloe and Cloe asks her if she liked having sex with Benny, and Beth responds with “Sometimes.” Which could mean that they have done it a couple more times but, probably these times not while being drunk."
+    },
+    {
+      "rank": 5,
+      "score": 0.4882332980632782,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_2",
+      "text": "same flashback, Harmon realizes that her mother had taken the same vitamins, foreshadowing her susceptibility to abuse sedatives. In the flashback, Alice rounds up personal belongings that supposedly share a connection to Paul and her past, including the dissertation she wrote to obtain her Ph.D. in mathematics at Cornell University. Harmon watches as she burns these items in a barrel outside their trailer. Early in life, Harmon expresses proficiency in mathematics, likely thanks to her mother. She solves nine square root problems in an amount of time which seemingly horrifies her teacher, who promptly sends Harmon away to clean the blackboard erasers in the basement. It is in the basement where her introduction to chess began with witnessing the orphanage's custodian Mr. Shaibel playing alone, whereby she became fascinated with the checkered pattern of the eight-by-eight grid. This is also where her use of Librium to hallucinate begins. She begins hoarding sedatives until nightfall, utilizing them to visualize the chessboard she became obsessed with. Her realization allows her to rapidly improve at chess, yet it has the negative side effect of creating a perceived dependence on them, manifesting the beginnings of an addiction. The next morning, after they had made their beds, Harmon and Jolene watch as a younger, white orphan, Mary-Sue, prepares packing, for she had been adopted."
+    },
+    {
+      "rank": 6,
+      "score": 0.4827175736427307,
+      "title": "D.L. Townes",
+      "url": "https://the-queens-gambit.fandom.com/wiki/D.L._Townes",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/D.L._Townes::chunk_3",
+      "text": "storms off angrily, catching his attention as he frowned. He catches up with Harmon before she leaves the venue and attempts to comfort her before she leaves. Townes later reappears as one of the journalists covering Beth's appearance in Moscow. His new position as an associate editor making his possible. During his stay there he managed to make amends with Beth and tells her to consider him her second, giving moral support."
+    }
+  ],
+  "kg_evidence": [
+    {
+      "rank": 1,
+      "score": 6.0,
+      "fact_text": "Alice Harmon --type--> Character",
+      "subject_class": "Character",
+      "object_class": "Class",
+      "subject_uri": "http://example.org/qg#character_alice_harmon_b24c50",
+      "predicate_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "predicate_label": "type",
+      "object_uri": "http://example.org/qg#Character",
+      "object_label": "Character"
+    }
+  ]
+}

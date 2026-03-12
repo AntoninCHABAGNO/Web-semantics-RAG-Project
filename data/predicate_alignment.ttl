@@ -1,0 +1,41 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qg: <http://example.org/qg#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+qg:coachedBy rdfs:comment "Training/teaching relations mapped conservatively to influenced by." ;
+    rdfs:subPropertyOf wdt:P1066 .
+
+qg:competedIn rdfs:comment "Private predicate is narrower than generic participation in an event." ;
+    rdfs:subPropertyOf wdt:P1344 .
+
+qg:entered rdfs:comment "Entering a tournament is treated as a narrower form of participation." ;
+    rdfs:subPropertyOf wdt:P1344 .
+
+qg:learnedFrom rdfs:comment "Training/teaching relations mapped conservatively to influenced by." ;
+    rdfs:subPropertyOf wdt:P1066 .
+
+qg:married rdfs:comment "Private married relation aligned to Wikidata spouse property." ;
+    owl:equivalentProperty wdt:P26 .
+
+qg:parentOf rdfs:comment "Aligned to Wikidata P40 (child). Direction matches: subject has child object." ;
+    owl:equivalentProperty wdt:P40 .
+
+qg:playedIn rdfs:comment "Modeled as a narrower form of participation." ;
+    rdfs:subPropertyOf wdt:P1344 .
+
+qg:siblingOf rdfs:comment "Direct equivalence with Wikidata sibling property." ;
+    owl:equivalentProperty wdt:P3373 .
+
+qg:taughtBy rdfs:comment "Training/teaching relations mapped conservatively to influenced by." ;
+    rdfs:subPropertyOf wdt:P1066 .
+
+qg:tookPlaceIn rdfs:comment "Event location aligned as a narrower relation to location." ;
+    rdfs:subPropertyOf wdt:P276 .
+
+qg:trainedBy rdfs:comment "Training/teaching relations mapped conservatively to influenced by." ;
+    rdfs:subPropertyOf wdt:P1066 .
+
+qg:won rdfs:comment "Winning is aligned as a narrower relation to Wikidata winner." ;
+    rdfs:subPropertyOf wdt:P1346 .
+

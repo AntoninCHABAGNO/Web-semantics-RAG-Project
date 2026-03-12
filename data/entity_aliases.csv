@@ -2,28 +2,33 @@ alias,canonical_text,entity_id,entity_class
 Albin,Albin,CHARACTER:albin-b41fd6,CHARACTER
 Alec Bergland,Alec Bergland,CHARACTER:alec_bergland-2166ad,CHARACTER
 Alekhine,Alekhine,CHARACTER:alekhine-d4eb92,CHARACTER
-Alice,Alice,CHARACTER:alice-15aa82,CHARACTER
+Alice,Alice Harmon,CHARACTER:alice_harmon-b24c50,CHARACTER
 Alice Harmon,Alice Harmon,CHARACTER:alice_harmon-b24c50,CHARACTER
-Allston,Allston,CHARACTER:allston-b835fb,CHARACTER
+Allan Scott,Allan Scott,CHARACTER:allan_scott-75bb32,CHARACTER
+Allston,Allston Wheatley,CHARACTER:allston_wheatley-f1869f,CHARACTER
 Allston Wheatley,Allston Wheatley,CHARACTER:allston_wheatley-f1869f,CHARACTER
-Alma,Alma,CHARACTER:alma-335fe6,CHARACTER
+Alma,Alma Wheatley,CHARACTER:alma_wheatley-c61b8b,CHARACTER
 Alma Wheatley,Alma Wheatley,CHARACTER:alma_wheatley-c61b8b,CHARACTER
 Annabeth Kelly,Annabeth Kelly,CHARACTER:annabeth_kelly-23185e,CHARACTER
-Annette,Annette,CHARACTER:annette-7c8aa1,CHARACTER
+Annette,Annette Packer,CHARACTER:annette_packer-8f7265,CHARACTER
 Annette Packer,Annette Packer,CHARACTER:annette_packer-8f7265,CHARACTER
 Anya Taylor-Joy,Anya Taylor-Joy,CHARACTER:anya_taylor_joy-7853b7,CHARACTER
+Arthur,Arthur Levertov,CHARACTER:arthur_levertov-52fe06,CHARACTER
 Arthur Levertov,Arthur Levertov,CHARACTER:arthur_levertov-52fe06,CHARACTER
-Beltik,Beltik,CHARACTER:beltik-7c0d52,CHARACTER
+Beltik,Harry Beltik,CHARACTER:harry_beltik-9f3c6e,CHARACTER
 Beltik H,Beltik H,CHARACTER:beltik_h-bf80d7,CHARACTER
-Benny,Benny,CHARACTER:benny-ff906e,CHARACTER
+Benjamin Watts,Benjamin Watts,CHARACTER:benjamin_watts-79c359,CHARACTER
+Benny,Benny Watts,CHARACTER:benny_watts-6c3c3c,CHARACTER
 Benny Watts,Benny Watts,CHARACTER:benny_watts-6c3c3c,CHARACTER
+Benson,Benson,CHARACTER:benson-fdbcbf,CHARACTER
 Bergland,Bergland,CHARACTER:bergland-563a2c,CHARACTER
-Beth,Beth,CHARACTER:beth-c2dae4,CHARACTER
+Beth,Beth Harmon,CHARACTER:beth_harmon-0c125c,CHARACTER
 Beth Harmon,Beth Harmon,CHARACTER:beth_harmon-0c125c,CHARACTER
 Bill Camp,Bill Camp,CHARACTER:bill_camp-375ab3,CHARACTER
 Booth,Booth,CHARACTER:booth-4a58b1,CHARACTER
-Borgov,Borgov,CHARACTER:borgov-cc6533,CHARACTER
+Borgov,Vasily Borgov,CHARACTER:vasily_borgov-7b1c6a,CHARACTER
 Bradley,Bradley,CHARACTER:bradley-40bf0d,CHARACTER
+Bruce Pandolfini,Bruce Pandolfini,CHARACTER:bruce_pandolfini-a3032a,CHARACTER
 Bulova,Bulova,CHARACTER:bulova-faf089,CHARACTER
 Charles Levy,Charles Levy,CHARACTER:charles_levy-7f7647,CHARACTER
 Chloe Pirrie,Chloe Pirrie,CHARACTER:chloe_pirrie-495e07,CHARACTER
@@ -42,9 +47,11 @@ Dick Evans,Dick Evans,CHARACTER:dick_evans-b2825e,CHARACTER
 Diedrich,Diedrich,CHARACTER:diedrich-e67fd5,CHARACTER
 Duhamel,Duhamel,CHARACTER:duhamel-b0ac5f,CHARACTER
 E. Shapkin,E. Shapkin,CHARACTER:e_shapkin-38c8cc,CHARACTER
-Elizabeth,Elizabeth,CHARACTER:elizabeth-bcb181,CHARACTER
+Elizabeth,Elizabeth Harmon,CHARACTER:elizabeth_harmon-e36a73,CHARACTER
+"Elizabeth ""Beth"" Harmon","Elizabeth ""Beth"" Harmon",CHARACTER:elizabeth_beth_harmon-6348a8,CHARACTER
 "Elizabeth ""Beth"" Olivia Harmon","Elizabeth ""Beth"" Olivia Harmon",CHARACTER:elizabeth_beth_olivia_harmon-112081,CHARACTER
 Elizabeth Harmon,Elizabeth Harmon,CHARACTER:elizabeth_harmon-e36a73,CHARACTER
+Ellen Page,Ellen Page,CHARACTER:ellen_page-5c3655,CHARACTER
 Fergussen,Fergussen,CHARACTER:fergussen-32a0a2,CHARACTER
 Flento,Flento,CHARACTER:flento-88c60d,CHARACTER
 Fork,Fork,CHARACTER:fork-2baac6,CHARACTER
@@ -55,76 +62,101 @@ Georgi Girev,Georgi Girev,CHARACTER:georgi_girev-265890,CHARACTER
 Girev,Girev,CHARACTER:girev-2c3631,CHARACTER
 Goldman,Goldman,CHARACTER:goldman-f80ea5,CHARACTER
 Grandmaster,Grandmaster,CHARACTER:grandmaster-9b4991,CHARACTER
-Harmon,Harmon,CHARACTER:harmon-140a20,CHARACTER
+Harmon,Beth Harmon,CHARACTER:beth_harmon-0c125c,CHARACTER
 Harmon E,Harmon E,CHARACTER:harmon_e-c0b572,CHARACTER
-Harry,Harry,CHARACTER:harry-737f4b,CHARACTER
+Harry,Harry Beltik,CHARACTER:harry_beltik-9f3c6e,CHARACTER
 Harry Beltik,Harry Beltik,CHARACTER:harry_beltik-9f3c6e,CHARACTER
+Harry Melling,Harry Melling,CHARACTER:harry_melling-447ac5,CHARACTER
+Heath Ledger,Heath Ledger,CHARACTER:heath_ledger-2d60e6,CHARACTER
 Helen Deardorff,Helen Deardorff,CHARACTER:helen_deardorff-75f038,CHARACTER
 Hellstrom,Hellstrom,CHARACTER:hellstrom-7715f5,CHARACTER
 Hilton Wexler,Hilton Wexler,CHARACTER:hilton_wexler-2c8acb,CHARACTER
 Hou Yifan,Hou Yifan,CHARACTER:hou_yifan-9e15c9,CHARACTER
 Isla Johnston,Isla Johnston,CHARACTER:isla_johnston-743cc7,CHARACTER
+Ivanchuk,Ivanchuk,CHARACTER:ivanchuk-12e88e,CHARACTER
 Jacob Fortune-Lloyd,Jacob Fortune-Lloyd,CHARACTER:jacob_fortune_lloyd-927fd6,CHARACTER
+Jenny Baynes,Jenny Baynes,CHARACTER:jenny_baynes-440e83,CHARACTER
 Jesus,Jesus,CHARACTER:jesus-84f268,CHARACTER
 Jolene,Jolene,CHARACTER:jolene-ef5c2d,CHARACTER
 Jolene Dewitt,Jolene Dewitt,CHARACTER:jolene_dewitt-19064f,CHARACTER
 Judit Polgár,Judit Polgár,CHARACTER:judit_polg_r-f13b0f,CHARACTER
+June,June,CHARACTER:june-386f6d,CHARACTER
 Laev,Laev,CHARACTER:laev-9bbd1a,CHARACTER
 Lanni,Lanni,CHARACTER:lanni-9d3b4b,CHARACTER
+Ledger,Ledger,CHARACTER:ledger-9fbea7,CHARACTER
 Levenfish,Levenfish,CHARACTER:levenfish-a725df,CHARACTER
-Levertov,Levertov,CHARACTER:levertov-793b00,CHARACTER
+Levertov,Arthur Levertov,CHARACTER:arthur_levertov-52fe06,CHARACTER
 Luchenko,Luchenko,CHARACTER:luchenko-936543,CHARACTER
 Malovicz,Malovicz,CHARACTER:malovicz-1f2d7a,CHARACTER
 Manfredi,Manfredi,CHARACTER:manfredi-47d3c2,CHARACTER
 Manuel,Manuel,CHARACTER:manuel-c1cf6c,CHARACTER
-Margaret,Margaret,CHARACTER:margaret-9a2442,CHARACTER
+Margaret,Margaret Neil,CHARACTER:margaret_neil-832045,CHARACTER
 Margaret Johnson,Margaret Johnson,CHARACTER:margaret_johnson-c8d437,CHARACTER
 Margaret Neil,Margaret Neil,CHARACTER:margaret_neil-832045,CHARACTER
+Marielle Heller,Marielle Heller,CHARACTER:marielle_heller-412774,CHARACTER
 Mary-Sue,Mary-Sue,CHARACTER:mary_sue-98ebe5,CHARACTER
 Matt,Matt,CHARACTER:matt-4526aa,CHARACTER
 McDonnell,McDonnell,CHARACTER:mcdonnell-434a93,CHARACTER
 Michaelangelo,Michaelangelo,CHARACTER:michaelangelo-c85781,CHARACTER
 Michaelanglo,Michaelangelo,CHARACTER:michaelangelo-c85781,CHARACTER
 Mike,Mike,CHARACTER:mike-008332,CHARACTER
-Morphy,Morphy,CHARACTER:morphy-35dccc,CHARACTER
+Millie Brady,Millie Brady,CHARACTER:millie_brady-b77851,CHARACTER
+Morphy,Paul Morphy,CHARACTER:paul_morphy-698df9,CHARACTER
+Moses Ingram,Moses Ingram,CHARACTER:moses_ingram-e346b0,CHARACTER
 Najdorf,Najdorf,CHARACTER:najdorf-10dbbd,CHARACTER
 Nona Gaprindashvili,Nona Gaprindashvili,CHARACTER:nona_gaprindashvili-3b3a7b,CHARACTER
 Octavio Marenco,Octavio Marenco,CHARACTER:octavio_marenco-864771,CHARACTER
 P. Darga,P. Darga,CHARACTER:p_darga-1e1950,CHARACTER
 P. W. Sergeant,P. W. Sergeant,CHARACTER:p_w_sergeant-33561b,CHARACTER
-Packer,Packer,CHARACTER:packer-9f9db2,CHARACTER
-Paul,Paul,CHARACTER:paul-30c2a3,CHARACTER
+Packer,Annette Packer,CHARACTER:annette_packer-8f7265,CHARACTER
+Patrick,Patrick,CHARACTER:patrick-489207,CHARACTER
+Paul,Paul Morphy,CHARACTER:paul_morphy-698df9,CHARACTER
 Paul Morphy,Paul Morphy,CHARACTER:paul_morphy-698df9,CHARACTER
 Polgár,Polgár,CHARACTER:polg_r-4b1f61,CHARACTER
 R. Uljanov,R. Uljanov,CHARACTER:r_uljanov-327ac1,CHARACTER
 Roger,Roger,CHARACTER:roger-64c8fd,CHARACTER
+Rosa Bonheur,Rosa Bonheur,CHARACTER:rosa_bonheur-385110,CHARACTER
 Rossolimo,Rossolimo,CHARACTER:rossolimo-c00a3a,CHARACTER
 Rudolph,Rudolph,CHARACTER:rudolph-d0465b,CHARACTER
 S. Malovicz,S. Malovicz,CHARACTER:s_malovicz-0b17f3,CHARACTER
 Samantha,Samantha,CHARACTER:samantha-f81e43,CHARACTER
-Shaibel,Shaibel,CHARACTER:shaibel-9320d1,CHARACTER
+Scott Frank,Scott Frank,CHARACTER:scott_frank-4275c0,CHARACTER
+Shaibel,William Shaibel,CHARACTER:william_shaibel-beffee,CHARACTER
 Shapkin,Shapkin,CHARACTER:shapkin-07a5e0,CHARACTER
 Shirley Munson,Shirley Munson,CHARACTER:shirley_munson-6f92a1,CHARACTER
 Sizemore,Sizemore,CHARACTER:sizemore-1cd968,CHARACTER
-Tevis,Tevis,CHARACTER:tevis-e17d32,CHARACTER
-Townes,Townes,CHARACTER:townes-379370,CHARACTER
+Tevis,Walter Tevis,CHARACTER:walter_tevis-658c18,CHARACTER
+Thomas Brodie-Sangster,Thomas Brodie-Sangster,CHARACTER:thomas_brodie_sangster-c8264f,CHARACTER
+Townes,D.L. Townes,CHARACTER:d_l_townes-a69829,CHARACTER
 Uljanov,Uljanov,CHARACTER:uljanov-538e2b,CHARACTER
+Vasily,Vasily Borgov,CHARACTER:vasily_borgov-7b1c6a,CHARACTER
 Vasily Borgov,Vasily Borgov,CHARACTER:vasily_borgov-7b1c6a,CHARACTER
+Vassily,Vassily,CHARACTER:vassily-83e341,CHARACTER
+W. B. Yeats,W. B. Yeats,CHARACTER:w_b_yeats-71c5a1,CHARACTER
 W. C. Griffith,W. C. Griffith,CHARACTER:w_c_griffith-005a56,CHARACTER
 Walter Tevis,Walter Tevis,CHARACTER:walter_tevis-658c18,CHARACTER
-Watts,Watts,CHARACTER:watts-2182cf,CHARACTER
+Watts,Benny Watts,CHARACTER:benny_watts-6c3c3c,CHARACTER
 Weiss,Weiss,CHARACTER:weiss-16f701,CHARACTER
-Wexler,Wexler,CHARACTER:wexler-56889a,CHARACTER
-Wheatley,Wheatley,CHARACTER:wheatley-e7791f,CHARACTER
-Wheatleys,Wheatley,CHARACTER:wheatley-e7791f,CHARACTER
+Wexler,Hilton Wexler,CHARACTER:hilton_wexler-2c8acb,CHARACTER
+Wheatley,Allston Wheatley,CHARACTER:allston_wheatley-f1869f,CHARACTER
+Wheatleys,Allston Wheatley,CHARACTER:allston_wheatley-f1869f,CHARACTER
 White,White,CHARACTER:white-8f265d,CHARACTER
 William Shaibel,William Shaibel,CHARACTER:william_shaibel-beffee,CHARACTER
+Wolff,Wolff,CHARACTER:wolff-b7d784,CHARACTER
+Adjournment,Adjournment,EPISODE:adjournment-2bb5f9,EPISODE
+Doubled Pawns,Doubled Pawns,EPISODE:doubled_pawns-6bdfa9,EPISODE
+End Game,End Game,EPISODE:end_game-e70272,EPISODE
+Exchanges,Exchanges,EPISODE:exchanges-e1ed49,EPISODE
+Fork,Fork,EPISODE:fork-d222bd,EPISODE
+Middle Game,Middle Game,EPISODE:middle_game-60ed27,EPISODE
+Openings,Openings,EPISODE:openings-ed66d5,EPISODE
 Chess Olympiad,Chess Olympiad,EVENT:chess_olympiad-345423,EVENT
 Exchanges,Exchanges,EVENT:exchanges-3020b9,EVENT
 Kentucky State Championship,Kentucky State Championship,EVENT:kentucky_state_championship-21d262,EVENT
 Mexico City Invitational Tournament,Mexico City Invitational Tournament,EVENT:mexico_city_invitational_tournament-5bdbc2,EVENT
 Moscow Invitational,Moscow Invitational,EVENT:moscow_invitational-acc0e2,EVENT
-Open,Open,EVENT:open-8d0a87,EVENT
+Moscow Invitational Chess Tournament,Moscow Invitational Chess Tournament,EVENT:moscow_invitational_chess_tournament-14e083,EVENT
+Open,the U.S. Open,EVENT:the_u_s_open-0de146,EVENT
 Paris Remy-Vallon Invitational,Paris Remy-Vallon Invitational,EVENT:paris_remy_vallon_invitational-9cabaa,EVENT
 U.S. Championship,U.S. Championship,EVENT:u_s_championship-e47e27,EVENT
 U.S. Open Chess Championship,U.S. Open Chess Championship,EVENT:u_s_open_chess_championship-865273,EVENT
@@ -136,16 +168,20 @@ the Kentucky State Championship,the Kentucky State Championship,EVENT:the_kentuc
 the Las Vegas U.S. Open Chess Championship,the Las Vegas U.S. Open Chess Championship,EVENT:the_las_vegas_u_s_open_chess_championship-111fea,EVENT
 the Las Vegas US Open,the Las Vegas US Open,EVENT:the_las_vegas_us_open-a45a14,EVENT
 the Moscow Invitational,the Moscow Invitational,EVENT:the_moscow_invitational-30f7e5,EVENT
+the Ohio United States Championship,the Ohio United States Championship,EVENT:the_ohio_united_states_championship-39bde4,EVENT
 the Pittsburgh Tournament,the Pittsburgh Tournament,EVENT:the_pittsburgh_tournament-4bbed1,EVENT
+the Remi-Vallon,the Remi-Vallon,EVENT:the_remi_vallon-fbda78,EVENT
 the U.S. Championship,the U.S. Championship,EVENT:the_u_s_championship-cad577,EVENT
 the U.S. Open,the U.S. Open,EVENT:the_u_s_open-0de146,EVENT
 the US Championship,the U.S. Championship,EVENT:the_u_s_championship-cad577,EVENT
 the Women World Chess Championship,the Women World Chess Championship,EVENT:the_women_world_chess_championship-115b36,EVENT
 American,American,GROUP:american-ee58cd,GROUP
+British,British,GROUP:british-0911db,GROUP
 Chinese,Chinese,GROUP:chinese-e99992,GROUP
 Christian,Christian,GROUP:christian-df9176,GROUP
 Communists,Communists,GROUP:communists-c34c1d,GROUP
 Dutch,Dutch,GROUP:dutch-e92e24,GROUP
+English,English,GROUP:english-5c3b9a,GROUP
 French,French,GROUP:french-b0dfdf,GROUP
 German,German,GROUP:german-a9949f,GROUP
 Hungarian,Hungarian,GROUP:hungarian-7bce55,GROUP
@@ -154,19 +190,22 @@ Russians,Russians,GROUP:russians-2e63eb,GROUP
 Sicilian,Sicilian,GROUP:sicilian-4084b8,GROUP
 Soviet,Soviet,GROUP:soviet-b5159c,GROUP
 Soviets,Soviets,GROUP:soviets-9159b6,GROUP
+soviets,Soviets,GROUP:soviets-9159b6,GROUP
 Austria,Austria,LOCATION:austria-0dfdfa,LOCATION
 Cincinnati,Cincinnati,LOCATION:cincinnati-84bc17,LOCATION
+Denver,Denver,LOCATION:denver-aaf23c,LOCATION
 France,France,LOCATION:france-55b616,LOCATION
 George Town,George Town,LOCATION:george_town-9ca28e,LOCATION
 Hotel de Ville,Hotel de Ville,LOCATION:hotel_de_ville-112ff1,LOCATION
 Hungary,Hungary,LOCATION:hungary-718883,LOCATION
 Italy,Italy,LOCATION:italy-7503c5,LOCATION
 Kentucky,Kentucky,LOCATION:kentucky-d71f08,LOCATION
+Kentucky State,Kentucky State,LOCATION:kentucky_state-4c4121,LOCATION
 Las Vegas,Las Vegas,LOCATION:las_vegas-0e5aeb,LOCATION
 Lexington,Lexington,LOCATION:lexington-442a81,LOCATION
 Lucerne,Lucerne,LOCATION:lucerne-a74033,LOCATION
 Methuen,Methuen,LOCATION:methuen-90a106,LOCATION
-Mexico,Mexico,LOCATION:mexico-508201,LOCATION
+Mexico,Mexico City,LOCATION:mexico_city-7afdf6,LOCATION
 Mexico City,Mexico City,LOCATION:mexico_city-7afdf6,LOCATION
 Moscow,Moscow,LOCATION:moscow-467d57,LOCATION
 Nevada,Nevada,LOCATION:nevada-13929f,LOCATION
@@ -176,6 +215,7 @@ Ohio,Ohio,LOCATION:ohio-951f9a,LOCATION
 Paris,Paris,LOCATION:paris-f747bd,LOCATION
 Pittsburg,Pittsburg,LOCATION:pittsburg-33a1cf,LOCATION
 Pittsburgh,Pittsburg,LOCATION:pittsburg-33a1cf,LOCATION
+Reed Lane,Reed Lane,LOCATION:reed_lane-8ef7e1,LOCATION
 Russia,Russia,LOCATION:russia-b2a8ec,LOCATION
 San Francisco,San Francisco,LOCATION:san_francisco-6cf9a6,LOCATION
 Southwest,Southwest,LOCATION:southwest-ad0d71,LOCATION
@@ -212,9 +252,12 @@ Lexington Herald-Leader,Lexington Herald-Leader,ORGANIZATION:lexington_herald_le
 Librium,Librium,ORGANIZATION:librium-2b326b,ORGANIZATION
 Life,Life,ORGANIZATION:life-bdefae,ORGANIZATION
 Marie Claire,Marie Claire,ORGANIZATION:marie_claire-08b737,ORGANIZATION
+McDonnell,McDonnell,ORGANIZATION:mcdonnell-3f8421,ORGANIZATION
 Methuen Home,Methuen Home,ORGANIZATION:methuen_home-af71b0,ORGANIZATION
 NPR,NPR,ORGANIZATION:npr-a84283,ORGANIZATION
 Netflix,Netflix,ORGANIZATION:netflix-380329,ORGANIZATION
+New York Times,New York Times,ORGANIZATION:new_york_times-63ecee,ORGANIZATION
+Random House,Random House,ORGANIZATION:random_house-cf01b9,ORGANIZATION
 Reuters,Reuters,ORGANIZATION:reuters-7b4264,ORGANIZATION
 State Department,State Department,ORGANIZATION:state_department-d1f0e6,ORGANIZATION
 The Observer,The Observer,ORGANIZATION:the_observer-5ba4ff,ORGANIZATION
@@ -224,6 +267,7 @@ Times Magazine,Time Magazine,ORGANIZATION:time_magazine-64acec,ORGANIZATION
 UPI,UPI,ORGANIZATION:upi-cc6d58,ORGANIZATION
 USCF,USCF,ORGANIZATION:uscf-9d4aab,ORGANIZATION
 Unknown,Unknown,ORGANIZATION:unknown-703e3c,ORGANIZATION
+Vintage,Vintage,ORGANIZATION:vintage-4dfcc7,ORGANIZATION
 "the ""State Normal School for Colored Persons","the ""State Normal School for Colored Persons",ORGANIZATION:the_state_normal_school_for_colored_persons-571cc8,ORGANIZATION
 the Chess Federation,the Chess Federation,ORGANIZATION:the_chess_federation-a5d3de,ORGANIZATION
 the Christian Crusade,the Christian Crusade,ORGANIZATION:the_christian_crusade-89bc28,ORGANIZATION
@@ -236,3 +280,5 @@ the Sicilian Defense,the Sicilian Defence,ORGANIZATION:the_sicilian_defence-f05b
 the State Department,The State Department,ORGANIZATION:the_state_department-9d6be3,ORGANIZATION
 the U.S. Government,the U.S. Government,ORGANIZATION:the_u_s_government-9968dc,ORGANIZATION
 the White House,the White House,ORGANIZATION:the_white_house-7129cc,ORGANIZATION
+The Queen Gambit,The Queen Gambit,WORK:the_queen_gambit-32872d,WORK
+The Queen Gambit (novel,The Queen Gambit (novel,WORK:the_queen_gambit_novel-8b2f2f,WORK

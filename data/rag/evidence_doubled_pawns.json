@@ -1,0 +1,198 @@
+{
+  "question": "What is happening in the episode Doubled Pawns?",
+  "question_type": "episode_summary",
+  "matched_entities": [
+    {
+      "uri": "http://www.wikidata.org/entity/Q104650207",
+      "label": "Doubled Pawns",
+      "class": "Unknown"
+    },
+    {
+      "uri": "http://example.org/qg#episode_doubled_pawns_6bdfa9",
+      "label": "Doubled Pawns",
+      "class": "Episode"
+    },
+    {
+      "uri": "http://www.wikidata.org/entity/Q1983062",
+      "label": "episode",
+      "class": "Unknown"
+    },
+    {
+      "uri": "http://www.wikidata.org/entity/Q202852",
+      "label": "Bled",
+      "class": "Unknown"
+    }
+  ],
+  "text_evidence": [
+    {
+      "rank": 1,
+      "score": 0.5305309295654297,
+      "title": "Doubled Pawns",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns::chunk_0",
+      "text": "\"Doubled Pawns\" is the third episode of The Queen's Gambit. Along with the rest of the series, it was released on Netflix on October 23, 2020. The trip to Cincinnati launches Beth and her mother into a whirlwind of travel and press coverage. Beth sets her sights on the U.S. Open in Las Vegas. A cold opening shows Beth as a child, watching her mother Alice Harmon swimming and diving in a lake. Snap to the present, Cincinnati, 1963, where Beth and her adoptive mother Alma Wheatley have just arrived for a chess tournament. Excited, Beth jumps onto her bed while Alma laughs. Downstairs, Beth meets the U.S. champion Benny Watts, although he isn't playing in the Cincinnati tournament. He wishes her luck, and she goes to play her first match, who is immediately despondent when he realizes who she is. She wins her match before anyone else, and outside meets the original registrars (Matt and Mike) who attempted to put her in the beginner's tournament back in Kentucky, but are now completely friendly with her. That night she studies her matches, making sure Alma keeps the TV down so she can concentrate."
+    },
+    {
+      "rank": 2,
+      "score": 0.4266212284564972,
+      "title": "Adjournment",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Adjournment",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Adjournment::chunk_1",
+      "text": "much too smart. Models are empty creatures. The camera lens fills them with color and texture, and, once in a while, even mystery. But just like there is no mystery to a vacant lot, it’s just there until you put something interesting on top of it… Models are the same. They are just what you put on them. Benny wastes no time and jumps straight into chess training, studying books and playing matches. At one point, he invites over several masters and Cleo. Cleo introduces herself to Beth while Beth cooks for the men, mentioning that she met Hilton Wexler and Grandmaster Arthur Levertov when they stopped her from killing herself. She tells Beth a bit about her life story, and her profession as a model, before Beth goes to play Benny, Levertov, and Wexler in a 1 v 3 simultaneous in speed chess. She defeats them all, and then beats Benny numerous times, winning $10 bets each time. At length, Benny concedes and everyone leaves his apartment. Beth and Benny have sex afterward, although Benny ruins the moment by talking about chess. Beth becomes annoyed at this, and turns over angrily in bed, leaving Benny questioning what he did wrong. Afterward, Beth flies to Paris for the next tournament with Borgov."
+    },
+    {
+      "rank": 3,
+      "score": 0.4050980806350708,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_6",
+      "text": "be noticed by the other members of the staff. Mr. Shaibel admits that he sees Harmon as a protégée who astounds him. He teaches her the \"names of the squares,\" known today as descriptive chess notation, and gifts her the instructional chess book, Modern Chess Openings (1948) by W. C. Griffith and P. W. Sergeant. This rapidly builds on her existing knowledge. Disclaimer: These are fan-made recreations of the games based on the positions shown in the show. Mr. Shaibel brings a guest, Mr. Ganz, the head of the chess club where Shaibel plays and advisor to a high school chess club, into the basement for face-off against Harmon. She plays the Réti Opening against him, which transposes into the Dutch Variation of the Zukertort. Harmon checkmates him in move eight in this strange line: 1. Nf3 f5 2. d3 d5?! 3. e4?! fxe4?! 4. Ne5?! exd3 5. Bxd3 Nc6?? 6. Qh5+ g6 7. Bxg6+ hxg6 8. Qxg6# Mr. Ganz is impressed with how proficient Harmon is, despite playing solely in the basement with Mr. Shaibel and in her head \"on the ceiling.\" As a gesture of kindness, Mr. Ganz reveals that he had bought her a doll, which Harmon inspects with offended judgment. Harmon invites them to play more, including a simultaneous match against them both."
+    },
+    {
+      "rank": 4,
+      "score": 0.37574315071105957,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_2",
+      "text": "same flashback, Harmon realizes that her mother had taken the same vitamins, foreshadowing her susceptibility to abuse sedatives. In the flashback, Alice rounds up personal belongings that supposedly share a connection to Paul and her past, including the dissertation she wrote to obtain her Ph.D. in mathematics at Cornell University. Harmon watches as she burns these items in a barrel outside their trailer. Early in life, Harmon expresses proficiency in mathematics, likely thanks to her mother. She solves nine square root problems in an amount of time which seemingly horrifies her teacher, who promptly sends Harmon away to clean the blackboard erasers in the basement. It is in the basement where her introduction to chess began with witnessing the orphanage's custodian Mr. Shaibel playing alone, whereby she became fascinated with the checkered pattern of the eight-by-eight grid. This is also where her use of Librium to hallucinate begins. She begins hoarding sedatives until nightfall, utilizing them to visualize the chessboard she became obsessed with. Her realization allows her to rapidly improve at chess, yet it has the negative side effect of creating a perceived dependence on them, manifesting the beginnings of an addiction. The next morning, after they had made their beds, Harmon and Jolene watch as a younger, white orphan, Mary-Sue, prepares packing, for she had been adopted."
+    },
+    {
+      "rank": 5,
+      "score": 0.3727746307849884,
+      "title": "Fork",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Fork",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Fork::chunk_7",
+      "text": "intending to study instead, but later changes her mind and goes to meet Benny. She finds the United States Champion in a small cafeteria, and they play five rounds of speed chess together — Benny wins every single round, draining Beth's pockets and her confidence. Oh, and about sex…forget it. Benny, after Beth agrees to live with him for a month The next day Benny apologizes and earnestly boosts her confidence, saying that speed chess doesn't count. His words prove true when, in the game itself, she finally defeats him and claims the title of U.S. Champion for herself. At the bar afterward they both banter and discuss going up against Borgov, so Benny offers to train her, claiming to be able to do far more for her than Harry Beltik ever did. Although it takes some coaxing, she agrees to stay at his home in New York while he trains her, before flying off to face Borgov in Paris. - The Fork is a term where a piece can attack two pieces forcing the player to save a piece with a risk of losing one."
+    },
+    {
+      "rank": 6,
+      "score": 0.3717525601387024,
+      "title": "Doubled Pawns",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns::chunk_6",
+      "text": "Beth is emotionally wrecked all the same, rocked by the prospect of losing for the first time in years. Alma comforts Beth, supports her as her mother, but Beth lashes out: Beth leaves in anger, and even lashes out at Townes as well, when he also tries to console her. However, at the end of it all, when she drives away with her mother, she reaches out to Alma for comfort, and Alma gives it. - The title is said by Beth Harmon recounting her fight against Benny. - The title refers to two pawns in a single file."
+    }
+  ],
+  "kg_evidence": [
+    {
+      "rank": 1,
+      "score": 1.2,
+      "fact_text": "Doubled Pawns --type--> Episode",
+      "subject_class": "Episode",
+      "object_class": "Unknown",
+      "subject_uri": "http://example.org/qg#episode_doubled_pawns_6bdfa9",
+      "predicate_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "predicate_label": "type",
+      "object_uri": "http://example.org/qg#Episode",
+      "object_label": "Episode"
+    },
+    {
+      "rank": 2,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --P155--> Exchanges",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P155",
+      "predicate_label": "P155",
+      "object_uri": "http://www.wikidata.org/entity/Q104650188",
+      "object_label": "Exchanges"
+    },
+    {
+      "rank": 3,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --P156--> Middle Game",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P156",
+      "predicate_label": "P156",
+      "object_uri": "http://www.wikidata.org/entity/Q104650246",
+      "object_label": "Middle Game"
+    },
+    {
+      "rank": 4,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --partOfSeries--> The Queen's Gambit",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P179",
+      "predicate_label": "partOfSeries",
+      "object_uri": "http://www.wikidata.org/entity/Q85808226",
+      "object_label": "The Queen's Gambit"
+    },
+    {
+      "rank": 5,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --instanceOf--> television series episode",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P31",
+      "predicate_label": "instanceOf",
+      "object_uri": "http://www.wikidata.org/entity/Q21191270",
+      "object_label": "television series episode"
+    },
+    {
+      "rank": 6,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --P364--> Q7976",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P364",
+      "predicate_label": "P364",
+      "object_uri": "http://www.wikidata.org/entity/Q7976",
+      "object_label": "Q7976"
+    },
+    {
+      "rank": 7,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --originalBroadcaster--> Netflix",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P449",
+      "predicate_label": "originalBroadcaster",
+      "object_uri": "http://www.wikidata.org/entity/Q907311",
+      "object_label": "Netflix"
+    },
+    {
+      "rank": 8,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --countryOfOrigin--> United States",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P495",
+      "predicate_label": "countryOfOrigin",
+      "object_uri": "http://www.wikidata.org/entity/Q30",
+      "object_label": "United States"
+    },
+    {
+      "rank": 9,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --director--> Scott Frank",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P57",
+      "predicate_label": "director",
+      "object_uri": "http://www.wikidata.org/entity/Q557208",
+      "object_label": "Scott Frank"
+    },
+    {
+      "rank": 10,
+      "score": 1.0,
+      "fact_text": "Doubled Pawns --P58--> Scott Frank",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q104650207",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P58",
+      "predicate_label": "P58",
+      "object_uri": "http://www.wikidata.org/entity/Q557208",
+      "object_label": "Scott Frank"
+    }
+  ]
+}

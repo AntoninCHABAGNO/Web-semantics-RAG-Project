@@ -1,0 +1,188 @@
+{
+  "question": "Who is Beth Harmon?",
+  "question_type": "identity",
+  "matched_entities": [
+    {
+      "uri": "http://www.wikidata.org/entity/Q102378740",
+      "label": "Beth Harmon",
+      "class": "Unknown"
+    },
+    {
+      "uri": "http://example.org/qg#character_beth_harmon_0c125c",
+      "label": "Beth Harmon",
+      "class": "Character"
+    }
+  ],
+  "text_evidence": [
+    {
+      "rank": 1,
+      "score": 1.1282263398170471,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_15",
+      "text": "Harmon graduates from Fairfield High School with the Class of 1966 and receives a Bulova watch from her mother. The watch given to her says, \"With love, from mother.\" Harmon loses against Vasily Borgov in Mexico City, and her mother dies in bed from hepatitis due to her alcohol abuse. Harry Beltik, a former opponent, asks to coach her upon her return to Kentucky. Fork[] Harry helps Harmon cope with grief through attempting to teach her chess. They develop a brief intimate relationship, but they part ways inevitably, due to Harry seeking his own purpose, his recognition that Beth's skills easily transcend his own, and Harmon's self-destructive habits. In 1967, Harmon identifies further weaknesses in her play during the US Championship in Ohio. She wins against Benny, and they decide to prepare for her international career together in New York. Under Benny's tutorship, Harmon discovers that she can play even better when sober. While Benny is inebriated, they have a one night stand. Although, when she goes to Paris she meets up with Cloe and Cloe asks her if she liked having sex with Benny, and Beth responds with “Sometimes.” Which could mean that they have done it a couple more times but, probably these times not while being drunk."
+    },
+    {
+      "rank": 2,
+      "score": 1.1180787086486816,
+      "title": "Beth Harmon",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Beth_Harmon::chunk_14",
+      "text": "her with her first opponent declaring \"shit!\" when she tells him her name before the match. After the match she runs into the twins who previously dismissed her prospects in Kentucky. They express relief that the won't have to play her because as, they state, she crushes everyone she plays. Beth easily wins the Cincinnati tournament to capture an even larger prize of $500, much to the delight of Mrs. Wheatley. Harmon has difficulty forming relationships with both male and female peers she would've been a High School Junior. In 1966, she loses to Benny in the US Championship, and is dubbed the US Co-Champion. Beth never fully comes to terms with her loss to Benny and it becomes a point of insecurity. Harmon's Russian language classmates invite her to a party, resulting in some excessive substance usage and Harmon exploring sex. She seems satisfied with her freedom, yet she is dissatisfied with her relationships once more. Harmon graduates from Fairfield High School with the Class of 1966 and receives a Bulova watch from her mother. The watch given to her says, \"With love, from mother.\" Harmon loses against Vasily Borgov in Mexico City, and her mother dies in bed from hepatitis due to her alcohol abuse."
+    },
+    {
+      "rank": 3,
+      "score": 0.6957368612289428,
+      "title": "Alma Wheatley",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Alma_Wheatley",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Alma_Wheatley::chunk_0",
+      "text": "Alma Wheatley (née Benson) is a lonely housewife with an absent husband and her own vices. She and her husband Allston reside at 4400 Reed Lane, Lexington, Kentucky. The Wheatleys adopted Beth Harmon in 1963 and Alma welcomes Beth as both her adopted daughter and much-needed companion. Soon after Beth arrived, Mr. Wheatley left for a work trip and Alma was on a downward spiral, drinking, smoking, and taking Librium. Mr. Wheatley later unofficially separated from Alma, but she and Beth decided not to tell anyone, avoiding Beth being sent back to the orphanage. [1] When Alma and Beth first went shopping for clothes, she denies Beth a chess set and instead starts giving her an allowance. At first, Alma didn't care for chess and suggested Beth social clubs instead, but later acted as Beth's manager, even gaining a fee of 15% of all Beth's winnings. She accompanies Beth to tournaments all over the United States, organizes hotels and cheers her on. At Beth's first major international tournament in Mexico City, she hooks up with an old pen-pal Manuel and begins an affair. However, Manuel leaves after about a week, deepening Alma's depression. Shortly afterwards, Beth discovers Alma dead in her hotel room of suspected hepatitis, exacerbated by her alcoholism."
+    },
+    {
+      "rank": 4,
+      "score": 0.6833828449249267,
+      "title": "D.L. Townes",
+      "url": "https://the-queens-gambit.fandom.com/wiki/D.L._Townes",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/D.L._Townes::chunk_0",
+      "text": "D.L. Townes is a journalist, photographer, and avid chess player. He works for Chess Review as photojournalist and for the Lexington Herald-Leader as an associate editor; occupations which have allowed him to follow Harmon's journey across the United States and to Moscow, Russia. A former unrequited love interest, Townes is likely Harmon's closest friend and on par to family. He is first introduced in the second episode of the show where Beth is a teenager, appearing as an active chess player participating in the Kentucky State Championship. It is said by the hosts of the tournament that he's underrated, and plays first board for the university team. Their first interaction with each other starts off with Beth Harmon asking about how the system placed the players against each other. From that point on, Townes seems to be interested and engrossed in most of her games, always seen to be watching from afar or with a crowd of people. Their relationship soon grows into casual friends as they interact more, having Townes as the person she approaches whenever she has a question. The two of them finally get to play each other in their match, eventually ending in a victory for Harmon."
+    },
+    {
+      "rank": 5,
+      "score": 0.6810098648071289,
+      "title": "Doubled Pawns",
+      "url": "https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/Doubled_Pawns::chunk_6",
+      "text": "Beth is emotionally wrecked all the same, rocked by the prospect of losing for the first time in years. Alma comforts Beth, supports her as her mother, but Beth lashes out: Beth leaves in anger, and even lashes out at Townes as well, when he also tries to console her. However, at the end of it all, when she drives away with her mother, she reaches out to Alma for comfort, and Alma gives it. - The title is said by Beth Harmon recounting her fight against Benny. - The title refers to two pawns in a single file."
+    },
+    {
+      "rank": 6,
+      "score": 0.6672114729881287,
+      "title": "D.L. Townes",
+      "url": "https://the-queens-gambit.fandom.com/wiki/D.L._Townes",
+      "chunk_id": "https://the-queens-gambit.fandom.com/wiki/D.L._Townes::chunk_3",
+      "text": "storms off angrily, catching his attention as he frowned. He catches up with Harmon before she leaves the venue and attempts to comfort her before she leaves. Townes later reappears as one of the journalists covering Beth's appearance in Moscow. His new position as an associate editor making his possible. During his stay there he managed to make amends with Beth and tells her to consider him her second, giving moral support."
+    }
+  ],
+  "kg_evidence": [
+    {
+      "rank": 1,
+      "score": 6.0,
+      "fact_text": "Beth Harmon --type--> Character",
+      "subject_class": "Character",
+      "object_class": "Class",
+      "subject_uri": "http://example.org/qg#character_beth_harmon_0c125c",
+      "predicate_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "predicate_label": "type",
+      "object_uri": "http://example.org/qg#Character",
+      "object_label": "Character"
+    },
+    {
+      "rank": 2,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --presentInWork--> The Queen's Gambit",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P1441",
+      "predicate_label": "presentInWork",
+      "object_uri": "http://www.wikidata.org/entity/Q1115619",
+      "object_label": "The Queen's Gambit"
+    },
+    {
+      "rank": 3,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --presentInWork--> The Queen's Gambit",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P1441",
+      "predicate_label": "presentInWork",
+      "object_uri": "http://www.wikidata.org/entity/Q85808226",
+      "object_label": "The Queen's Gambit"
+    },
+    {
+      "rank": 4,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --creator--> Walter Tevis",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P170",
+      "predicate_label": "creator",
+      "object_uri": "http://www.wikidata.org/entity/Q740928",
+      "object_label": "Walter Tevis"
+    },
+    {
+      "rank": 5,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --performer--> Isla Johnston",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P175",
+      "predicate_label": "performer",
+      "object_uri": "http://www.wikidata.org/entity/Q117121905",
+      "object_label": "Isla Johnston"
+    },
+    {
+      "rank": 6,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --performer--> Anya Taylor-Joy",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P175",
+      "predicate_label": "performer",
+      "object_uri": "http://www.wikidata.org/entity/Q20882479",
+      "object_label": "Anya Taylor-Joy"
+    },
+    {
+      "rank": 7,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --instanceOf--> fictional human",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P31",
+      "predicate_label": "instanceOf",
+      "object_uri": "http://www.wikidata.org/entity/Q15632617",
+      "object_label": "fictional human"
+    },
+    {
+      "rank": 8,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --instanceOf--> television character",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P31",
+      "predicate_label": "instanceOf",
+      "object_uri": "http://www.wikidata.org/entity/Q15773317",
+      "object_label": "television character"
+    },
+    {
+      "rank": 9,
+      "score": 5.0,
+      "fact_text": "Beth Harmon --instanceOf--> literary character",
+      "subject_class": "Unknown",
+      "object_class": "Unknown",
+      "subject_uri": "http://www.wikidata.org/entity/Q102378740",
+      "predicate_uri": "http://www.wikidata.org/prop/direct/P31",
+      "predicate_label": "instanceOf",
+      "object_uri": "http://www.wikidata.org/entity/Q3658341",
+      "object_label": "literary character"
+    },
+    {
+      "rank": 10,
+      "score": 1.4,
+      "fact_text": "Beth Harmon --played--> D.L. Townes",
+      "subject_class": "Character",
+      "object_class": "Character",
+      "subject_uri": "http://example.org/qg#character_beth_harmon_0c125c",
+      "predicate_uri": "http://example.org/qg#played",
+      "predicate_label": "played",
+      "object_uri": "http://example.org/qg#character_d_l_townes_a69829",
+      "object_label": "D.L. Townes"
+    }
+  ]
+}

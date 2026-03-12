@@ -4,13 +4,9 @@
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
-#################################################################
-# Ontology — The Queen's Gambit
-#################################################################
-
 <http://example.org/qg> a owl:Ontology ;
   rdfs:label "The Queen's Gambit Ontology" ;
-  rdfs:comment "Minimal ontology to represent characters, tournaments, chess games and extracted relations." .
+  rdfs:comment "Ontology for The Queen's Gambit domain: characters, real persons, events, works, organizations, and extracted relations." .
 
 #################################################################
 # Classes
@@ -30,16 +26,20 @@ qg:Person a owl:Class ;
 qg:Character a owl:Class ;
   rdfs:subClassOf qg:Person ;
   rdfs:label "Character" ;
-  rdfs:comment "Fictional character (e.g. Beth Harmon)." .
+  rdfs:comment "Fictional character." .
 
 qg:RealPerson a owl:Class ;
   rdfs:subClassOf qg:Person ;
   rdfs:label "Real Person" ;
-  rdfs:comment "Real person (e.g. historical chess players mentioned)." .
+  rdfs:comment "Real-world person." .
 
 qg:Organization a owl:Class ;
   rdfs:subClassOf qg:Agent ;
   rdfs:label "Organization" .
+
+qg:Group a owl:Class ;
+  rdfs:subClassOf qg:Agent ;
+  rdfs:label "Group" .
 
 qg:Place a owl:Class ;
   rdfs:subClassOf qg:Thing ;
@@ -60,12 +60,15 @@ qg:Tournament a owl:Class ;
 qg:Game a owl:Class ;
   rdfs:subClassOf qg:Event ;
   rdfs:label "Game" ;
-  rdfs:comment "Chess game (may be linked to a tournament)." .
+  rdfs:comment "Chess game." .
 
 qg:Work a owl:Class ;
   rdfs:subClassOf qg:Thing ;
-  rdfs:label "Work" ;
-  rdfs:comment "Series, book, etc." .
+  rdfs:label "Work" .
+
+qg:Series a owl:Class ;
+  rdfs:subClassOf qg:Work ;
+  rdfs:label "Series" .
 
 qg:Episode a owl:Class ;
   rdfs:subClassOf qg:Work ;
@@ -79,13 +82,8 @@ qg:ChessOpening a owl:Class ;
   rdfs:subClassOf qg:Thing ;
   rdfs:label "Chess Opening" .
 
-qg:Title a owl:Class ;
-  rdfs:subClassOf qg:Thing ;
-  rdfs:label "Title" ;
-  rdfs:comment "Title or rank (e.g. champion, master)." .
-
 #################################################################
-# Annotation properties
+# Datatype properties
 #################################################################
 
 qg:sourceUrl a owl:DatatypeProperty ;
@@ -93,28 +91,47 @@ qg:sourceUrl a owl:DatatypeProperty ;
   rdfs:domain qg:Thing ;
   rdfs:range xsd:anyURI .
 
-#################################################################
-# Object properties — relations between entities
-#################################################################
+qg:confidence a owl:DatatypeProperty ;
+  rdfs:label "confidence" ;
+  rdfs:comment "Confidence score of extraction." ;
+  rdfs:domain rdf:Statement ;
+  rdfs:range xsd:decimal .
 
-# Social / narrative relations
+qg:evidence a owl:DatatypeProperty ;
+  rdfs:label "text evidence" ;
+  rdfs:domain rdf:Statement ;
+  rdfs:range xsd:string .
+
+qg:evidenceStartChar a owl:DatatypeProperty ;
+  rdfs:label "evidence start char" ;
+  rdfs:domain rdf:Statement ;
+  rdfs:range xsd:integer .
+
+qg:evidenceEndChar a owl:DatatypeProperty ;
+  rdfs:label "evidence end char" ;
+  rdfs:domain rdf:Statement ;
+  rdfs:range xsd:integer .
+
+#################################################################
+# Object properties — social / narrative
+#################################################################
 
 qg:met a owl:ObjectProperty ;
   rdfs:label "met" ;
-  rdfs:domain qg:Agent ;
-  rdfs:range qg:Agent .
+  rdfs:domain qg:Person ;
+  rdfs:range qg:Person .
 
 qg:helped a owl:ObjectProperty ;
   rdfs:label "helped" ;
-  rdfs:domain qg:Agent ;
-  rdfs:range qg:Agent .
+  rdfs:domain qg:Person ;
+  rdfs:range qg:Person .
 
 qg:supported a owl:ObjectProperty ;
   rdfs:label "supported" ;
-  rdfs:domain qg:Agent ;
-  rdfs:range qg:Agent .
+  rdfs:domain qg:Person ;
+  rdfs:range qg:Person .
 
-qg:befriended a owl:ObjectProperty ;
+qg:befriended a owl:ObjectProperty, owl:SymmetricProperty ;
   rdfs:label "befriended" ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person .
@@ -124,7 +141,7 @@ qg:loved a owl:ObjectProperty ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person .
 
-qg:married a owl:ObjectProperty ;
+qg:married a owl:ObjectProperty, owl:SymmetricProperty ;
   rdfs:label "married" ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person .
@@ -134,7 +151,9 @@ qg:divorced a owl:ObjectProperty ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person .
 
-# Training / learning
+#################################################################
+# Object properties — training / learning
+#################################################################
 
 qg:trainedBy a owl:ObjectProperty ;
   rdfs:label "trained by" ;
@@ -156,7 +175,9 @@ qg:learnedFrom a owl:ObjectProperty ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person .
 
-# Family relations
+#################################################################
+# Object properties — family
+#################################################################
 
 qg:parentOf a owl:ObjectProperty ;
   rdfs:label "parent of" ;
@@ -169,62 +190,84 @@ qg:childOf a owl:ObjectProperty ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person .
 
-qg:siblingOf a owl:ObjectProperty ;
+qg:siblingOf a owl:ObjectProperty, owl:SymmetricProperty ;
   rdfs:label "sibling of" ;
   rdfs:domain qg:Person ;
-  rdfs:range qg:Person ;
-  a owl:SymmetricProperty .
+  rdfs:range qg:Person .
 
-# Chess participation / results
+#################################################################
+# Object properties — chess participation / results
+#################################################################
+
+qg:participatedIn a owl:ObjectProperty ;
+  rdfs:label "participated in" ;
+  rdfs:domain qg:Person ;
+  rdfs:range qg:Event .
 
 qg:competedIn a owl:ObjectProperty ;
   rdfs:label "competed in" ;
   rdfs:domain qg:Person ;
-  rdfs:range qg:Event .
+  rdfs:range qg:Event ;
+  rdfs:subPropertyOf qg:participatedIn .
 
 qg:entered a owl:ObjectProperty ;
   rdfs:label "entered" ;
   rdfs:domain qg:Person ;
-  rdfs:range qg:Tournament .
+  rdfs:range qg:Tournament ;
+  rdfs:subPropertyOf qg:participatedIn .
 
 qg:playedIn a owl:ObjectProperty ;
   rdfs:label "played in" ;
   rdfs:domain qg:Person ;
-  rdfs:range qg:Event .
+  rdfs:range qg:Event ;
+  rdfs:subPropertyOf qg:participatedIn .
 
-qg:played a owl:ObjectProperty ;
+qg:played a owl:ObjectProperty, owl:SymmetricProperty ;
   rdfs:label "played against" ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person ;
-  a owl:SymmetricProperty ;
   rdfs:comment "General symmetric relation 'played against'." .
 
 qg:defeated a owl:ObjectProperty ;
   rdfs:label "defeated" ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person ;
+  rdfs:subPropertyOf qg:played ;
   owl:inverseOf qg:lostTo .
 
 qg:lostTo a owl:ObjectProperty ;
   rdfs:label "lost to" ;
   rdfs:domain qg:Person ;
-  rdfs:range qg:Person .
+  rdfs:range qg:Person ;
+  rdfs:subPropertyOf qg:played .
 
-qg:drewWith a owl:ObjectProperty ;
+qg:drewWith a owl:ObjectProperty, owl:SymmetricProperty ;
   rdfs:label "drew with" ;
   rdfs:domain qg:Person ;
   rdfs:range qg:Person ;
-  a owl:SymmetricProperty .
+  rdfs:subPropertyOf qg:played .
 
 qg:won a owl:ObjectProperty ;
   rdfs:label "won" ;
   rdfs:domain qg:Person ;
-  rdfs:range qg:Event .
+  rdfs:range qg:Event ;
+  owl:inverseOf qg:wonBy .
+
+qg:wonBy a owl:ObjectProperty ;
+  rdfs:label "won by" ;
+  rdfs:domain qg:Event ;
+  rdfs:range qg:Person .
 
 qg:lost a owl:ObjectProperty ;
   rdfs:label "lost" ;
   rdfs:domain qg:Person ;
-  rdfs:range qg:Event .
+  rdfs:range qg:Event ;
+  owl:inverseOf qg:lostBy .
+
+qg:lostBy a owl:ObjectProperty ;
+  rdfs:label "lost by" ;
+  rdfs:domain qg:Event ;
+  rdfs:range qg:Person .
 
 qg:hasGame a owl:ObjectProperty ;
   rdfs:label "has game" ;
@@ -247,84 +290,26 @@ qg:usedOpening a owl:ObjectProperty ;
   rdfs:domain qg:Game ;
   rdfs:range qg:ChessOpening .
 
-# Location / context
+#################################################################
+# Object properties — works / episodes
+#################################################################
+
+qg:partOfSeries a owl:ObjectProperty ;
+  rdfs:label "part of series" ;
+  rdfs:domain qg:Episode ;
+  rdfs:range qg:Series ;
+  owl:inverseOf qg:hasEpisode .
+
+qg:hasEpisode a owl:ObjectProperty ;
+  rdfs:label "has episode" ;
+  rdfs:domain qg:Series ;
+  rdfs:range qg:Episode .
+
+#################################################################
+# Object properties — context
+#################################################################
 
 qg:tookPlaceIn a owl:ObjectProperty ;
   rdfs:label "took place in" ;
   rdfs:domain qg:Event ;
   rdfs:range qg:Place .
-
-qg:associatedWithWork a owl:ObjectProperty ;
-  rdfs:label "associated with work" ;
-  rdfs:domain qg:Thing ;
-  rdfs:range qg:Work .
-
-#################################################################
-# Datatype properties — provenance
-#################################################################
-
-qg:confidence a owl:DatatypeProperty ;
-  rdfs:label "confidence" ;
-  rdfs:comment "Confidence score of extraction (0..1 or 0..100 depending on pipeline)." ;
-  rdfs:domain rdf:Statement ;
-  rdfs:range xsd:decimal .
-
-qg:evidence a owl:DatatypeProperty ;
-  rdfs:label "text evidence" ;
-  rdfs:domain rdf:Statement ;
-  rdfs:range xsd:string .
-
-qg:evidenceStartChar a owl:DatatypeProperty ;
-  rdfs:label "evidence start char" ;
-  rdfs:domain rdf:Statement ;
-  rdfs:range xsd:integer .
-
-qg:evidenceEndChar a owl:DatatypeProperty ;
-  rdfs:label "evidence end char" ;
-  rdfs:domain rdf:Statement ;
-  rdfs:range xsd:integer .
-
-#################################################################
-# Symmetric relations
-#################################################################
-
-qg:befriended a owl:ObjectProperty, owl:SymmetricProperty .
-
-qg:married a owl:ObjectProperty, owl:SymmetricProperty .
-
-#################################################################
-# Chess relation hierarchy
-#################################################################
-
-qg:defeated rdfs:subPropertyOf qg:playedAgainst .
-qg:lostTo rdfs:subPropertyOf qg:playedAgainst .
-qg:drewWith rdfs:subPropertyOf qg:playedAgainst .
-
-#################################################################
-# Inverse relations
-#################################################################
-
-qg:won owl:inverseOf qg:wonBy .
-qg:wonBy a owl:ObjectProperty ;
-  rdfs:label "won by" ;
-  rdfs:domain qg:Event ;
-  rdfs:range qg:Person .
-
-qg:lost owl:inverseOf qg:lostBy .
-qg:lostBy a owl:ObjectProperty ;
-  rdfs:label "lost by" ;
-  rdfs:domain qg:Event ;
-  rdfs:range qg:Person .
-
-#################################################################
-# Participation hierarchy
-#################################################################
-
-qg:participatedIn a owl:ObjectProperty ;
-  rdfs:label "participated in" ;
-  rdfs:domain qg:Person ;
-  rdfs:range qg:Event .
-
-qg:competedIn rdfs:subPropertyOf qg:participatedIn .
-qg:entered rdfs:subPropertyOf qg:participatedIn .
-qg:playedIn rdfs:subPropertyOf qg:participatedIn .
