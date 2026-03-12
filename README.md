@@ -1,5 +1,12 @@
 # Web-datamining-semantics-Project-GOT
 
+conda create -n semantic-web-data-mining-project python=3.12
+
+conda activate semantic-web-data-mining-project
+
+pip install -r requirements.txt
+pip install openai python-dotenv
+
 Ordre d'exécution :
 
 python src/A_01_crawl_clean.py
