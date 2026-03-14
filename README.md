@@ -5,7 +5,10 @@ conda create -n semantic-web-data-mining-project python=3.12
 conda activate semantic-web-data-mining-project
 
 pip install -r requirements.txt
-pip install openai python-dotenv
+
+Il faut installer Ollama sur son PC 
+
+ollama pull phi3:mini
 
 Ordre d'exécution :
 
@@ -34,3 +37,12 @@ python src/F_16_kg_retriever.py --question "Who is Beth Harmon?"
 python src/F_17_hybrid_retriever_reranked.py --question "Who is Beth Harmon?" --output_json data/rag/evidence_beth.json
 python src/F_18_generate_answer.py --question "Who is Beth Harmon?" --evidence_json data/rag/evidence_beth.json
 python src/F_19_rag_cli.py --question "Who is Beth Harmon?" --mode debug
+
+python src/G_20_rag_cli_llm.py --question "Who is Beth Harmon?" --provider ollama --model phi3:mini --mode simple
+
+python src/G_20_rag_cli_llm.py --question "What is happening in the episode Doubled Pawns?" --provider ollama --model phi3:mini --mode simple
+
+
+python src/G_20_rag_cli_llm.py --question "What is the queen's gambit?" --provider ollama --model phi3:mini --mode simple
+
+python src/G_20_rag_cli_llm.py --question "Who is Alice Harmon?" --provider ollama --model phi3:mini --mode debug

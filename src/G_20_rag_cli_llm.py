@@ -131,9 +131,32 @@ def call_ollama_llm(
 
 
 def print_simple(answer: str) -> None:
+    print("\n==============================")
+    print("ANSWER")
+    print("==============================")
     print()
     print(answer)
     print()
+
+def print_sources(pack: Dict) -> None:
+    print("\nSources:")
+    
+    seen = set()
+    i = 1
+
+    for e in pack.get("text_evidence", []):
+        url = e.get("url")
+        if not url:
+            continue
+        if url in seen:
+            continue
+
+        seen.add(url)
+        print(f"{i}. {url}")
+        i += 1
+
+    if i == 1:
+        print("No sources available.")
 
 
 def print_debug(question: str, llm_answer: str, pack: Dict, prompt: Optional[str] = None) -> None:
@@ -195,8 +218,8 @@ def main() -> None:
 
     parser.add_argument("--mode", choices=["simple", "debug"], default="simple")
     parser.add_argument("--answer_mode", choices=["short", "normal"], default="normal")
-
-    # Plus d'OpenAI par défaut
+    parser.add_argument("--show_sources", action="store_true",help="Display sources used to generate the answer")
+    
     parser.add_argument("--provider", choices=["ollama", "template"], default="ollama")
     parser.add_argument("--model", type=str, default=None)
     parser.add_argument("--temperature", type=float, default=0.2)
@@ -249,8 +272,15 @@ def main() -> None:
 
         if args.mode == "simple":
             print_simple(final_answer)
+
+            if args.show_sources:
+                print_sources(pack)
+
         else:
             print_debug(question, final_answer, pack, prompt=prompt)
+
+            if args.show_sources:
+                print_sources(pack)
 
         if args.save_pack is not None:
             args.save_pack.parent.mkdir(parents=True, exist_ok=True)
