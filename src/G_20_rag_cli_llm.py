@@ -23,49 +23,50 @@ from F_19_rag_cli import (
 
 def build_llm_prompt(question: str, pack: Dict, short_mode: bool = False) -> str:
     text_evidence = pack.get("text_evidence", [])[:4]
-    kg_evidence = pack.get("kg_evidence", [])[:6]
+    kg_evidence = pack.get("kg_evidence", [])[:4]
 
     text_blocks = []
     for i, e in enumerate(text_evidence, start=1):
         text_blocks.append(
-            f"[TEXT {i}]\n"
+            f"[S{i}]\n"
             f"Title: {e.get('title')}\n"
             f"URL: {e.get('url')}\n"
-            f"Text: {clean_text(e.get('text', ''))}"
+            f"Snippet: {clean_text(e.get('text', ''))[:400]}"
         )
 
     kg_blocks = []
     for i, e in enumerate(kg_evidence, start=1):
         kg_blocks.append(
-            f"[KG {i}]\n"
+            f"[K{i}]\n"
             f"Fact: {e.get('fact_text')}"
         )
 
-    answer_style = (
-        "Give a short answer in 2-4 sentences."
-        if short_mode
-        else "Give a concise but informative answer in 4-8 sentences."
-    )
+    style = "Answer in 2 to 4 sentences." if short_mode else "Answer in 4 to 6 sentences."
 
-    prompt = f"""You are a knowledge-grounded assistant.
+    prompt = f"""
+You are a knowledge-grounded assistant.
 
-Answer the user's question using ONLY the evidence below.
-Do not invent facts.
-If the evidence is insufficient, say so explicitly.
-Prefer facts supported by both text evidence and KG evidence when possible.
-Do not mention internal pipeline details.
-{answer_style}
+Use ONLY the evidence below.
+Do NOT invent facts.
+If the evidence is insufficient, say so clearly.
+Keep the answer concise and precise.
+Each important claim must cite a source tag like [S1], [S2], [K1].
+
+Return exactly this format:
+
+ANSWER:
+<answer with citations>
 
 QUESTION:
 {question}
 
-TEXT EVIDENCE:
+TEXT SOURCES:
 {chr(10).join(text_blocks) if text_blocks else "None"}
 
-KG EVIDENCE:
+KG SOURCES:
 {chr(10).join(kg_blocks) if kg_blocks else "None"}
 
-Now produce the final answer.
+{style}
 """
     return prompt
 
