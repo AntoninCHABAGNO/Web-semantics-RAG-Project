@@ -1,6 +1,6 @@
 import streamlit as st
 from pathlib import Path
-from rag_service import ask_rag
+from H_21_rag_service import ask_rag
 
 st.set_page_config(page_title="Chatbot RAG - Jeu de dames", page_icon="♟️", layout="wide")
 
