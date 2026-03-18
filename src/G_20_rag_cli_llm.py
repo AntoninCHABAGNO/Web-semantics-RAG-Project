@@ -7,7 +7,7 @@ import argparse
 import json
 from pathlib import Path
 from typing import Dict, Optional
-
+from urllib.parse import urlparse
 import requests
 
 # réutilise ton pipeline existant
@@ -28,43 +28,38 @@ def build_llm_prompt(question: str, pack: Dict, short_mode: bool = False) -> str
     text_blocks = []
     for i, e in enumerate(text_evidence, start=1):
         text_blocks.append(
-            f"[S{i}]\n"
-            f"Title: {e.get('title')}\n"
-            f"URL: {e.get('url')}\n"
-            f"Snippet: {clean_text(e.get('text', ''))[:400]}"
+            f"[S{i}] {clean_text(e.get('text', ''))[:300]}"
         )
 
     kg_blocks = []
     for i, e in enumerate(kg_evidence, start=1):
         kg_blocks.append(
-            f"[K{i}]\n"
-            f"Fact: {e.get('fact_text')}"
+            f"[K{i}] {e.get('fact_text')}"
         )
 
     style = "Answer in 2 to 4 sentences." if short_mode else "Answer in 4 to 6 sentences."
 
     prompt = f"""
-You are a knowledge-grounded assistant.
+You are a question-answering assistant.
 
-Use ONLY the evidence below.
-Do NOT invent facts.
-If the evidence is insufficient, say so clearly.
-Keep the answer concise and precise.
-Each important claim must cite a source tag like [S1], [S2], [K1].
+Answer the user's question using ONLY the evidence below.
 
-Return exactly this format:
+Rules:
+- Do NOT invent facts
+- Do NOT generate a new question
+- Do NOT output "ANSWER:" or "QUESTION:"
+- Return ONLY the answer
+- Keep it concise and clear
+- Use citations like [S1], [K1]
 
-ANSWER:
-<answer with citations>
-
-QUESTION:
+Question:
 {question}
 
-TEXT SOURCES:
-{chr(10).join(text_blocks) if text_blocks else "None"}
+Text evidence:
+{chr(10).join(text_blocks)}
 
-KG SOURCES:
-{chr(10).join(kg_blocks) if kg_blocks else "None"}
+Knowledge graph:
+{chr(10).join(kg_blocks)}
 
 {style}
 """
@@ -139,25 +134,49 @@ def print_simple(answer: str) -> None:
     print(answer)
     print()
 
-def print_sources(pack: Dict) -> None:
-    print("\nSources:")
-    
-    seen = set()
-    i = 1
+def _domain_from_url(url: str) -> str:
+    try:
+        return urlparse(url).netloc.replace("www.", "")
+    except Exception:
+        return "unknown"
 
-    for e in pack.get("text_evidence", []):
-        url = e.get("url")
-        if not url:
-            continue
-        if url in seen:
+
+def print_sources(pack: Dict) -> None:
+    print("\n==============================")
+    print("SOURCES")
+    print("==============================")
+
+    seen = set()
+    printed = 0
+
+    for e in pack.get("text_evidence", [])[:6]:
+        url = (e.get("url") or "").strip()
+        if not url or url in seen:
             continue
 
         seen.add(url)
-        print(f"{i}. {url}")
-        i += 1
+        printed += 1
 
-    if i == 1:
-        print("No sources available.")
+        title = (e.get("title") or "Untitled source").strip()
+        domain = _domain_from_url(url)
+        snippet = clean_text(e.get("text", ""))[:180].strip()
+        score = float(e.get("score", 0.0))
+
+        print(f"\n[S{printed}] {title}")
+        print(f"    Domain : {domain}")
+        print(f"    Score  : {score:.3f}")
+        print(f"    URL    : {url}")
+        if snippet:
+            print(f"    Snippet: {snippet}")
+
+    kg_items = pack.get("kg_evidence", [])[:3]
+    for i, e in enumerate(kg_items, start=1):
+        print(f"\n[K{i}] Knowledge Graph")
+        print(f"    Score : {float(e.get('score', 0.0)):.3f}")
+        print(f"    Fact  : {e.get('fact_text', '')}")
+
+    if printed == 0 and not kg_items:
+        print("\nNo sources available.")
 
 
 def print_debug(question: str, llm_answer: str, pack: Dict, prompt: Optional[str] = None) -> None:

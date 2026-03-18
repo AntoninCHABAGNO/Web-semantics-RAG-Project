@@ -1,5 +1,6 @@
 from pathlib import Path
 from typing import Dict, List
+from urllib.parse import urlparse
 
 from G_20_rag_cli_llm import (
     run_pipeline,
@@ -9,31 +10,62 @@ from G_20_rag_cli_llm import (
 from F_19_rag_cli import generate_answer, clean_text
 
 
+import re
+
+def clean_llm_answer(text: str) -> str:
+    text = re.sub(r"^\s*ANSWER\s*:\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bQUESTION\s*:.*$", "", text, flags=re.IGNORECASE | re.DOTALL)
+    return text.strip()
+
+def _domain_from_url(url: str) -> str:
+    try:
+        return urlparse(url).netloc.replace("www.", "")
+    except Exception:
+        return "unknown"
+
+
 def format_sources(pack: Dict) -> List[Dict]:
     sources = []
     seen_urls = set()
 
-    for i, e in enumerate(pack.get("text_evidence", [])[:4], start=1):
-        url = e.get("url")
+    text_rank = 1
+    for e in pack.get("text_evidence", [])[:6]:
+        url = (e.get("url") or "").strip()
         if not url or url in seen_urls:
             continue
+
         seen_urls.add(url)
 
-        sources.append({
-            "id": f"S{i}",
-            "type": "text",
-            "title": e.get("title", "Untitled"),
-            "url": url,
-            "snippet": clean_text(e.get("text", ""))[:250]
-        })
+        title = (e.get("title") or "Source sans titre").strip()
+        snippet = clean_text(e.get("text", ""))[:220].strip()
+        domain = _domain_from_url(url)
+        score = float(e.get("score", 0.0))
 
-    for i, e in enumerate(pack.get("kg_evidence", [])[:4], start=1):
         sources.append({
-            "id": f"K{i}",
-            "type": "kg",
-            "fact": e.get("fact_text", ""),
-            "score": e.get("score", 0.0)
+            "id": f"S{text_rank}",
+            "type": "text",
+            "title": title,
+            "url": url,
+            "domain": domain,
+            "snippet": snippet,
+            "score": round(score, 3),
         })
+        text_rank += 1
+
+    kg_rank = 1
+    for e in pack.get("kg_evidence", [])[:4]:
+        fact = (e.get("fact_text") or "").strip()
+        if not fact:
+            continue
+
+        sources.append({
+            "id": f"K{kg_rank}",
+            "type": "kg",
+            "title": "Knowledge Graph",
+            "fact": fact,
+            "score": round(float(e.get("score", 0.0)), 3),
+        })
+        kg_rank += 1
 
     return sources
 
