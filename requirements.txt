@@ -21,3 +21,6 @@ requests>=2.28
 httpx>=0.24
 trafilatura>=1.6
 beautifulsoup4>=4.12
+
+# App UI
+streamlit>=1.30
