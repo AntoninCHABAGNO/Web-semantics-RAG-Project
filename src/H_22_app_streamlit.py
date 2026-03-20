@@ -5,7 +5,7 @@ from H_21_rag_service import ask_rag
 st.set_page_config(page_title="Chatbot RAG - The Queen's Gambit", page_icon="♟️", layout="wide")
 
 st.title("♟️ Chatbot RAG — The Queen's Gambit")
-st.caption("Pose une question, le bot répond avec les sources utilisées.")
+st.caption("Ask a question, the bot answers with the sources used.")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -13,14 +13,14 @@ if "messages" not in st.session_state:
 
 def render_sources(sources):
     if not sources:
-        st.info("Aucune source disponible.")
+        st.info("No source available.")
         return
 
     text_sources = [s for s in sources if s["type"] == "text"]
     kg_sources = [s for s in sources if s["type"] == "kg"]
 
     if text_sources:
-        st.markdown("### Sources texte")
+        st.markdown("### Text sources")
         for src in text_sources:
             with st.container(border=True):
                 st.markdown(f"**{src['id']} — {src['title']}**")
@@ -29,13 +29,13 @@ def render_sources(sources):
                     meta += f" · score `{src['score']}`"
                 st.caption(meta)
 
-                st.markdown(f"[Ouvrir la source]({src['url']})")
+                st.markdown(f"[Open the source]({src['url']})")
 
                 if src.get("snippet"):
                     st.write(src["snippet"])
 
     if kg_sources:
-        st.markdown("### Faits du graphe de connaissances")
+        st.markdown("### Knowledge graph facts")
         for src in kg_sources:
             with st.container(border=True):
                 st.markdown(f"**{src['id']} — {src['title']}**")
@@ -49,7 +49,7 @@ for msg in st.session_state.messages:
         st.markdown(msg["content"])
 
         if msg["role"] == "assistant" and "sources" in msg:
-            with st.expander("Sources utilisées", expanded=False):
+            with st.expander("Sources used", expanded=False):
                 render_sources(msg["sources"])
 
 
@@ -65,7 +65,7 @@ if question:
         st.markdown(question)
 
     with st.chat_message("assistant"):
-        with st.spinner("Recherche des sources..."):
+        with st.spinner("Researching sources..."):
             result = ask_rag(
                 question=question,
                 chunks_path=Path("data/rag/chunks.jsonl"),
@@ -79,7 +79,7 @@ if question:
 
         st.markdown(result["answer"])
 
-        with st.expander("Sources utilisées", expanded=False):
+        with st.expander("Sources used", expanded=False):
             render_sources(result["sources"])
 
     st.session_state.messages.append({

@@ -46,3 +46,6 @@ python src/G_20_rag_cli_llm.py --question "What is happening in the episode Doub
 python src/G_20_rag_cli_llm.py --question "What is the queen's gambit?" --provider ollama --model phi3:mini --mode simple
 
 python src/G_20_rag_cli_llm.py --question "Who is Alice Harmon?" --provider ollama --model phi3:mini --mode debug
+
+
+streamlit run .\src\H_22_app_streamlit.py
