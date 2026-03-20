@@ -1,0 +1,141 @@
+[
+  {
+    "id": "Q1",
+    "category": "Character identity",
+    "question": "Who is Beth Harmon?",
+    "reference": "Beth Harmon is the main fictional character of The Queen's Gambit. She is an orphaned chess prodigy who becomes a world-class player. She is portrayed by Anya Taylor-Joy in the Netflix miniseries.",
+    "baseline": {
+      "answer": "Beth Harmon is a character in *The Queen's Gambit*. The character was created by Walter Tevis. In screen adaptations, Beth Harmon is performed or portrayed by Isla Johnston and Anya Taylor-Joy. The retrieved source passages also show that this character is central to the narrative and closely connected to major events and relationships in the series.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon"
+      ]
+    },
+    "rag": {
+      "answer": "Beth Harmon is a character created by author Walter Tevis, known for her exceptional chess skills as depicted in the novel \"The Queen's Gambit.\" She graduated from Fairfield High School and received a watch with affectionate words from her mother before facing Vasily Borgov. Tragically, Beth lost to Borgov but later encountered twins who previously doubted her abilities; they now express relief that she won’t be playing them anymore due to the intensity of their matches (S1-3). D.L. Townes is a journalist and photographer documenting Harmon's journey across various locations, including Mexico City and Moscow, Russia (K4).",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon"
+      ]
+    },
+    "model": "phi3:mini"
+  },
+  {
+    "id": "Q2",
+    "category": "Character identity",
+    "question": "Who is William Shaibel?",
+    "reference": "William Shaibel is the janitor at the Methuen Home orphanage who teaches Beth Harmon to play chess. He is her first mentor and opponent.",
+    "baseline": {
+      "answer": "William Shaibel is a character. The retrieved source passages also show that this character is central to the narrative and closely connected to major events and relationships in the series.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 2,
+      "matched_entities": [
+        "William Shaibel"
+      ]
+    },
+    "rag": {
+      "answer": "William Shaibel is a character who has an encounter with the chess prodigy, Beth Harmon (S1). He introduces her to playing chess and supports her interest by loaning money for tournament entry fees on the condition of repayment upon victory. Despite not being paid back after winning multiple times, Mr. Shaibel does not hold it against her as he is a janitor at Beth's orphanage (S4). Bill Camp portrays this character in \"The Queen's Gambit,\" where his role extends beyond the chessboard to open new doors for young prodigy Beth Harmon.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 2,
+      "matched_entities": [
+        "William Shaibel"
+      ]
+    },
+    "model": "phi3:mini"
+  },
+  {
+    "id": "Q3",
+    "category": "Factual / KG",
+    "question": "What chess tournaments did Beth Harmon win?",
+    "reference": "Beth Harmon won the Kentucky State Championship, the Cincinnati tournament, the Pittsburgh tournament, and the Moscow Invitational.",
+    "baseline": {
+      "answer": "Beth Harmon defeated Annette Packer. Beth Harmon defeated Benny Watts. Beth Harmon defeated Sizemore. Beth Harmon defeated William Shaibel.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "chess tournament",
+        "Beth Harmon",
+        "Beth Harmon",
+        "tournament",
+        "name"
+      ]
+    },
+    "rag": {
+      "answer": "Beth Harmon, a young American chess prodigy portrayed as prioritizing the beauty and art of chess over stereotypes (S3), has had notable victories against several opponents throughout her career depicted on screen. She defeated Annette Packer in one match ([K1]), showcasing her ability to overcome formidable adversaries early on. Additionally, Beth's prowess is further evidenced by her triumph over Benny Watts and Sizemore (both [K2] and [K3]). Her victory against William Shaibel also highlighted her exceptional skill level ([S4], with the implication that she could qualify for a USCF Class A title due to her rating above 1800 circa 1964). These victories underscore Beth's status as an accomplished chess player, despite any personal relationships or challenges faced in life.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "chess tournament",
+        "Beth Harmon",
+        "Beth Harmon",
+        "tournament",
+        "name"
+      ]
+    },
+    "model": "phi3:mini"
+  },
+  {
+    "id": "Q4",
+    "category": "Episode summary",
+    "question": "What is happening in the episode Doubled Pawns?",
+    "reference": "Doubled Pawns is the third episode of The Queen's Gambit. Beth enters the US Open and faces stronger opponents. She struggles with her dependency on tranquilisers.",
+    "baseline": {
+      "answer": "*Doubled Pawns* is an episode of *The Queen's Gambit*. It is part of the series *The Queen's Gambit*. It was released on Netflix. It was directed by Scott Frank. According to the retrieved episode page, \"Doubled Pawns\" is the third episode of The Queen's Gambit. Along with the rest of the series, it was released on Netflix on October 23, 2020. The trip to Cincinnati launches Beth and her mother into a whirlwind of travel and press coverage. Beth sets her sights on the U.S. Open in Las Vegas. A cold opening shows Beth as a child, watching her mother Alice Harmon swimming and diving in a lake. Snap to the present, Cincinnati, 1963, where Beth and her adoptive mother Alma Wheatley have just arrive",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Doubled Pawns",
+        "Doubled Pawns",
+        "episode",
+        "Bled"
+      ]
+    },
+    "rag": {
+      "answer": "In \"Doubled Pawns,\" the third episode of The Queen's Gambit, Beth Harmon and her mother embark on a trip that leads them into intense travel experiences and press attention (S1). During this whirlwind period, Beth becomes emotionally distressed by potentially losing at chess for the first time in years. Alma tries to comfort both of them as they navigate these emotions together (S2). Despite her anger towards Townes' attempts to console her and leaving his room afterward, she later agrees when he suggests taking pictures with him that could be published by a Kentucky paper (S3-4). The episode captures Beth’s growth into an older teenager while maintaining the essence of their relationship. It also highlights Townes' role in documenting and supporting her journey, as well as his own personal struggles within this context (K1; S2-4).",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Doubled Pawns",
+        "Doubled Pawns",
+        "episode",
+        "Bled"
+      ]
+    },
+    "model": "phi3:mini"
+  },
+  {
+    "id": "Q5",
+    "category": "Real-world / casting",
+    "question": "Who portrays Beth Harmon in the Netflix series?",
+    "reference": "Beth Harmon is portrayed by Anya Taylor-Joy in the Netflix miniseries The Queen's Gambit.",
+    "baseline": {
+      "answer": "Who portrays Beth Harmon in the Netflix series is performed or portrayed by Isla Johnston.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon",
+        "Netflix",
+        "Netflix",
+        "port"
+      ]
+    },
+    "rag": {
+      "answer": "Isla Johnston portrays the character of Beth Harmon, a chess prodigy and main protagonist in Netflix's The Queen's Gambit miniseries (S1; S2). Her depiction includes her background as an orphaned girl who faced mistreatment at Methuen Home. Despite the challenges she has encountered, Beth is characterized by a passionate and intense nature that drives her chess skills forward—a fact highlighted in various interviews (S3; S4). The series also explores themes of resilience against societal expectations related to gender norms.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon",
+        "Netflix",
+        "Netflix",
+        "port"
+      ]
+    },
+    "model": "phi3:mini"
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "id": "Q1",
+    "category": "Character identity",
+    "question": "Who is Beth Harmon?",
+    "reference": "Beth Harmon is the main fictional character of The Queen's Gambit. She is an orphaned chess prodigy who becomes a world-class player. She is portrayed by Anya Taylor-Joy in the Netflix miniseries.",
+    "baseline": {
+      "answer": "Beth Harmon is a character in *The Queen's Gambit*. The character was created by Walter Tevis. In screen adaptations, Beth Harmon is performed or portrayed by Isla Johnston and Anya Taylor-Joy. The retrieved source passages also show that this character is central to the narrative and closely connected to major events and relationships in the series.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon"
+      ]
+    },
+    "rag": {
+      "answer": "Beth Harmon is a character in *The Queen's Gambit*. The character was created by Walter Tevis. In screen adaptations, Beth Harmon is performed or portrayed by Isla Johnston and Anya Taylor-Joy. The retrieved source passages also show that this character is central to the narrative and closely connected to major events and relationships in the series.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon"
+      ]
+    },
+    "model": "template"
+  },
+  {
+    "id": "Q2",
+    "category": "Character identity",
+    "question": "Who is William Shaibel?",
+    "reference": "William Shaibel is the janitor at the Methuen Home orphanage who teaches Beth Harmon to play chess. He is her first mentor and opponent.",
+    "baseline": {
+      "answer": "William Shaibel is a character. The retrieved source passages also show that this character is central to the narrative and closely connected to major events and relationships in the series.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 2,
+      "matched_entities": [
+        "William Shaibel"
+      ]
+    },
+    "rag": {
+      "answer": "William Shaibel is a character. The retrieved source passages also show that this character is central to the narrative and closely connected to major events and relationships in the series.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 2,
+      "matched_entities": [
+        "William Shaibel"
+      ]
+    },
+    "model": "template"
+  },
+  {
+    "id": "Q3",
+    "category": "Factual / KG",
+    "question": "What chess tournaments did Beth Harmon win?",
+    "reference": "Beth Harmon won the Kentucky State Championship, the Cincinnati tournament, the Pittsburgh tournament, and the Moscow Invitational.",
+    "baseline": {
+      "answer": "Beth Harmon defeated Annette Packer. Beth Harmon defeated Benny Watts. Beth Harmon defeated Sizemore. Beth Harmon defeated William Shaibel.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "chess tournament",
+        "Beth Harmon",
+        "Beth Harmon",
+        "tournament",
+        "name"
+      ]
+    },
+    "rag": {
+      "answer": "Beth Harmon defeated Annette Packer. Beth Harmon defeated Benny Watts. Beth Harmon defeated Sizemore. Beth Harmon defeated William Shaibel.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "chess tournament",
+        "Beth Harmon",
+        "Beth Harmon",
+        "tournament",
+        "name"
+      ]
+    },
+    "model": "template"
+  },
+  {
+    "id": "Q4",
+    "category": "Episode summary",
+    "question": "What is happening in the episode Doubled Pawns?",
+    "reference": "Doubled Pawns is the third episode of The Queen's Gambit. Beth enters the US Open and faces stronger opponents. She struggles with her dependency on tranquilisers.",
+    "baseline": {
+      "answer": "*Doubled Pawns* is an episode of *The Queen's Gambit*. It is part of the series *The Queen's Gambit*. It was released on Netflix. It was directed by Scott Frank. According to the retrieved episode page, \"Doubled Pawns\" is the third episode of The Queen's Gambit. Along with the rest of the series, it was released on Netflix on October 23, 2020. The trip to Cincinnati launches Beth and her mother into a whirlwind of travel and press coverage. Beth sets her sights on the U.S. Open in Las Vegas. A cold opening shows Beth as a child, watching her mother Alice Harmon swimming and diving in a lake. Snap to the present, Cincinnati, 1963, where Beth and her adoptive mother Alma Wheatley have just arrive",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Doubled Pawns",
+        "Doubled Pawns",
+        "episode",
+        "Bled"
+      ]
+    },
+    "rag": {
+      "answer": "*Doubled Pawns* is an episode of *The Queen's Gambit*. It is part of the series *The Queen's Gambit*. It was released on Netflix. It was directed by Scott Frank. According to the retrieved episode page, \"Doubled Pawns\" is the third episode of The Queen's Gambit. Along with the rest of the series, it was released on Netflix on October 23, 2020. The trip to Cincinnati launches Beth and her mother into a whirlwind of travel and press coverage. Beth sets her sights on the U.S. Open in Las Vegas. A cold opening shows Beth as a child, watching her mother Alice Harmon swimming and diving in a lake. Snap to the present, Cincinnati, 1963, where Beth and her adoptive mother Alma Wheatley have just arrive",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Doubled Pawns",
+        "Doubled Pawns",
+        "episode",
+        "Bled"
+      ]
+    },
+    "model": "template"
+  },
+  {
+    "id": "Q5",
+    "category": "Real-world / casting",
+    "question": "Who portrays Beth Harmon in the Netflix series?",
+    "reference": "Beth Harmon is portrayed by Anya Taylor-Joy in the Netflix miniseries The Queen's Gambit.",
+    "baseline": {
+      "answer": "Who portrays Beth Harmon in the Netflix series is performed or portrayed by Isla Johnston.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon",
+        "Netflix",
+        "Netflix",
+        "port"
+      ]
+    },
+    "rag": {
+      "answer": "Who portrays Beth Harmon in the Netflix series is performed or portrayed by Isla Johnston.",
+      "n_text_evidence": 8,
+      "n_kg_evidence": 10,
+      "matched_entities": [
+        "Beth Harmon",
+        "Beth Harmon",
+        "Netflix",
+        "Netflix",
+        "port"
+      ]
+    },
+    "model": "template"
+  }
+]
