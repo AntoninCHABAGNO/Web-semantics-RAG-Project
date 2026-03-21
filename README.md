@@ -1,40 +1,108 @@
-# ♟️ The Queen's Gambit — Knowledge Graph & RAG Pipeline
+# ♟️ Chatbot RAG — The Queen's Gambit
 
-> End-to-end semantic web engineering project: web crawling · NLP extraction · OWL ontology · Wikidata alignment · Knowledge Graph Embeddings · Hybrid RAG with local LLM
+> A full **Knowledge Graph + RAG pipeline** applied to *The Queen's Gambit* universe.
+> Crawling → NLP extraction → RDF/OWL graph → Wikidata alignment → SWRL reasoning → KGE → Hybrid RAG (text + graph)
 
-**Academic Year 2024–2025 · Web Mining & Semantic Web**
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Hardware Requirements](#hardware-requirements)
-- [Installation](#installation)
-- [Pipeline — Step by Step](#pipeline--step-by-step)
-  - [A. Web Crawling](#a-web-crawling)
-  - [B. NLP Extraction](#b-nlp-extraction)
-  - [C. Knowledge Graph Construction](#c-knowledge-graph-construction)
-  - [D. Wikidata Alignment & Expansion](#d-wikidata-alignment--expansion)
-  - [E. Knowledge Graph Embeddings](#e-knowledge-graph-embeddings)
-  - [F–H. RAG Pipeline](#fh-rag-pipeline)
-- [RAG Demo](#rag-demo)
-- [Key Results](#key-results)
-- [Data Files](#data-files)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![PyKEEN](https://img.shields.io/badge/PyKEEN-KGE-orange)
+![FAISS](https://img.shields.io/badge/FAISS-vector--search-green)
+![Ollama](https://img.shields.io/badge/Ollama-phi3%3Amini-purple)
+![License](https://img.shields.io/badge/license-Academic-lightgrey)
 
 ---
 
-## Overview
+## 📋 Table of Contents
 
-This project builds a complete knowledge engineering pipeline over the Netflix miniseries *The Queen's Gambit*. Starting from raw web content crawled from the Fandom wiki, the system:
+1. [Project Overview](#project-overview)
+2. [Architecture](#architecture)
+3. [Key Results](#key-results)
+4. [Project Structure](#project-structure)
+5. [Installation](#installation)
+6. [How to Run Each Module](#how-to-run-each-module)
+   - [A. Crawling & Cleaning](#a-crawling--cleaning)
+   - [B. NLP Extraction](#b-nlp-extraction)
+   - [C. RDF Graph Construction](#c-rdf-graph-construction)
+   - [D. Alignment & KB Expansion](#d-alignment--kb-expansion)
+   - [E. SWRL Reasoning & KGE](#e-swrl-reasoning--kge)
+   - [F. RAG Pipeline (CLI)](#f-rag-pipeline-cli)
+   - [G. RAG with LLM](#g-rag-with-llm)
+   - [H. Web App (Streamlit)](#h-web-app-streamlit)
+7. [Running the RAG Demo](#running-the-rag-demo)
+8. [Evaluation](#evaluation)
+9. [Hardware Requirements](#hardware-requirements)
+10. [Environment Variables](#environment-variables)
 
-1. Extracts entities and relations using spaCy (transformer-based NER + dependency parsing)
-2. Constructs an OWL 2 knowledge graph (238 entities, 17 classes, 33 properties)
-3. Aligns the private graph to Wikidata via `owl:sameAs` links and predicate mappings
-4. Expands the KB through multi-hop Wikidata traversal (25,231 triples total)
-5. Trains three KGE models (TransE, DistMult, ComplEx) using PyKEEN
-6. Serves a hybrid RAG assistant combining FAISS dense retrieval, KG fact lookup, and a local LLM (Ollama) through a Streamlit chat interface
+---
+
+## Project Overview
+
+This project implements a complete **semantic web and data mining pipeline** for *The Queen's Gambit* (novel & TV series). Starting from raw web crawls, it builds a structured Knowledge Graph, applies SWRL reasoning, trains Knowledge Graph Embedding (KGE) models, and deploys a **Hybrid RAG chatbot** that answers questions using both text chunks and structured KG facts.
+
+**Key features:**
+- 🕷️ Ethical web crawler targeting the Queen's Gambit Fandom wiki (BFS, robots.txt compliant)
+- 🔬 Named Entity Recognition for character/relation extraction (238 entities, 21 relations)
+- 🗂️ RDF/OWL 2 ontology (17 classes, 33 properties) with Wikidata entity alignment
+- 🧠 SWRL reasoning: 4 rules inferring `hasRival` and `knownOpponent` relationships
+- 🌐 Multi-hop Wikidata expansion: 665 → 25,231 triples (×37 enrichment)
+- 📐 Three KGE models: TransE, DistMult, ComplEx (best: DistMult MRR 0.1986)
+- 🔎 Hybrid retriever: dense vector search (FAISS) + KG facts, with reranking
+- 💬 LLM answer generation via Ollama (local, no paid API)
+- 🖥️ Streamlit web interface with inline source citations
+
+---
+
+## Architecture
+
+```
+Raw Web Pages
+     │
+     ▼
+A. Crawl & Clean  ──►  data/raw_jsonl/pages.jsonl
+     │
+     ▼
+B. NLP Extract    ──►  data/entities.csv  +  data/relations.csv
+     │
+     ▼
+C. RDF Build      ──►  data/queens_gambit_graph_abox.ttl
+                        data/ontologie_tbox.ttl
+     │
+     ▼
+D. Align & Expand ──►  data/predicate_alignment.ttl
+                        data/entity_sameas_clean.ttl
+                        data/expanded_kb.ttl  (25 231 triples, ×37)
+     │
+     ├──────────────────────────────────────────┐
+     ▼                                          ▼
+E. SWRL Reasoning                       E. KGE Training
+  family.owl rules                        TransE / DistMult / ComplEx
+  QG rules (hasRival,                     models/transe|distmult|complex
+  knownOpponent)                          results/kge_metrics_comparison.csv
+                                                │
+                                                ▼
+                                        F/G. RAG Pipeline
+                                          Text chunks (FAISS)
+                                          + KG facts (RDFLib)
+                                          ──► LLM (Ollama phi3:mini)
+                                          ──► Streamlit UI
+```
+
+---
+
+## Key Results
+
+| Metric | Value |
+|--------|-------|
+| Pages crawled | 50 (depth 2) |
+| Entities extracted | 238 (8 classes) |
+| Relations extracted | 21 (6 types, avg confidence 0.733) |
+| OWL classes / properties | 17 / 33 |
+| Predicate alignments (Wikidata) | 12 (3 equivalent + 9 subProperty) |
+| SWRL rules applied | 4 (2 on family.owl + 2 on QG KB) |
+| KG triples after expansion | 25,231 (×37 factor) |
+| Unique entities in expanded KG | 9,218 |
+| KGE best model — DistMult MRR | **0.1986** |
+| KGE best model — Hits@10 | **0.4124** |
+| RAG score (14/15) vs baseline (12/15) | **+2 pts** |
 
 ---
 
@@ -43,81 +111,344 @@ This project builds a complete knowledge engineering pipeline over the Netflix m
 ```
 project-root/
 ├── src/
-│   ├── A_01_crawl_clean.py          # BFS crawler (httpx + trafilatura)
-│   ├── B_02_nlp_extract.py          # NER + relation extraction (spaCy)
-│   ├── dedupe_entities.py           # Entity deduplication & alias resolution
-│   ├── C_03_clean_before_rdf.py     # Manual entity/relation cleanup rules
-│   ├── C_04_csv_to_rdf.py           # CSV → RDF/Turtle (ABox-only)
-│   ├── D_05_predicate_alignment.py  # OWL/RDFS predicate alignment to Wikidata
-│   ├── D_06_entity_linking.py       # Type-aware entity linking → Wikidata
-│   ├── D_07_filter_entity_linking.py# Confidence filtering of sameAs links
-│   ├── D_08_expand_kb.py            # Multi-hop Wikidata BFS expansion
-│   ├── E_09_prepare_triples.py      # Extract URI triples from expanded KB
-│   ├── E_10_clean_for_embedding.py  # Filter literals, deduplicate
-│   ├── E_11_split_dataset.py        # Train/valid/test split (80/10/10)
-│   ├── E_12_train_eval_visualize_kge.py  # PyKEEN training + t-SNE
-│   ├── F_13_build_chunks.py         # Sentence-aware chunking with overlap
-│   ├── F_14_build_vector_index.py   # FAISS index + sentence-transformers
-│   ├── F_15_text_retriever.py       # Dense text retrieval
-│   ├── F_16_kg_retriever.py         # One-hop KG fact retrieval (RDFLib)
-│   ├── F_17_hybrid_retriever_reranked.py  # Hybrid retrieval + reranking
-│   ├── F_18_generate_answer.py      # Template-based answer generation
-│   ├── F_19_rag_cli.py              # Full RAG CLI (template mode)
-│   ├── G_20_rag_cli_llm.py          # RAG CLI with Ollama LLM + fallback
-│   ├── H_21_rag_service.py          # RAG service layer (API-ready)
-│   └── H_22_app_streamlit.py        # Streamlit chat UI
+│   ├── A_01_crawl_clean.py              # Web crawler + HTML cleaning
+│   ├── B_02_nlp_extract.py              # NER + relation extraction
+│   ├── C_03_clean_before_rdf.py         # Entity/relation CSV cleaning
+│   ├── C_04_csv_to_rdf.py               # CSV → RDF/OWL (ABox + TBox)
+│   ├── D_05_predicate_alignment.py      # Predicate alignment with Wikidata
+│   ├── D_06_entity_linking.py           # Entity linking (Wikidata sameAs)
+│   ├── D_07_filter_entity_linking.py    # Filter low-confidence links
+│   ├── D_08_expand_kb.py                # Multi-hop KB expansion (BFS)
+│   ├── E_08b_swrl_reasoning.py          # SWRL reasoning (OWLReady2 + HermiT)
+│   ├── E_09_prepare_triples.py          # KGE triple preparation
+│   ├── E_10_clean_for_embedding.py      # Triple cleaning & dedup
+│   ├── E_11_split_dataset.py            # Train/valid/test split
+│   ├── E_12_train_eval_visualize_kge.py # Train KGE + metrics + t-SNE
+│   ├── F_13_build_chunks.py             # Text chunking (JSONL)
+│   ├── F_14_build_vector_index.py       # FAISS index construction
+│   ├── F_15_text_retriever.py           # Dense text retrieval
+│   ├── F_16_kg_retriever.py             # KG fact retrieval
+│   ├── F_17_hybrid_retriever_reranked.py# Hybrid retrieval + reranking
+│   ├── F_18_generate_answer.py          # Template-based answer generation
+│   ├── F_19_rag_cli.py                  # RAG CLI (no LLM, baseline)
+│   ├── G_20_rag_cli_llm.py              # RAG CLI with LLM (Ollama)
+│   ├── H_21_rag_service.py              # FastAPI backend service
+│   ├── H_22_app_streamlit.py            # Streamlit web UI
+│   ├── Z_rag_evaluation.py              # RAG evaluation script
+│   ├── dedupe_entities.py               # Entity deduplication utility
+│   └── stats.ipynb                      # KB statistics notebook
 │
 ├── data/
-│   ├── raw_jsonl/
-│   │   ├── pages.jsonl              # Crawled pages (text + metadata)
-│   │   └── out_links.jsonl          # Extracted hyperlinks
-│   ├── entities.csv                 # Raw extracted entities
-│   ├── entities_dedup.csv           # Deduplicated canonical entities
-│   ├── entity_aliases.csv           # Alias → canonical mapping
-│   ├── entities_clean.csv           # Manually cleaned entities
-│   ├── relations.csv                # Extracted relations with evidence
-│   ├── relations_clean.csv          # Cleaned and validated relations
-│   ├── entity_wikidata_mapping.csv  # Private → Wikidata entity links
-│   ├── queens_gambit_graph_abox.ttl # Private ABox (RDF/Turtle)
-│   ├── entity_sameas.ttl            # owl:sameAs alignment graph
-│   ├── predicate_alignment.ttl      # Predicate alignment (OWL/RDFS)
-│   ├── expanded_kb.ttl              # Expanded KB (private + Wikidata)
-│   ├── kg_triples.txt               # Raw URI triples
-│   ├── kg_clean.txt                 # Deduplicated URI-only triples
-│   ├── train.txt                    # KGE training set
-│   ├── valid.txt                    # KGE validation set
-│   ├── test.txt                     # KGE test set
+│   ├── raw_jsonl/                        # Raw crawled pages
+│   │   ├── pages.jsonl
+│   │   └── out_links.jsonl
+│   ├── entities.csv                      # Extracted entities
+│   ├── entities_clean.csv
+│   ├── entities_dedup.csv
+│   ├── relations.csv
+│   ├── relations_clean.csv
+│   ├── queens_gambit_graph_abox.ttl      # RDF ABox (~665 triples)
+│   ├── ontologie_tbox.ttl                # OWL TBox (17 classes, 33 props)
+│   ├── predicate_alignment.ttl           # Predicate mappings
+│   ├── entity_sameas_clean.ttl           # Entity sameAs links (Wikidata)
+│   ├── expanded_kb.ttl                   # Final expanded KB (25 231 triples)
+│   ├── family.owl                        # Family ontology for SWRL demo
+│   ├── kg_triples.txt / kg_clean.txt     # KGE input triples
+│   ├── train.txt / valid.txt / test.txt  # KGE splits (83/8/8%)
 │   └── rag/
-│       ├── chunks.jsonl             # Sentence chunks with metadata
-│       └── index/
-│           ├── chunk_embeddings.npy
-│           ├── chunk_metadata.json
-│           ├── chunk_faiss.index
-│           └── index_config.json
+│       ├── chunks.jsonl                  # Text chunks
+│       ├── evaluation_results.json       # RAG eval results
+│       ├── evidence_*.json               # Cached evidence per query
+│       └── index/                        # FAISS vector index
 │
-├── kg_artifacts/
-│   ├── ontologie_tbox.ttl           # OWL 2 ontology (TBox)
-│   ├── predicate_alignment.ttl
-│   └── entity_sameas.ttl
+├── models/
+│   ├── transe/                           # TransE model + training triples
+│   ├── distmult/                         # DistMult model (best)
+│   └── complex/                          # ComplEx model
 │
-├── models/                          # Saved PyKEEN models
-│   ├── transe/
-│   ├── distmult/
-│   └── complex/
+├── results/
+│   ├── kge_metrics_comparison.csv        # MRR, Hits@1/3/10 for all models
+│   ├── *_tsne.png                        # t-SNE visualizations
+│   └── *_nearest_neighbors.csv          # KNN in embedding space
 │
-├── results/                         # KGE evaluation outputs
-│   ├── kge_metrics_comparison.csv
-│   ├── *_entity_embeddings.csv
-│   ├── *_nearest_neighbors.csv
-│   └── *_tsne.png
+├── docs/
+│   ├── front_page.png                    # Streamlit UI screenshot
+│   ├── deux_question_.png                # Two-question demo screenshot
+│   ├── source_texte.png                  # Text sources panel screenshot
+│   └── source_kg.png                     # KG facts panel screenshot
 │
-├── reports/
-│   └── final_report.pdf
-│
-├── README.md
+├── .env                                  # API keys (not committed)
+├── .gitignore
 ├── requirements.txt
-└── .gitignore
+└── README.md
 ```
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/Web-datamining-semantics-Project-GOT.git
+cd Web-datamining-semantics-Project-GOT
+```
+
+### 2. Create the Conda environment
+
+```bash
+conda create -n semantic-web-data-mining-project python=3.12
+conda activate semantic-web-data-mining-project
+pip install -r requirements.txt
+```
+
+### 3. Install Ollama (for local LLM inference)
+
+Download and install Ollama from [https://ollama.com](https://ollama.com), then pull the model:
+
+```bash
+ollama pull phi3:mini
+```
+
+> **Note:** Ollama must be running in the background before using the LLM-powered RAG pipeline:
+> ```bash
+> ollama serve
+> ```
+
+### 4. Configure environment variables
+
+```bash
+cp .env.example .env
+# Edit .env with your preferred editor
+```
+
+---
+
+## How to Run Each Module
+
+The pipeline is designed to be executed **sequentially**. Each script produces artifacts consumed by the next stage.
+
+### A. Crawling & Cleaning
+
+Crawls the Queen's Gambit Fandom wiki (BFS, depth 2, max 50 pages) and produces clean JSONL pages.
+
+```bash
+python src/A_01_crawl_clean.py
+```
+
+**Output:** `data/raw_jsonl/pages.jsonl`, `data/raw_jsonl/out_links.jsonl`
+
+---
+
+### B. NLP Extraction
+
+Runs Named Entity Recognition and relation extraction on crawled pages using spaCy `en_core_web_trf`.
+
+```bash
+python src/B_02_nlp_extract.py --report
+```
+
+**Output:** `data/entities.csv`, `data/relations.csv`
+The `--report` flag prints extraction statistics (238 entities, 21 relations).
+
+---
+
+### C. RDF Graph Construction
+
+Deduplicates entities, cleans CSV files, and converts them to RDF triples (ABox + TBox).
+
+```bash
+python src/dedupe_entities.py
+python src/C_03_clean_before_rdf.py
+python src/C_04_csv_to_rdf.py
+```
+
+**Output:** `data/queens_gambit_graph_abox.ttl` (~665 triples), `data/ontologie_tbox.ttl`
+
+---
+
+### D. Alignment & KB Expansion
+
+Aligns predicates with Wikidata, links entities via `owl:sameAs`, filters low-confidence links, and expands the KB via multi-hop BFS over the Wikidata EntityData API.
+
+```bash
+python src/D_05_predicate_alignment.py
+python src/D_06_entity_linking.py
+python src/D_07_filter_entity_linking.py
+python src/D_08_expand_kb.py
+```
+
+**Output:** `data/predicate_alignment.ttl`, `data/entity_sameas_clean.ttl`, `data/expanded_kb.ttl` (25,231 triples, ×37 enrichment factor)
+
+---
+
+### E. SWRL Reasoning & KGE
+
+#### E1 — SWRL Reasoning
+
+Applies symbolic SWRL rules on `family.owl` and on the Queens Gambit KB using OWLReady2 + HermiT.
+
+```bash
+python src/E_08b_swrl_reasoning.py
+```
+
+Rules applied:
+- **family.owl:** `isUncleOf` (child + brother chain), `isGrandParentOf` (parent + parent chain)
+- **Queens Gambit KB:** `hasRival` (mutual defeats), `knownOpponent` (met + defeated)
+
+#### E2 — Knowledge Graph Embeddings
+
+Prepares KGE datasets and trains three models (TransE, DistMult, ComplEx), then evaluates and visualizes them.
+
+```bash
+python src/E_09_prepare_triples.py
+python src/E_10_clean_for_embedding.py
+python src/E_11_split_dataset.py
+python src/E_12_train_eval_visualize_kge.py
+```
+
+**Output:** `data/train.txt` (20,184), `data/valid.txt` (2,008), `data/test.txt` (2,008), trained models in `models/`, metrics in `results/kge_metrics_comparison.csv`, t-SNE plots in `results/`
+
+| Model | MRR | Hits@1 | Hits@3 | Hits@10 |
+|-------|-----|--------|--------|---------|
+| TransE | 0.1387 | 0.0369 | 0.1785 | 0.3314 |
+| **DistMult ★** | **0.1986** | **0.0926** | **0.2371** | **0.4124** |
+| ComplEx | 0.0074 | 0.0047 | 0.0055 | 0.0090 |
+
+---
+
+### F. RAG Pipeline (CLI)
+
+Builds the text chunk index and runs the hybrid retriever without LLM (template baseline).
+
+```bash
+# Step 1: Build chunks and FAISS index
+python src/F_13_build_chunks.py
+python src/F_14_build_vector_index.py
+
+# Step 2: Test individual retrievers
+python src/F_15_text_retriever.py --question "Who is Beth Harmon?" --top_k 5
+python src/F_16_kg_retriever.py --question "Who is Beth Harmon?"
+
+# Step 3: Hybrid retrieval + template answer generation
+python src/F_17_hybrid_retriever_reranked.py \
+    --question "Who is Beth Harmon?" \
+    --output_json data/rag/evidence_beth.json
+
+python src/F_18_generate_answer.py \
+    --question "Who is Beth Harmon?" \
+    --evidence_json data/rag/evidence_beth.json
+
+# Step 4: Full RAG CLI
+python src/F_19_rag_cli.py --question "Who is Beth Harmon?" --mode debug
+```
+
+---
+
+### G. RAG with LLM
+
+Generates answers using the local Ollama model, with automatic fallback to templates if Ollama is unavailable.
+
+```bash
+# Simple mode
+python src/G_20_rag_cli_llm.py \
+    --question "Who is Beth Harmon?" \
+    --provider ollama \
+    --model phi3:mini \
+    --mode simple
+
+# Debug mode (shows retrieved evidence)
+python src/G_20_rag_cli_llm.py \
+    --question "What is happening in the episode Doubled Pawns?" \
+    --provider ollama \
+    --model phi3:mini \
+    --mode debug
+```
+
+---
+
+### H. Web App (Streamlit)
+
+Launches the full interactive chatbot with source citations.
+
+```bash
+streamlit run src/H_22_app_streamlit.py
+```
+
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
+
+---
+
+## Running the RAG Demo
+
+> **Prerequisites:** all pipeline steps A through F must have been run at least once to generate the index and evidence files.
+
+```bash
+# 1. Start Ollama in background
+ollama serve &
+
+# 2. Run the LLM-powered RAG CLI
+python src/G_20_rag_cli_llm.py \
+    --question "Who is Beth Harmon?" \
+    --provider ollama --model phi3:mini --mode simple
+
+# 3. Or launch the full web UI
+streamlit run src/H_22_app_streamlit.py
+```
+
+**Example questions to try:**
+
+| Question | Expected behaviour |
+|----------|-------------------|
+| `Who is Beth Harmon?` | Character description with KG + text sources |
+| `Who is William Shaibel?` | Minor character with mentor role |
+| `What is happening in the episode Doubled Pawns?` | Episode summary from text chunks |
+| `What chess tournaments did Beth Harmon win?` | KG-grounded factual answer |
+| `Who portrays Beth Harmon in the Netflix series?` | Casting from KG sameAs links |
+| `What is the queen's gambit?` | Chess opening explanation |
+
+### Screenshots
+
+**Front page — empty state**
+
+![Chatbot front page](docs/front_page.png)
+
+**Two questions answered with source citations**
+
+![Two questions demo](docs/deux_question_.png)
+
+**Text sources panel — ranked passages with scores**
+
+![Text sources](docs/source_texte.png)
+
+**Knowledge graph facts panel — structured triples**
+
+![KG facts](docs/source_kg.png)
+
+---
+
+## Evaluation
+
+Run the full RAG evaluation over 5 predefined questions comparing the template baseline against the full RAG pipeline:
+
+```bash
+python src/Z_rag_evaluation.py --model phi3:mini --out data/rag/evaluation_results.json
+```
+
+**Results:**
+
+| ID | Category | Question | Baseline | RAG |
+|----|----------|----------|----------|-----|
+| Q1 | Character identity | Who is Beth Harmon? | 3/3 | 3/3 |
+| Q2 | Character identity | Who is William Shaibel? | 2/3 | 3/3 |
+| Q3 | Factual / KG | What tournaments did Beth win? | 1/3 | 2/3 |
+| Q4 | Episode summary | What is happening in Doubled Pawns? | 3/3 | 3/3 |
+| Q5 | Real-world / casting | Who portrays Beth Harmon? | 3/3 | 3/3 |
+| **Total** | | | **12/15** | **14/15** |
+
+Scoring rubric: `0/3` = wrong/hallucinated · `1/3` = partial · `2/3` = mostly correct · `3/3` = complete & precise
+
+Full results are saved to `data/rag/evaluation_results.json`.
 
 ---
 
@@ -126,314 +457,30 @@ project-root/
 | Component | Minimum | Recommended |
 |-----------|---------|-------------|
 | RAM | 8 GB | 16 GB |
-| Storage | 5 GB free | 10 GB free |
+| Disk space | 5 GB | 10 GB |
 | CPU | 4 cores | 8 cores |
-| GPU | — | Optional (speeds up spaCy + KGE) |
-| OS | Linux / macOS / Windows | Linux / macOS |
+| GPU | Not required | Optional (speeds up KGE training) |
+| OS | Windows 10 / macOS / Linux | Ubuntu 22.04 / macOS 14 |
 
-> **Note on KGE training:** `E_12_train_eval_visualize_kge.py` trains 3 models for 200 epochs each on ~20k triples. Expect **5–15 minutes** on CPU (faster with CUDA). ComplEx in particular benefits from GPU.
-
-> **Note on Ollama:** The LLM inference runs locally via Ollama. `phi3:mini` requires ~2.5 GB of RAM. `llama3.1:8b` requires ~6 GB.
+> KGE training (TransE / DistMult / ComplEx) runs on CPU but may take 10–30 minutes depending on dataset size. GPU acceleration is supported via PyKEEN if CUDA is available.
 
 ---
 
-## Installation
+## Environment Variables
 
-### 1. Clone and create environment
+Create a `.env` file at the project root:
 
-```bash
-git clone <your-repo-url>
-cd <repo-root>
+```env
+# Optional: used if provider is set to "anthropic" or "openai"
+ANTHROPIC_API_KEY=your_key_here
+OPENAI_API_KEY=your_key_here
 
-conda create -n semantic-web-data-mining-project python=3.12
-conda activate semantic-web-data-mining-project
-
-pip install -r requirements.txt
-```
-
-### 2. Download the spaCy model
-
-```bash
-python -m spacy download en_core_web_trf
-```
-
-### 3. Install and configure Ollama
-
-Download Ollama from [https://ollama.com](https://ollama.com), then pull the model:
-
-```bash
-# Lightweight model (~2.5 GB) — used by default in Streamlit
-ollama pull phi3:mini
-
-# Alternatively, the larger model used in CLI examples
-ollama pull llama3.1:8b
-```
-
-Start the Ollama server (runs in the background):
-
-```bash
-ollama serve
-```
-
-> The RAG pipeline includes an automatic fallback to template-based generation if Ollama is unavailable.
-
----
-
-## Pipeline — Step by Step
-
-Each module can be run independently. Run them in the order below for a full pipeline execution.
-
-### A. Web Crawling
-
-Crawls the Queen's Gambit Fandom wiki using a BFS crawler. Respects `robots.txt`, uses a 1-second politeness delay, and extracts text with trafilatura.
-
-```bash
-python src/A_01_crawl_clean.py
-```
-
-**Output:** `data/raw_jsonl/pages.jsonl`, `data/raw_jsonl/out_links.jsonl`
-
-**Config (in script):** `max_pages=50`, `max_depth=2`, `min_words=200`
-
----
-
-### B. NLP Extraction
-
-Runs NER (spaCy `en_core_web_trf`) and dependency-based relation extraction. Produces canonical entities with deduplication and alias resolution.
-
-```bash
-python src/B_02_nlp_extract.py --report
-```
-
-**Output:** `data/entities_dedup.csv`, `data/relations.csv`, `data/entity_aliases.csv`
-
-The `--report` flag prints entity distribution and relation examples to stdout.
-
----
-
-### C. Knowledge Graph Construction
-
-**Step 1 — Manual cleanup:** applies correction rules (entity drops, canonical name fixes, relation constraints).
-
-```bash
-python src/C_03_clean_before_rdf.py
-```
-
-**Step 2 — CSV → RDF/Turtle:** converts cleaned entities and relations to an ABox TTL file.
-
-```bash
-python src/C_04_csv_to_rdf.py \
-  --entities data/entities_clean.csv \
-  --relations data/relations_clean.csv \
-  --out data/queens_gambit_graph_abox.ttl \
-  --ontology-import kg_artifacts/ontologie_tbox.ttl
-```
-
-**Output:** `data/queens_gambit_graph_abox.ttl`
-
----
-
-### D. Wikidata Alignment & Expansion
-
-**Step 1 — Predicate alignment:** maps private predicates to Wikidata properties via `owl:equivalentProperty` / `rdfs:subPropertyOf`.
-
-```bash
-python src/D_05_predicate_alignment.py --mode emit --out data/predicate_alignment.ttl
-```
-
-**Step 2 — Entity linking:** links private entities to Wikidata QIDs using type-aware scoring and manual overrides.
-
-```bash
-python src/D_06_entity_linking.py \
-  --abox data/queens_gambit_graph_abox.ttl \
-  --out_csv data/entity_wikidata_mapping.csv \
-  --out_ttl data/entity_sameas.ttl \
-  --min_conf 0.70
-```
-
-**Step 3 — Filter links:**
-
-```bash
-python src/D_07_filter_entity_linking.py
-```
-
-**Step 4 — KB expansion:** multi-hop BFS over Wikidata EntityData API, guided by a property whitelist.
-
-```bash
-python src/D_08_expand_kb.py
-```
-
-**Output:** `data/expanded_kb.ttl` (~25,000 triples)
-
----
-
-### E. Knowledge Graph Embeddings
-
-**Prepare triples:**
-
-```bash
-python src/E_09_prepare_triples.py   # extract URI triples
-python src/E_10_clean_for_embedding.py  # remove literals, deduplicate
-python src/E_11_split_dataset.py     # 80/10/10 train/valid/test split
-```
-
-**Train and evaluate (TransE, DistMult, ComplEx):**
-
-```bash
-python src/E_12_train_eval_visualize_kge.py
-```
-
-**Output:** `results/kge_metrics_comparison.csv`, t-SNE plots, nearest neighbor CSVs.
-
-| Model | MRR | Hits@10 | Training time |
-|-------|-----|---------|---------------|
-| TransE | 0.1387 | 0.3314 | ~86s |
-| **DistMult** | **0.1986** | **0.4124** | ~102s |
-| ComplEx | 0.0074 | 0.0090 | ~173s |
-
----
-
-### F–H. RAG Pipeline
-
-#### Build the text index
-
-```bash
-# Chunk pages into overlapping text segments
-python src/F_13_build_chunks.py \
-  --input data/raw_jsonl/pages.jsonl \
-  --output data/rag/chunks.jsonl \
-  --chunk_size_words 220 \
-  --overlap_words 50
-
-# Build FAISS vector index (sentence-transformers/all-MiniLM-L6-v2)
-python src/F_14_build_vector_index.py \
-  --input data/rag/chunks.jsonl \
-  --output_dir data/rag/index
-```
-
-#### Run individual retrievers (optional, for debugging)
-
-```bash
-# Dense text retrieval only
-python src/F_15_text_retriever.py \
-  --question "Who is Beth Harmon?" \
-  --top_k 5
-
-# KG fact retrieval only
-python src/F_16_kg_retriever.py \
-  --question "Who is Beth Harmon?" \
-  --kg data/expanded_kb.ttl
-```
-
-#### Run the full hybrid pipeline
-
-```bash
-# Hybrid retrieval + reranking → evidence pack
-python src/F_17_hybrid_retriever_reranked.py \
-  --question "Who is Beth Harmon?" \
-  --output_json data/rag/evidence_beth.json
-
-# Template-based answer (no LLM required)
-python src/F_19_rag_cli.py \
-  --question "Who is Beth Harmon?" \
-  --mode debug
+# Ollama host (default: http://localhost:11434)
+OLLAMA_HOST=http://localhost:11434
 ```
 
 ---
 
-## RAG Demo
+## License
 
-### CLI with local LLM (Ollama)
-
-Make sure Ollama is running (`ollama serve`), then:
-
-```bash
-# Single question
-python src/G_20_rag_cli_llm.py \
-  --question "Who is Beth Harmon?" \
-  --provider ollama \
-  --model phi3:mini \
-  --mode simple \
-  --show_sources
-
-# Interactive mode
-python src/G_20_rag_cli_llm.py \
-  --interactive \
-  --provider ollama \
-  --model phi3:mini
-
-# Template fallback (no Ollama needed)
-python src/G_20_rag_cli_llm.py \
-  --question "Who is Beth Harmon?" \
-  --provider template
-```
-
-**Example questions:**
-
-```bash
-python src/G_20_rag_cli_llm.py --question "What is the Queen's Gambit?" --provider ollama --model phi3:mini --mode simple
-python src/G_20_rag_cli_llm.py --question "What is happening in the episode Doubled Pawns?" --provider ollama --model phi3:mini --mode simple
-python src/G_20_rag_cli_llm.py --question "Who is Alice Harmon?" --provider ollama --model phi3:mini --mode debug
-python src/G_20_rag_cli_llm.py --question "Who trained Beth Harmon?" --provider ollama --model phi3:mini --mode simple
-python src/G_20_rag_cli_llm.py --question "What chess tournaments did Beth Harmon enter?" --provider ollama --model phi3:mini --mode simple
-```
-
-### Streamlit Web UI
-
-```bash
-streamlit run src/H_22_app_streamlit.py
-```
-
-Opens at `http://localhost:8501`. The chat interface shows the LLM answer alongside expandable source cards (text passages with scores and URLs, and KG fact triples).
-
-> If Ollama is not available, the app automatically falls back to template-based generation.
-
----
-
-## Key Results
-
-### Knowledge Graph
-
-| Metric | Value |
-|--------|-------|
-| Pages crawled | 50 (depth 2) |
-| Entities (canonical) | 238 |
-| OWL classes | 17 |
-| Object properties | 28 |
-| Relation instances | 21 |
-| Wikidata entity links | ~40 (conf ≥ 0.70) |
-| Predicate alignments | 12 (3 equivalent + 9 subproperty) |
-| Total triples after expansion | 25,231 |
-| Unique entities after expansion | 9,218 |
-
-### KGE Evaluation
-
-Best model: **DistMult** (MRR = 0.1986, Hits@10 = 0.4124)
-
-### RAG Architecture
-
-| Component | Technology |
-|-----------|-----------|
-| Chunking | Sentence-aware, 220 words, 50-word overlap |
-| Embedding model | `all-MiniLM-L6-v2` (sentence-transformers) |
-| Vector index | FAISS `IndexFlatIP` (cosine via L2-norm) |
-| KG retrieval | RDFLib one-hop traversal + label matching |
-| Reranking | Question-type-aware score fusion |
-| LLM | Ollama `phi3:mini` (local, no API key) |
-| Fallback | Template-based generation (always available) |
-| UI | Streamlit chat with source attribution |
-
----
-
-## Data Files
-
-Large generated files are not committed to the repository. To reproduce them, run the pipeline from step A. The following files need to be generated locally:
-
-| File | Generated by | Size (approx.) |
-|------|-------------|----------------|
-| `data/raw_jsonl/pages.jsonl` | A_01 | ~5 MB |
-| `data/expanded_kb.ttl` | D_08 | ~15 MB |
-| `data/rag/index/chunk_faiss.index` | F_14 | ~1 MB |
-| `models/` | E_12 | ~200 MB |
-
-A sample of 5 pages is included in `data/samples/pages_sample.jsonl` to allow testing the RAG pipeline without re-running the full crawl.
+This project is for academic purposes. All crawled data is sourced from publicly available wiki pages under their respective licenses.
