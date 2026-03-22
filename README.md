@@ -32,7 +32,7 @@
 7. [Running the RAG Demo](#running-the-rag-demo)
 8. [Evaluation](#evaluation)
 9. [Hardware Requirements](#hardware-requirements)
-10. [Environment Variables](#environment-variables)
+
 
 ---
 
@@ -258,15 +258,6 @@ Ollama must be running in the background before using the LLM-powered RAG pipeli
 ```bash
 ollama serve
 ```
-
-### 4. Configure environment variables (optional)
-
-```bash
-cp .env.example .env
-# Edit .env with your preferred editor
-```
-
-See [Environment Variables](#environment-variables) for available options.
 
 ---
 
@@ -549,21 +540,6 @@ Full results are saved to `data/rag/evaluation_results.json`.
 | OS | Windows 10 / macOS / Linux | Ubuntu 22.04 / macOS 14 |
 
 > KGE training (TransE / DistMult / ComplEx) runs on CPU but may take 10–30 minutes depending on dataset size. GPU acceleration is supported via PyKEEN if CUDA is available.
-
----
-
-## Environment Variables
-
-Create a `.env` file at the project root (copy from `.env.example` if available):
-
-```env
-# Optional — only needed if using OpenAI or Anthropic as LLM provider
-ANTHROPIC_API_KEY=your_key_here
-OPENAI_API_KEY=your_key_here
-
-# Ollama host (default: http://localhost:11434)
-OLLAMA_HOST=http://localhost:11434
-```
 
 ---
 
