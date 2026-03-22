@@ -19,6 +19,7 @@ from F_19_rag_cli import (
     generate_answer,   # fallback template
     clean_text,
 )
+from F_16b_sparql import sparql_retrieve
 
 
 def build_llm_prompt(question: str, pack: Dict, short_mode: bool = False) -> str:
@@ -221,10 +222,15 @@ def run_pipeline(
     chunks_path: Path,
     index_dir: Path,
     kg_path: Path,
+    use_sparql=False
 ) -> Dict:
     text_results = text_retrieve(question, index_dir=index_dir, chunks_path=chunks_path, top_k=8)
     text_results = rerank_text_results(question, text_results)
     kg_results = kg_retrieve(question, kg_path=kg_path, top_k_entities=5, top_k_facts=10)
+    if use_sparql:
+        kg_results = sparql_retrieve(question, kg_path)
+    else:
+        kg_results = kg_retrieve(question, kg_path=kg_path, top_k_entities=5, top_k_facts=10)
     pack = build_evidence_pack(question, text_results, kg_results)
     return pack
 
@@ -239,7 +245,8 @@ def main() -> None:
     parser.add_argument("--mode", choices=["simple", "debug"], default="simple")
     parser.add_argument("--answer_mode", choices=["short", "normal"], default="normal")
     parser.add_argument("--show_sources", action="store_true",help="Display sources used to generate the answer")
-    
+    parser.add_argument("--use_sparql", action="store_true")
+
     parser.add_argument("--provider", choices=["ollama", "template"], default="ollama")
     parser.add_argument("--model", type=str, default=None)
     parser.add_argument("--temperature", type=float, default=0.2)
@@ -266,6 +273,7 @@ def main() -> None:
             chunks_path=args.chunks_path,
             index_dir=args.index_dir,
             kg_path=args.kg,
+            use_sparql=args.use_sparql,
         )
 
         short_mode = args.answer_mode == "short"
