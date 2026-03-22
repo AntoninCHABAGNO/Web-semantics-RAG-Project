@@ -119,7 +119,7 @@ project-root/
 │   ├── D_06_entity_linking.py           # Entity linking (Wikidata sameAs)
 │   ├── D_07_filter_entity_linking.py    # Filter low-confidence links
 │   ├── D_08_expand_kb.py                # Multi-hop KB expansion (BFS)
-│   ├── E_08b_swrl_reasoning.py          # SWRL reasoning (OWLReady2 + HermiT)
+│   ├── E_08b_swrl_reasoning.py          # SWRL reasoning (OWLReady2 + Pellet)
 │   ├── E_09_prepare_triples.py          # KGE triple preparation
 │   ├── E_10_clean_for_embedding.py      # Triple cleaning & dedup
 │   ├── E_11_split_dataset.py            # Train/valid/test split
@@ -286,7 +286,7 @@ python src/D_08_expand_kb.py
 
 #### E1 — SWRL Reasoning
 
-Applies symbolic SWRL rules on `family.owl` and on the Queens Gambit KB using OWLReady2 + HermiT.
+Applies symbolic SWRL rules on `family.owl` and on the Queens Gambit KB using OWLReady2 + Pellet.
 
 ```bash
 python src/E_08b_swrl_reasoning.py
