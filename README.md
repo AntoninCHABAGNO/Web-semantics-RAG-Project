@@ -228,8 +228,8 @@ project-root/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/Web-datamining-semantics-Project-GOT.git
-cd Web-datamining-semantics-Project-GOT
+git clone https://github.com/AntoninCHABAGNO/Web-semantics-RAG-Project.git
+cd Web-semantics-RAG-Project
 ```
 
 ### 2. Create the Conda environment
@@ -260,6 +260,37 @@ ollama serve
 ```
 
 ---
+
+---
+
+## 🔁 Reproducibility
+
+This project is designed to be **fully reproducible end-to-end**.
+
+### Pipeline execution
+
+- The pipeline must be executed **sequentially from A to H**
+- Each module produces artifacts used by the next stage
+- All scripts must be run from the **project root directory**
+
+### Data & artifacts
+
+- All required datasets, knowledge graph files, and trained models are **included in the repository**
+- No external API keys are required
+- Wikidata expansion is performed during execution (internet connection required)
+
+### Runtime considerations
+
+- KGE training may take **10–30 minutes** depending on hardware
+- The full pipeline (A → H) can take up to **30–60 minutes**
+- Intermediate outputs are saved to avoid recomputation
+
+### LLM (Ollama)
+
+- The RAG system uses a **local LLM via Ollama (phi3:mini)**
+- Ollama must be running:
+  ```bash
+  ollama serve
 
 ## How to Run Each Module
 
