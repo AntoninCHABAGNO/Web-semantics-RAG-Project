@@ -1,4 +1,5 @@
 # ♟️ Chatbot RAG — The Queen's Gambit
+# Antonin CHABAGNO / Guillaume CARLE
 
 > A full **Knowledge Graph + RAG pipeline** applied to *The Queen's Gambit* universe.
 > Crawling → NLP extraction → RDF/OWL graph → Wikidata alignment → SWRL reasoning → KGE → Hybrid RAG (text + graph)
