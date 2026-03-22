@@ -261,8 +261,6 @@ ollama serve
 
 ---
 
----
-
 ## 🔁 Reproducibility
 
 This project is designed to be **fully reproducible end-to-end**.
@@ -291,6 +289,8 @@ This project is designed to be **fully reproducible end-to-end**.
 - Ollama must be running:
   ```bash
   ollama serve
+
+---
 
 ## How to Run Each Module
 
