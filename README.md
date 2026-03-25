@@ -261,7 +261,7 @@ ollama serve
 
 ---
 
-## 🔁 Reproducibility
+## Reproducibility
 
 This project is designed to be **fully reproducible end-to-end**.
 
